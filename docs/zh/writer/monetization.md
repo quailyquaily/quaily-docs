@@ -4,10 +4,10 @@ outline: deep
 
 # 准备收款
 
-在 [Quail](https://quail.ink) 上赚取收益之前，需要完成以下准备工作。
+在 [Quail](https://quaily.com) 上赚取收益之前，需要完成以下准备工作。
 
-1. **补充税务信息**：在 [Payout](https://quail.ink/dashboard/profile/payout) 中补充税务信息，包括姓名、国籍、税收地、国家、城市、邮编、地址等等。
-2. **设置收款方式**：在 [Payout](https://quail.ink/dashboard/profile/payout) 中设置支付方式。
+1. **补充税务信息**：在 [Payout](https://quaily.com/dashboard/profile/payout) 中补充税务信息，包括姓名、国籍、税收地、国家、城市、邮编、地址等等。
+2. **设置收款方式**：在 [Payout](https://quaily.com/dashboard/profile/payout) 中设置支付方式。
 
 详细操作请参考文档：[收款设置](./payout-settings)。
 

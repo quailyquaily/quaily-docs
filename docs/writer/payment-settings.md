@@ -10,7 +10,7 @@ Before setting up payment, please refer to [Payout Settings](./payout-settings.m
 
 ## Payment
 
-In the list's [Payment Settings](https://quail.ink/dashboard/lists/@current/settings/payment), authors can enable payment to receive payments from subscribers.
+In the list's [Payment Settings](https://quaily.com/dashboard/lists/@current/settings/payment), authors can enable payment to receive payments from subscribers.
 
 ![](/images/screenshots/payment-settings-01.webp)
 
@@ -84,12 +84,12 @@ Quail support 3 types of blockchain for cryptocurrency payment: Ethereum, Base a
 
 Please read the following posts to set up your cryptocurrency wallet:
 
-- [Ethereum Setup](https://quail.ink/blog/p/how-to-enable-eth-blockchain-payment-with-your-newsletter-by-quail)
-- [Base Chain Setup](https://quail.ink/blog/p/how-to-enable-base-blockchain-payment-with-your-newsletter-by-quail)
-- [Binance Smart Chain Setup](https://quail.ink/blog/p/how-to-empower-your-newsletter-with-bsc-blockchain-payments)
+- [Ethereum Setup](https://quaily.com/blog/p/how-to-enable-eth-blockchain-payment-with-your-newsletter-by-quail)
+- [Base Chain Setup](https://quaily.com/blog/p/how-to-enable-base-blockchain-payment-with-your-newsletter-by-quail)
+- [Binance Smart Chain Setup](https://quaily.com/blog/p/how-to-empower-your-newsletter-with-bsc-blockchain-payments)
 
 ## Referral Program
 
 To better promote your premium subscription, you can set up a referral program to reward your subscribers for inviting their friends to subscribe.
 
-Please read [this weekly post](https://quail.ink/blog/p/quail-weekly-40) to set up your referral program.
+Please read [this weekly post](https://quaily.com/blog/p/quail-weekly-40) to set up your referral program.

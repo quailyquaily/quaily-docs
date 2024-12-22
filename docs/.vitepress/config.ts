@@ -74,8 +74,8 @@ const year = new Date().getFullYear();
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/",
-  title: "Quail.ink Documentation",
-  description: "The official documentation for Quail.ink",
+  title: "Quaily Documentation",
+  description: "The official documentation for Quaily",
   appearance: false,
 
   locales: {
@@ -99,11 +99,11 @@ export default defineConfig({
     sidebar: genI18nSidebar(),
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/lyricat/docs.quail.ink' }
+      { icon: 'github', link: 'https://github.com/lyricat/docs.quaily.com' }
     ],
 
     footer: {
-      copyright: `©${year} <a href="https://quail.ink" title="A newsletter service">Quail.ink</a>`,
+      copyright: `©${year} <a href="https://quaily.com" title="A newsletter service">quaily.com</a>`,
     }
   }
 })

@@ -22,6 +22,6 @@ outline: deep
 
 ## 将数据从 Quail 导出
 
-在「[设置 - 一般设置](https://quail.ink/dashboard/lists/@current/settings/general)」 中，点击「导出数据」按钮，稍等片刻，Quail 会将导出的数据发送到注册邮箱。
+在「[设置 - 一般设置](https://quaily.com/dashboard/lists/@current/settings/general)」 中，点击「导出数据」按钮，稍等片刻，Quail 会将导出的数据发送到注册邮箱。
 
 导出的数据包括所有的文章，以及订阅者的数据。

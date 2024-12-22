@@ -10,7 +10,7 @@ outline: deep
 
 ## 付款
 
-在列表的 [付款设置](https://quail.ink/dashboard/lists/@current/settings/payment) 中，作者可以启用付款以接收来自订阅者的付款。
+在列表的 [付款设置](https://quaily.com/dashboard/lists/@current/settings/payment) 中，作者可以启用付款以接收来自订阅者的付款。
 
 ![](/images/screenshots/payment-settings-01.webp)
 
@@ -82,13 +82,12 @@ Quail 支持以太坊、Base 和币安智能链三种区块链的加密货币支
 
 请阅读以下文章设置您的加密货币钱包：
 
-- [以太坊设置](https://quail.ink/quail-zh/p/how-to-enable-eth-blockchain-payment-for-newsletter)
-- [Base 链设置](https://quail.ink/quail-zh/p/how-to-enable-base-blockchain-payment-for-newsletter)
-- [币安智能链设置](https://quail.ink/quail-zh/p/how-to-enable-bsc-blockchain-payment-for-your-newsletter)
-
+- [以太坊设置](https://quaily.com/quail-zh/p/how-to-enable-eth-blockchain-payment-for-newsletter)
+- [Base 链设置](https://quaily.com/quail-zh/p/how-to-enable-base-blockchain-payment-for-newsletter)
+- [币安智能链设置](https://quaily.com/quail-zh/p/how-to-enable-bsc-blockchain-payment-for-your-newsletter)
 
 ## 推荐反佣计划
 
 为了更好地推广您的付费订阅，您可以设置一个推荐反佣计划，以奖励您的订阅者邀请他们的朋友订阅。
 
-请阅读 [这篇周报](https://quail.ink/quail-zh/p/quail-weekly-40) 来设置您的推荐反佣计划。
+请阅读 [这篇周报](https://quaily.com/quail-zh/p/quail-weekly-40) 来设置您的推荐反佣计划。

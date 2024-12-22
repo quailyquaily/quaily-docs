@@ -6,7 +6,7 @@ outline: deep
 
 After writing an article on Quail, you can deliver it to your readers. Quail provides multiple delivery channels, including Email, Telegram, Discord, Line, Twitter, and RSS.
 
-![](https://static.quail.ink/media/1gku5k35.webp)
+![](https://static.quaily.com/media/1gku5k35.webp)
 
 ## Delivery Channel Settings
 
@@ -30,4 +30,4 @@ When the time arrives, the article will be automatically delivered to your reade
 
 ## Delivery History
 
-In "[Delivery History](https://quail.ink/dashboard/delivery)", you can view the delivery history of articles.
+In "[Delivery History](https://quaily.com/dashboard/delivery)", you can view the delivery history of articles.

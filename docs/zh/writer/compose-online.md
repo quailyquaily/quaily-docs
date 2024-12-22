@@ -15,7 +15,7 @@ outline: deep
 - 文章标题：`Quail 介绍：五分钟了解 Quail`
 - 文章别名：`quail-introduction-five-minutes-to-understand-quail`
 
-**[Quail](https://quail.ink "Quail Official Website")** 提供了自动生成文章别名的功能，您可以在文章别名输入框右侧，中点击 `AI 猜测` 魔法棒按钮，Quail 会自动根据文章标题生成文章别名。
+**[Quail](https://quaily.com "Quail Official Website")** 提供了自动生成文章别名的功能，您可以在文章别名输入框右侧，中点击 `AI 猜测` 魔法棒按钮，Quail 会自动根据文章标题生成文章别名。
 
 ## 文章封面、摘要、标签
 
@@ -59,9 +59,9 @@ Quail 允许在文章中插入多种互动内容类型来增强阅读体验：
 使用嵌入对象功能既简单又直接。按照以下步骤来：
 
 1. 点击工具栏中的「插入对象」按钮，访问嵌入对话框
-   ![](https://static.quail.ink/media/16nue5mm.webp)
+   ![](https://static.quaily.com/media/16nue5mm.webp)
 2. 选择内容类型，选择要插入的对象，列表、文章、视频、X 推文或 TradingView 图表，填入对应的链接。
-   ![](https://static.quail.ink/media/q38ueom6.webp)
+   ![](https://static.quaily.com/media/q38ueom6.webp)
 3. 点击「插入」按钮即可。
 
 ### 插入会员内容（付费标签）
@@ -75,4 +75,3 @@ Quail 在文章中插入付费墙。插入付费墙以后，付费墙之前的�
 3. 编辑器中出现付费墙标签 `<!--paywall-->`
 
 发布文章后，Quail 会在这篇文章启用付费墙。
-

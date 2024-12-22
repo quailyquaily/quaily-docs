@@ -10,7 +10,7 @@ Quail 提供了多种 AI 功能，以帮助作者写作。这些功能在网页�
 
 ## 生成文章链接 Slug
 
-Slug 是文章的唯一标识符。例如，文章《[🚚 如何用 Quail 把 Discord 集成到自己的 Newsletter](https://quail.ink/quail-zh/p/how-to-integrate-discord-with-your-newsletter-by-quail)》 的 slug 是 `how-to-integrate-discord-with-your-newsletter-by-quail`，是对标题的语义化解释。
+Slug 是文章的唯一标识符。例如，文章《[🚚 如何用 Quail 把 Discord 集成到自己的 Newsletter](https://quaily.com/quail-zh/p/how-to-integrate-discord-with-your-newsletter-by-quail)》 的 slug 是 `how-to-integrate-discord-with-your-newsletter-by-quail`，是对标题的语义化解释。
 
 好的文章 Slug 有利于读者和搜索引擎理解文章。如果您在保存文章时，不手工输入 slug，Quail 将会自动生成一个语义化的 slug。
 
@@ -37,13 +37,10 @@ Quail 可以为生成文章的元数据，包括：
 
 Quail 提供了翻译功能，可以将文章翻译成多种语言。
 
-要使用翻译功能，需要打开 [Quail 扩展面板](https://quail.ink/quail-zh/p/enhance-your-writing-experience-introducing-the-quail-expansion-panel) ，选择其中的「翻译」功能。
+要使用翻译功能，需要打开 [Quail 扩展面板](https://quaily.com/quail-zh/p/enhance-your-writing-experience-introducing-the-quail-expansion-panel) ，选择其中的「翻译」功能。
 
 ## 写作机器人（Beta）
 
 Quail 提供了写作机器人功能，可以帮助作者写作。
 
-要使用写作机器人功能，需要打开 [Quail 扩展面板](https://quail.ink/quail-zh/p/enhance-your-writing-experience-introducing-the-quail-expansion-panel) ，选择其中的「写作机器人」功能。
-
-
-
+要使用写作机器人功能，需要打开 [Quail 扩展面板](https://quaily.com/quail-zh/p/enhance-your-writing-experience-introducing-the-quail-expansion-panel) ，选择其中的「写作机器人」功能。

@@ -12,7 +12,7 @@ Markdown Guide 的[文法指南](https://www.markdownguide.org/basic-syntax/)也
 
 ## 擴充語法
 
-有些語法不受 GFM 支持，但受 Quail 支持，如下所示。您也可以查看[現場示範](https://quail.ink/blog/p/extended-markdown-syntax)
+有些語法不受 GFM 支持，但受 Quail 支持，如下所示。您也可以查看[現場示範](https://quaily.com/blog/p/extended-markdown-syntax)
 
 > 以下大部分語法目前僅在網頁瀏覽器中呈現，無法在電子郵件中顯示。
 

@@ -4,7 +4,7 @@ outline: deep
 
 # 收款设置
 
-在 [Quail](https://quail.ink) 上赚取收益之前，需要在 [Payout](https://quail.ink/dashboard/profile/payout) 补充税务信息并且设置收款方式
+在 [Quail](https://quaily.com) 上赚取收益之前，需要在 [Payout](https://quaily.com/dashboard/profile/payout) 补充税务信息并且设置收款方式
 
 ## 补充税务信息
 
@@ -23,7 +23,7 @@ outline: deep
 
 ## 收款
 
-收款方式是指 Quail 用于向作者支付收入的方式。在 [Payout Settings](https://quail.ink/dashboard/profile/payout) 中，可以设置收款方式。目前，Quail 支持以下几种收款方式：
+收款方式是指 Quail 用于向作者支付收入的方式。在 [Payout Settings](https://quaily.com/dashboard/profile/payout) 中，可以设置收款方式。目前，Quail 支持以下几种收款方式：
 
 1. Stripe Connect Transfer：仅限日本居民，需要在 Quail 中设置 Stripe Connect 账户，并且通过 Stripe Connect 的实名认证。
 2. PayPal：支持全球范围内的 PayPal 账户，Paypal 会收取一定的手续费和货币转化费。
@@ -40,4 +40,4 @@ Quail 会根据设置的首要收款方式，进行转账。如果首要收款�
 
 ### 收款记录
 
-作者可以在 [Payout History](https://quail.ink/dashboard/profile/payout) 中查看收款记录，包括收款金额、收款方式、收款时间等信息。
+作者可以在 [Payout History](https://quaily.com/dashboard/profile/payout) 中查看收款记录，包括收款金额、收款方式、收款时间等信息。

@@ -23,7 +23,7 @@ Quail 支持将文章推送哪个到不同的渠道。本文档将指导完成�
 
 ### 欢迎文本
 
-当订阅者订阅列表时，会收到一封欢迎邮件，可以编辑欢迎邮件的内容。如果内容为空，**[Quail](https://quail.ink "Quail Official Website")** 会使用默认的欢迎文本。
+当订阅者订阅列表时，会收到一封欢迎邮件，可以编辑欢迎邮件的内容。如果内容为空，**[Quail](https://quaily.com "Quail Official Website")** 会使用默认的欢迎文本。
 
 ### 签名文本
 
@@ -33,13 +33,13 @@ Quail 支持将文章推送哪个到不同的渠道。本文档将指导完成�
 
 有些作者不希望自己的内容被某些邮件提供商提供的邮件地址订阅，那么可以在这里添加黑名单。添加黑名单后，订阅者使用这些邮件提供商提供的邮件地址订阅时，会被提示无法订阅：
 
-```列表拒绝了您的订阅，因为您的电子邮件提供商在列表黑名单中。```
+`列表拒绝了您的订阅，因为您的电子邮件提供商在列表黑名单中。`
 
 请以半角逗号分隔多个邮件提供商，例如：设置 `qq.com, 163.com, soho.com`，将会拒绝来自 `@qq.com`、`@163.com` 和 `@soho.com` 邮件地址订阅。
 
 ## Discord 设置
 
-Quail 支持向 Discord 发送文章，请阅读[这篇周报](https://quail.ink/quail-zh/p/how-to-integrate-discord-with-your-newsletter-by-quail)了解如何设置 Discord。
+Quail 支持向 Discord 发送文章，请阅读[这篇周报](https://quaily.com/quail-zh/p/how-to-integrate-discord-with-your-newsletter-by-quail)了解如何设置 Discord。
 
 ## Telegram 设置
 
@@ -59,7 +59,7 @@ Quail 支持向 Discord 发送文章，请阅读[这篇周报](https://quail.ink
 
 ### 将 Quail 连接到 Telegram
 
-剩下的步骤非常简单，只需访问 [Quail 的写作面板](https://quail.ink/dashboard)，选择要连接的列表，然后点击侧边栏的 `列表设置`。
+剩下的步骤非常简单，只需访问 [Quail 的写作面板](https://quaily.com/dashboard)，选择要连接的列表，然后点击侧边栏的 `列表设置`。
 
 将看到一个 「Telegram 设置」 部分，只需填 Channel，然后点击 `Verify` 按钮。
 
@@ -106,7 +106,7 @@ Quail 支持向 Discord 发送文章，请阅读[这篇周报](https://quail.ink
 
 Quail 支持将文章发送到 LINE 频道。开始之前，请确保已经在 [LINE Developer Dashboard](https://developers.line.biz/console) 创建了一个 LINE 频道。从头开始，需要创建一个**Provider**，然后在该频道下创建一个 **Messaging API Channel**。
 
-1. 访问 [Quail 的仪表板](https://quail.ink/dashboard)，选择要连接的列表，然后单击侧边栏的“列表设置”。
+1. 访问 [Quail 的仪表板](https://quaily.com/dashboard)，选择要连接的列表，然后单击侧边栏的“列表设置”。
 2. 将看到“频道设置”部分，只需启用 LINE 频道
 3. 首次使用，需要为频道创建一个密钥对，点击 `创建` 按钮。然后将看到公钥。复制公钥以供下一步使用。
 4. 访问 [LINE Developer Dashboard](https://developers.line.biz/console)，选择要连接的频道，找到 **Basic Settings** 下的 **Assertion Signing Key**，点击 **Register a public key** 按钮，粘贴刚刚复制的公钥，然后点击 **Register** 按钮。
@@ -118,7 +118,4 @@ Quail 支持将文章发送到 LINE 频道。开始之前，请确保已经在 [
 
 ## X 设置
 
-将 Quail 连接到 X（前身 Twitter）比较简单，在「[列表设置 - 一般设置](https://quail.ink/dashboard/lists/@current/settings/general)」中，按照提示连接 Quail 授权访问自己的 X 账户即可。
-
-
-
+将 Quail 连接到 X（前身 Twitter）比较简单，在「[列表设置 - 一般设置](https://quaily.com/dashboard/lists/@current/settings/general)」中，按照提示连接 Quail 授权访问自己的 X 账户即可。

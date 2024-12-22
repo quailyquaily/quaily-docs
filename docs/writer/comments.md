@@ -8,9 +8,9 @@ Authors can enable comments for readers to comment on your articles.
 
 ## Enable Comments
 
-In "[List Settings - General Settings](https://quail.ink/dashboard/lists/@current/settings/general)", enable the "Comments" feature.
+In "[List Settings - General Settings](https://quaily.com/dashboard/lists/@current/settings/general)", enable the "Comments" feature.
 
-![](https://static.quail.ink/media/jyeu07pr.webp)
+![](https://static.quaily.com/media/jyeu07pr.webp)
 
 At the same time, authors can set who can comment on articles. Quail provides 4 types of comment settings:
 
@@ -21,6 +21,6 @@ At the same time, authors can set who can comment on articles. Quail provides 4 
 
 ## View and Approve Comments
 
-In "[Comments](https://quail.ink/dashboard/comments)", authors can view and approve comments.
+In "[Comments](https://quaily.com/dashboard/comments)", authors can view and approve comments.
 
-![](https://static.quail.ink/media/qmxu60gy.webp)
+![](https://static.quaily.com/media/qmxu60gy.webp)

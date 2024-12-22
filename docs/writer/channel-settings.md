@@ -4,7 +4,7 @@ outline: deep
 
 # Channel Settings
 
-Quail supports to deliver posts to different channels. This document will guide you through the process of setting up channels. 
+Quail supports to deliver posts to different channels. This document will guide you through the process of setting up channels.
 
 At present, Quail supports the following channels: Email, Telegram, Discord, LINE and X. We will add more channels in the future.
 
@@ -18,13 +18,13 @@ When this option is turned on, every time an article is delivered, an email will
 
 ### Onboarding Text
 
-When a subscriber subscribes to a list, they receive a welcome email. 
+When a subscriber subscribes to a list, they receive a welcome email.
 
-Here you can edit the content of the welcome email. If the content is empty, **[Quail](https://quail.ink "Quail Official Website")** will use the default text.
+Here you can edit the content of the welcome email. If the content is empty, **[Quail](https://quaily.com "Quail Official Website")** will use the default text.
 
 ### Signature Text
 
-At the end of each email, a signature text is attached. 
+At the end of each email, a signature text is attached.
 
 Here you can edit the content of the signature text. If the content is empty, Quail will not attach the signature text to the message.
 
@@ -32,13 +32,13 @@ Here you can edit the content of the signature text. If the content is empty, Qu
 
 Some authors don't want their content to be subscribed by addresses provided by certain email providers, so they can add here. After adding the denylist, when subscribers use the email address provided by these email providers to subscribe, they will be prompted that they cannot subscribe:
 
-```The list owner rejected your subscription, because your email provider is in the denylist.```
+`The list owner rejected your subscription, because your email provider is in the denylist.`
 
 Please split multiple domains with commas, for example: set `qq.com, 163.com, soho.com`, it will reject emails from `@qq.com`, `@163.com` and `@soho. com` email address to subscribe.
 
 ## Discord Settings
 
-Quail Supports sending posts to Discord. Please read [this weekly post](https://quail.ink/blog/p/how-to-integrate-discord-with-your-newsletter-by-quail) to learn how to set up Discord.
+Quail Supports sending posts to Discord. Please read [this weekly post](https://quaily.com/blog/p/how-to-integrate-discord-with-your-newsletter-by-quail) to learn how to set up Discord.
 
 ## Telegram Settings
 
@@ -63,7 +63,7 @@ Setting up channels has two benefits:
 
 ### Connect Quail to telegram
 
-The remaining steps are very simple, just visit [Quail's writer dashboard](https://quail.ink/dashboard), select the list you want to connect, and then click the `List Settings` at the sidebar.
+The remaining steps are very simple, just visit [Quail's writer dashboard](https://quaily.com/dashboard), select the list you want to connect, and then click the `List Settings` at the sidebar.
 
 You will see a "Channel Settings" section, just enable Telegram channel and fill in the channel id, then click the `Save` button.
 
@@ -73,11 +73,11 @@ If everything is ok, the new settings will be saved. Now all new deliveried post
 
 If you want to add a discussion board to your channel, you can follow these steps:
 
-1. Log in to your Telegram channel and open your channel profile. 
-2. Then enter the Discussion section. 
+1. Log in to your Telegram channel and open your channel profile.
+2. Then enter the Discussion section.
 3. Select a existing group or click "Create a New Group" to create a new group for your channel, and confirm to link the group to your channel.
-  
-After these steps, if your telegram has been updated and commenting on the Telegram channel is activated, you can see the comment section below the posts of that channel. This section is labeled Comments, and this text appears in it: "Leave a Comment". You can easily put your comments below this post. 
+
+After these steps, if your telegram has been updated and commenting on the Telegram channel is activated, you can see the comment section below the posts of that channel. This section is labeled Comments, and this text appears in it: "Leave a Comment". You can easily put your comments below this post.
 
 ### Additional Topic 2: Use your own bot
 
@@ -112,7 +112,7 @@ Then you can add the bot to the channel, and fill in the token and channel id in
 
 Quail supports sending posts to LINE Channel. Before you start, please make sure you have already created a LINE Channel at [LINE Developer Dashboard](https://developers.line.biz/console). Begin from stratch, you need to create a **Provider**, then create a **Messaging API Channel** under the channel.
 
-1. Visit [Quail's dashboard](https://quail.ink/dashboard), select the list you want to connect, and then click the `List Settings` at the sidebar.
+1. Visit [Quail's dashboard](https://quaily.com/dashboard), select the list you want to connect, and then click the `List Settings` at the sidebar.
 2. You will see a "Channel Settings" section, just enable LINE channel
 3. For the first time, you need to create a key pair for the channel, click the `Create` button. Then you will see the public key. Copy the public key for next step.
 4. Visit [LINE Developer Dashboard](https://developers.line.biz/console), select the channel you want to connect, find **Assertion Signing Key** under **Basic Settings**, click **Register a public key** button, paste the public key you just copied, then click **Register** button.
@@ -124,4 +124,4 @@ That's all. Now you can save the settings. The new deliveried posts will be sent
 
 ## X Settings
 
-Connecting Quail to X (formerly Twitter) is quite simple. In the "[List Settings - General Settings](https://quail.ink/dashboard/lists/@current/settings/general)," just follow the prompts to authorize Quail to access your X account.
+Connecting Quail to X (formerly Twitter) is quite simple. In the "[List Settings - General Settings](https://quaily.com/dashboard/lists/@current/settings/general)," just follow the prompts to authorize Quail to access your X account.

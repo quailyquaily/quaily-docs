@@ -16,13 +16,13 @@ There are two layouts of widgets: `Base Info` and `Subscribe Form`.
 
 **Base Info**: Display the basic information of the list, such as the list name, description
 
-<iframe src="https://quail.ink/blog/widget.external?theme=light&list_slug=blog&layout=info&lang=en" data-theme="light"
+<iframe src="https://quaily.com/blog/widget.external?theme=light&list_slug=blog&layout=info&lang=en" data-theme="light"
     width="100%" height="128px" title="Quail Widget" frameborder="0" allow="web-share" allowfullscreen >
 </iframe>
 
 **Subscribe Form**: Display the subscribe form, which allows visitors to subscribe to the list
 
-<iframe src="https://quail.ink/blog/widget?theme=light&list_slug=blog&layout=subscribe_form&lang=en" data-theme="light"
+<iframe src="https://quaily.com/blog/widget?theme=light&list_slug=blog&layout=subscribe_form&lang=en" data-theme="light"
     width="100%" height="400px" title="Quail Widget" frameborder="0" allow="web-share" allowfullscreen >
 </iframe>
 
@@ -63,13 +63,13 @@ Here are some sample CSS code snippets for customizing the widget. Feel free to 
 .widget-list-subtitle-form-row,
 .widget-list-title-form-row,
 .widget-list-avatar-form-row {
-	display: none;
+  display: none;
 }
 ```
 
 **Live Demo**
 
-<iframe src="https://quail.ink/blog/widget.external?theme=light&list_slug=blog&layout=subscribe_form&lang=en" data-theme="light"
+<iframe src="https://quaily.com/blog/widget.external?theme=light&list_slug=blog&layout=subscribe_form&lang=en" data-theme="light"
     width="100%" height="128px" title="Quail Widget" frameborder="0" allow="web-share" allowfullscreen >
 </iframe>
 
@@ -79,35 +79,37 @@ Here are some sample CSS code snippets for customizing the widget. Feel free to 
 
 ```css
 body {
-	background-color: rgb(15,23,42);
+  background-color: rgb(15, 23, 42);
 }
-.widget-form, .widget-form-wrapper {
-	background-color: rgb(15,23,42) !important;
+.widget-form,
+.widget-form-wrapper {
+  background-color: rgb(15, 23, 42) !important;
 }
-.widget-action-wrapper .q-text-field, .widget-action-wrapper .q-text-field-with-button {
-	background-color: rgb(30, 41, 59);
-	color: white;
-	border: none !important;
+.widget-action-wrapper .q-text-field,
+.widget-action-wrapper .q-text-field-with-button {
+  background-color: rgb(30, 41, 59);
+  color: white;
+  border: none !important;
   border-radius: 50em !important;
 }
 .widget-action-wrapper .q-text-field:focus {
-	border: none !important;
-	outline: none !important;
+  border: none !important;
+  outline: none !important;
 }
 .widget-action-wrapper .q-text-field-with-button {
-	padding: 0 8px;
+  padding: 0 8px;
   border-radius: 50em !important;
 }
 .widget-action-wrapper .q-text-button-wrapper .q-button {
-	margin: 4px;
+  margin: 4px;
   border-radius: 50em;
-	background-color: #29d5ef !important;
+  background-color: #29d5ef !important;
 }
 .widget-action-wrapper .q-text-button-wrapper .q-button:hover {
-	background-color: #24cce6 !important;
+  background-color: #24cce6 !important;
 }
 .widget-action-wrapper .q-text-button-wrapper .q-button[disabled] {
-	background-color: #25a6b9 !important;
+  background-color: #25a6b9 !important;
 }
 
 /* hide non-used elements */
@@ -117,13 +119,13 @@ body {
 .widget-list-subtitle-form-row,
 .widget-list-title-form-row,
 .widget-list-avatar-form-row {
-	display: none;
+  display: none;
 }
 ```
 
 **Live Demo**
 
-<iframe src="https://quail.ink/hewig/widget.external?list_slug=hewig&layout=subscribe_form&theme=light" data-theme="light"
+<iframe src="https://quaily.com/hewig/widget.external?list_slug=hewig&layout=subscribe_form&theme=light" data-theme="light"
     width="100%" height="128px" title="Quail Widget" frameborder="0" allow="web-share" allowfullscreen >
 </iframe>
 
@@ -132,7 +134,7 @@ body {
 **Code**
 
 ```css
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
 * {
   font-family: "Inconsolata", monospace;
 }

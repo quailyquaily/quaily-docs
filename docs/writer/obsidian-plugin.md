@@ -4,7 +4,7 @@ outline: deep
 
 # Obsidian Plugin
 
-**[Quail](https://quail.ink "Quail Official Website")** provides an [Obsidian](https://obsidian.md/) plugin that allows you to use Quail's publishing, unpublishing, and post delivering features within Obsidian.
+**[Quail](https://quaily.com "Quail Official Website")** provides an [Obsidian](https://obsidian.md/) plugin that allows you to use Quail's publishing, unpublishing, and post delivering features within Obsidian.
 
 Combined with Obsidian's powerful Markdown editing capabilities, Quail's Obsidian plugin can help you better manage your posts.
 
@@ -12,8 +12,8 @@ Combined with Obsidian's powerful Markdown editing capabilities, Quail's Obsidia
 
 Quail's Obsidian plugin requires an API key to access Quail's API. Follow these steps to obtain an API key:
 
-1. Log in to Quail: https://quail.ink/login
-2. Visit the "[Profile - API Keys](https://quail.ink/dashboard/profile/apikeys)" page.
+1. Log in to Quail: https://quaily.com/login
+2. Visit the "[Profile - API Keys](https://quaily.com/dashboard/profile/apikeys)" page.
 3. Click the "New" button, enter an API key name, and click "Create".
 4. A newly created API key will appear in the API key list. Click the "Copy" button to copy the API key to your clipboard.
 
@@ -37,7 +37,7 @@ After installing the plugin, you need to configure it to use the functionality p
 
 1. First, open Obsidian's settings page and click on the "Community Plugins" tab. Find the Quail plugin and click the "Settings" button.
 2. Enter the API key you obtained earlier in the "Quail API Key" field.
-3. Enter your list slug in the "List ID or slug" field. For example, if your list URL is `https://quail.ink/smith`, then your list slug is `smith`.
+3. Enter your list slug in the "List ID or slug" field. For example, if your list URL is `https://quaily.com/smith`, then your list slug is `smith`.
 4. Keep the other settings at their default values.
 
 Restart Obsidian for the plugin to take effect.
@@ -74,7 +74,8 @@ In the above frontmatter:
 - `datetime` is the publication date of the post.
 - `summary` is the summary of the post, which you can
 
- also manually modify.
+also manually modify.
+
 - `tags` are the post's tags, which you can also manually modify.
 - `cover` is the URL of the post's cover image, which you can manually modify. However, when modifying it, please note that:
   1. The cover image must be publicly accessible, or
@@ -94,7 +95,7 @@ Once you have finished writing and generating summaries and metadata for your po
 2. Type "Quail" and select the "Quail: Save" command, then press Enter.
 3. Wait a moment, and Quail will automatically save the post to Quail.
 
-If you log in to Quail at this point, you will be able to see the post you just saved in the "[post List](https://quail.ink/dashboard)".
+If you log in to Quail at this point, you will be able to see the post you just saved in the "[post List](https://quaily.com/dashboard)".
 
 ## Publishing posts
 

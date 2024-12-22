@@ -6,7 +6,7 @@ outline: deep
 
 在 Quail 上撰写完文章后，你可以将文章推送给你的读者。Quail 提供了多种推送渠道，包括 Email、Telegram、Discord、Line、Twitter、RSS 等。
 
-![](https://static.quail.ink/media/1gku5k35.webp)
+![](https://static.quaily.com/media/1gku5k35.webp)
 
 ## 推送频道设置
 
@@ -30,4 +30,4 @@ outline: deep
 
 ## 推送历史
 
-在「[推送历史](https://quail.ink/dashboard/delivery)」中，你可以查看文章的推送历史。
+在「[推送历史](https://quaily.com/dashboard/delivery)」中，你可以查看文章的推送历史。

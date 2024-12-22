@@ -12,7 +12,7 @@ The [syntax guide](https://www.markdownguide.org/basic-syntax/) of Markdown Guid
 
 ## Extended Syntax
 
-Some syntaxes are not supported by GFM, but are supported by Quail, they are listed below. You can also check out the [live demo](https://quail.ink/blog/p/extended-markdown-syntax)
+Some syntaxes are not supported by GFM, but are supported by Quail, they are listed below. You can also check out the [live demo](https://quaily.com/blog/p/extended-markdown-syntax)
 
 > Most of following syntax are currently rendered in the web browser only, and cannot be displayed in Email.
 
@@ -28,5 +28,3 @@ $$
 \int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
 $$
 ```
-
-

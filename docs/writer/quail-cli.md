@@ -4,9 +4,9 @@ outline: deep
 
 # Quail CLI
 
-`quail-cli` is a command-line interface for interacting with [Quail](https://quail.ink), designed to simplify and automate operations such as user authentication, managing posts, and fetching user details.
+`quail-cli` is a command-line interface for interacting with [Quail](https://quaily.com), designed to simplify and automate operations such as user authentication, managing posts, and fetching user details.
 
-Quail CLI interacts with the Quail API at `https://api.quail.ink`.
+Quail CLI interacts with the Quail API at `https://api.quaily.com`.
 
 ## Installation
 
@@ -33,8 +33,8 @@ $ quail-cli [command]
 
 ### Global Flags
 
-- `--api-base string`: Quail API base URL (default: `https://api.quail.ink`).
-- `--auth-base string`: Quail Auth base URL (default: `https://quail.ink`).
+- `--api-base string`: Quail API base URL (default: `https://api.quaily.com`).
+- `--auth-base string`: Quail Auth base URL (default: `https://quaily.com`).
 - `--config string`: Path to the configuration file (default: `$HOME/.config/quail-cli/config.yaml`).
 - `--format string`: Specify output format, either `human` (human-readable) or `json` (default: `human`).
 - `-h, --help`: Display help information for the `quail-cli`.

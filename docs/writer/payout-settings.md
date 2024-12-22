@@ -4,7 +4,7 @@ outline: deep
 
 # Payout Settings
 
-Before earning revenue on [Quail](https://quail.ink), you need to provide tax information and set up a payout method in [Payout](https://quail.ink/dashboard/profile/payout).
+Before earning revenue on [Quail](https://quaily.com), you need to provide tax information and set up a payout method in [Payout](https://quaily.com/dashboard/profile/payout).
 
 ## Provide Tax Information
 
@@ -23,7 +23,7 @@ After completion, the Quail team will review the submitted information and confi
 
 ## Payout
 
-Payout method refers to the method Quail uses to pay authors their earnings. In [Payout Settings](https://quail.ink/dashboard/profile/payout), you can set your payout method. Currently, Quail supports the following payout methods:
+Payout method refers to the method Quail uses to pay authors their earnings. In [Payout Settings](https://quaily.com/dashboard/profile/payout), you can set your payout method. Currently, Quail supports the following payout methods:
 
 1. Stripe Connect Transfer: Only available to Japanese residents, requires setting up a Stripe Connect account in Quail and passing Stripe Connect's real-name authentication.
 2. PayPal: Supports PayPal accounts worldwide, PayPal charges a certain fee and currency conversion fee.
@@ -40,4 +40,4 @@ Please note that Quail will only transfer funds by blockchain to the author when
 
 ### Payout History
 
-Authors can view their payout history in [Payout Settings](https://quail.ink/dashboard/profile/payout). The payout history includes the payout date, payout method, amount, and status.
+Authors can view their payout history in [Payout Settings](https://quaily.com/dashboard/profile/payout). The payout history includes the payout date, payout method, amount, and status.

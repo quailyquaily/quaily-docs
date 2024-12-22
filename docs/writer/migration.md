@@ -22,6 +22,6 @@ If you want to migrate data from the above platforms to Quail, please contact us
 
 ## Export Data from Quail
 
-In "[List Settings - General Settings](https://quail.ink/dashboard/lists/@current/settings/general)", click the "Export Data" button, wait a moment, and Quail will send the exported data to your registered email.
+In "[List Settings - General Settings](https://quaily.com/dashboard/lists/@current/settings/general)", click the "Export Data" button, wait a moment, and Quail will send the exported data to your registered email.
 
 The exported data includes all articles and subscriber data.

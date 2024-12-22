@@ -15,7 +15,7 @@ For example:
 - Article title: `Introduction to Quail: Understanding Quail in Five Minutes`
 - Article slug: `quail-introduction-five-minutes-to-understand-quail`
 
-**[Quail](https://quail.ink "Quail Official Website")** provides a feature to automatically generate article slug. You can click the "AI Guess" magic wand button on the right side of the article slug input box, and Quail will automatically generate an article slug based on the article title.
+**[Quail](https://quaily.com "Quail Official Website")** provides a feature to automatically generate article slug. You can click the "AI Guess" magic wand button on the right side of the article slug input box, and Quail will automatically generate an article slug based on the article title.
 
 ## Article Cover, Summary, and Tags
 
@@ -59,9 +59,9 @@ The new embedding feature offers a variety of content types to enhance your post
 Using the embedding feature is simple and straightforward. Follow these steps:
 
 1. Write the article and move the cursor to the position where you want to insert the embedded object.
-   ![](https://static.quail.ink/media/16nue5mm.webp)
+   ![](https://static.quaily.com/media/16nue5mm.webp)
 2. Choose the content type and select the object you want to insert: list, post, video, X's post, or TradingView chart, and fill in the corresponding link.
-   ![](https://static.quail.ink/media/q38ueom6.webp)
+   ![](https://static.quaily.com/media/q38ueom6.webp)
 3. Click the "Insert" button to embed the object into the article.
 
 ### Inserting Members-Only Content (Paid Tag)

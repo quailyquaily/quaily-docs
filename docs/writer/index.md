@@ -4,7 +4,7 @@ outline: deep
 
 # Writer Manual
 
-This manual is designed to help you get started with writing in [Quail](https://quail.ink).
+This manual is designed to help you get started with writing in [Quail](https://quaily.com).
 
 ## Writing and Publishing
 

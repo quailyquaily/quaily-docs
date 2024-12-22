@@ -4,7 +4,7 @@ outline: deep
 
 # 写作手册
 
-本手册旨在帮助您开始使用 [Quail](https://quail.ink) 进行写作。
+本手册旨在帮助您开始使用 [Quail](https://quaily.com) 进行写作。
 
 ## 写作和推送
 

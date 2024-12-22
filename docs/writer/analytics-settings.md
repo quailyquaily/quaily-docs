@@ -14,7 +14,7 @@ For each post, the analytics metrics include:
 2. Post reads: how many times the post has been read. A post is considered read when the user stays on the post for more than 10 seconds.
 3. Email reads: how many times the post has been read in the email. This metric is only available when you send the post via email.
 
-By default, these three metrics will be displayed in the article list with the label "X views." However, the author can disable this display in the "[List Settings - General Settings](https://quail.ink/dashboard/lists/@current/settings/general)". 
+By default, these three metrics will be displayed in the article list with the label "X views." However, the author can disable this display in the "[List Settings - General Settings](https://quaily.com/dashboard/lists/@current/settings/general)".
 
 ## 3rd Party Analytics
 

@@ -4,10 +4,10 @@ outline: deep
 
 # Prepare to Earn
 
-Before earning revenue on [Quail](https://quail.ink), you need to complete the following preparations.
+Before earning revenue on [Quail](https://quaily.com), you need to complete the following preparations.
 
-1. **Provide Tax Information**: Provide tax information in [Profile](https://quail.ink/dashboard/profile/payout), including name
-2. **Set Payout Method**: Set your payout method in [Payout](https://quail.ink/dashboard/profile/payout)
+1. **Provide Tax Information**: Provide tax information in [Profile](https://quaily.com/dashboard/profile/payout), including name
+2. **Set Payout Method**: Set your payout method in [Payout](https://quaily.com/dashboard/profile/payout)
 
 For more information, please refer to the following sections: [Payout Settings](./payout-settings).
 

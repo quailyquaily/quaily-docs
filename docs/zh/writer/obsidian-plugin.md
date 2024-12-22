@@ -4,7 +4,7 @@ outline: deep
 
 # Obsidian 插件
 
-**[Quail](https://quail.ink "Quail Official Website")** 提供了一个 [Obsidian](https://obsidian.md/) 插件，可以在 Obsidian 中使用 Quail 的发布、取消发布、推送文章等功能。
+**[Quail](https://quaily.com "Quail Official Website")** 提供了一个 [Obsidian](https://obsidian.md/) 插件，可以在 Obsidian 中使用 Quail 的发布、取消发布、推送文章等功能。
 
 配合 Obsidian 提供的强大的 Markdown 编辑功能，Quail 的 Obsidian 插件可以帮助您更好地管理您的文章。
 
@@ -12,8 +12,8 @@ outline: deep
 
 Quail 的 Obsidian 插件需要使用 API KEY 来访问 Quail 的 API。请通过以下步骤获得 API KEY：
 
-1. 登录到 Quail：https://quail.ink/login
-2. 访问「[个人资料 - API 密钥](https://quail.ink/dashboard/profile/apikeys)」 页面。
+1. 登录到 Quail：https://quaily.com/login
+2. 访问「[个人资料 - API 密钥](https://quaily.com/dashboard/profile/apikeys)」 页面。
 3. 点击「新建」按钮，输入 API 密钥名称，点击「创建」按钮
 4. 在 API 密钥列表中会出现新创建的 API 密钥，点击「复制」按钮，将 API 密钥复制到剪贴板中。
 
@@ -37,7 +37,7 @@ Quail 的 Obsidian 插件可以在 Obsidian 社区插件列表中找到。 您�
 
 1. 首先打开 Obsidian 的设置页面，然后点击「社区插件」选项卡，找到 Quail 插件，点击「设置」按钮。
 2. 在「Quail API Key」中输入刚才获得的 API 密钥
-3. 在「List ID or slug」中输入您的列表 slug。例如，如果您的列表 URL 为 `https://quail.ink/smith`，则您的列表 slug 为 `smith`。
+3. 在「List ID or slug」中输入您的列表 slug。例如，如果您的列表 URL 为 `https://quaily.com/smith`，则您的列表 slug 为 `smith`。
 4. 其他设置保持默认即可
 
 重启 Obsidian，插件即可生效。
@@ -82,7 +82,7 @@ cover: "文章封面图片的 URL"
 您也可以不使用 AI 生成的摘要，而是手动输入摘要。
 
 如果您不需要使用 AI 生成的摘要，可以选择「Quail: Insert Metadata Template」命令，Obsidian 将会自动插入一个元信息模板，然后在其中手动输入信息。
-::: 
+:::
 
 ## 保存文章
 
@@ -92,7 +92,7 @@ cover: "文章封面图片的 URL"
 2. 输入 Quail，选择「Quail: Save」命令，按回车键
 3. 稍等片刻，Quail 将会自动将文章保存到 Quail 中。
 
-如果您此时登录到 Quail，就可以在「[文章列表](https://quail.ink/dashboard)」看到您刚才保存的文章了。
+如果您此时登录到 Quail，就可以在「[文章列表](https://quaily.com/dashboard)」看到您刚才保存的文章了。
 
 ## 发布文章
 
@@ -137,7 +137,7 @@ cover: "文章封面图片的 URL"
 上面的代码将在帖子中插入图像 `image-1.png` 和 `image-2.png` 。 在本例中，`image-1.png` 是帖子中唯一具有此名称的文件，`image-2.png` 是 `images` 文件夹下的文件。
 您也可以直接从剪贴板粘贴图片，Quail 会自动处理。
 
-**Markdown语法**
+**Markdown 语法**
 
 请使用绝对路径以这种方式插入图像。 下面是一个示例。
 
@@ -171,5 +171,3 @@ cover: "文章封面图片的 URL"
 ---
 
 以上就是 Quail 的 Obsidian 插件的使用方法。如果您有任何问题，欢迎在 [GitHub Issue](https://github.com/quail-ink/obsidian-quail/issues) 中提出。
-
-

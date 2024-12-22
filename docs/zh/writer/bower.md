@@ -8,16 +8,16 @@ outline: deep
 
 ## 开启闲谈
 
-在「[列表设置 - 一般设置](https://quail.ink/dashboard/lists/@current/settings/general)」中，开启「闲谈」功能。
+在「[列表设置 - 一般设置](https://quaily.com/dashboard/lists/@current/settings/general)」中，开启「闲谈」功能。
 
-![](https://static.quail.ink/media/19zuwxzq.webp)
+![](https://static.quaily.com/media/19zuwxzq.webp)
 
 ## 发布闲谈
 
 开启以后，作者可以在 Quail 的「闲谈」页面发布闲谈。
 
-![](https://static.quail.ink/media/qlxuy6yq.webp)
+![](https://static.quaily.com/media/qlxuy6yq.webp)
 
 对于读者来说，可以在 Quail 的「闲谈」页面查看作者的闲谈，也可以在闲谈下方留言与互动。
 
-![](https://static.quail.ink/media/jp6u0yp1.webp)
+![](https://static.quaily.com/media/jp6u0yp1.webp)
