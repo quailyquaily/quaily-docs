@@ -2,11 +2,11 @@
 outline: deep
 ---
 
-# Quail CLI
+# Quaily CLI
 
-`quail-cli` is a command-line interface for interacting with [Quail](https://quaily.com), designed to simplify and automate operations such as user authentication, managing posts, and fetching user details.
+`quail-cli` is a command-line interface for interacting with [Quaily](https://quaily.com), designed to simplify and automate operations such as user authentication, managing posts, and fetching user details.
 
-Quail CLI interacts with the Quail API at `https://api.quaily.com`.
+Quaily CLI interacts with the Quaily API at `https://api.quaily.com`.
 
 ## Installation
 
@@ -27,27 +27,27 @@ $ quail-cli [command]
 ### Available Commands
 
 - **help**: Get help about any command.
-- **login**: Authenticate with Quail using OAuth.
+- **login**: Authenticate with Quaily using OAuth.
 - **me**: Retrieve current user information.
 - **post**: Create, update, delete, or retrieve posts.
 
 ### Global Flags
 
-- `--api-base string`: Quail API base URL (default: `https://api.quaily.com`).
-- `--auth-base string`: Quail Auth base URL (default: `https://quaily.com`).
+- `--api-base string`: Quaily API base URL (default: `https://api.quaily.com`).
+- `--auth-base string`: Quaily Auth base URL (default: `https://quaily.com`).
 - `--config string`: Path to the configuration file (default: `$HOME/.config/quail-cli/config.yaml`).
 - `--format string`: Specify output format, either `human` (human-readable) or `json` (default: `human`).
 - `-h, --help`: Display help information for the `quail-cli`.
 
 ## Usage
 
-### Authenticate with Quail
+### Authenticate with Quaily
 
 ```bash
 $ quail-cli login
 ```
 
-This will initiate OAuth login to authenticate with Quail. Please follow the instructions to complete the authentication process.
+This will initiate OAuth login to authenticate with Quaily. Please follow the instructions to complete the authentication process.
 
 1. visit the URL provided in the terminal.
 2. Authorize the application.

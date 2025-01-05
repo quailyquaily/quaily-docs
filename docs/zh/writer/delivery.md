@@ -4,7 +4,7 @@ outline: deep
 
 # 推送文章
 
-在 Quail 上撰写完文章后，你可以将文章推送给你的读者。Quail 提供了多种推送渠道，包括 Email、Telegram、Discord、Line、Twitter、RSS 等。
+在 Quaily 上撰写完文章后，你可以将文章推送给你的读者。Quaily 提供了多种推送渠道，包括 Email、Telegram、Discord、Line、Twitter、RSS 等。
 
 ![](https://static.quaily.com/media/1gku5k35.webp)
 

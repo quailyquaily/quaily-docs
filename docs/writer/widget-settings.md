@@ -4,7 +4,7 @@ outline: deep
 
 # Widget Settings
 
-Widget offer a way to embed Quail's subscription form on your website. This document will guide you through the process of setting up widgets.
+Widget offer a way to embed Quaily's subscription form on your website. This document will guide you through the process of setting up widgets.
 
 Visit List's "List Settings - General - Widget Settings" to set up Widget's layout, style, and other settings.
 
@@ -17,13 +17,13 @@ There are two layouts of widgets: `Base Info` and `Subscribe Form`.
 **Base Info**: Display the basic information of the list, such as the list name, description
 
 <iframe src="https://quaily.com/blog/widget.external?theme=light&list_slug=blog&layout=info&lang=en" data-theme="light"
-    width="100%" height="128px" title="Quail Widget" frameborder="0" allow="web-share" allowfullscreen >
+    width="100%" height="128px" title="Quaily Widget" frameborder="0" allow="web-share" allowfullscreen >
 </iframe>
 
 **Subscribe Form**: Display the subscribe form, which allows visitors to subscribe to the list
 
 <iframe src="https://quaily.com/blog/widget?theme=light&list_slug=blog&layout=subscribe_form&lang=en" data-theme="light"
-    width="100%" height="400px" title="Quail Widget" frameborder="0" allow="web-share" allowfullscreen >
+    width="100%" height="400px" title="Quaily Widget" frameborder="0" allow="web-share" allowfullscreen >
 </iframe>
 
 ## Customizing Widget with CSS
@@ -70,7 +70,7 @@ Here are some sample CSS code snippets for customizing the widget. Feel free to 
 **Live Demo**
 
 <iframe src="https://quaily.com/blog/widget.external?theme=light&list_slug=blog&layout=subscribe_form&lang=en" data-theme="light"
-    width="100%" height="128px" title="Quail Widget" frameborder="0" allow="web-share" allowfullscreen >
+    width="100%" height="128px" title="Quaily Widget" frameborder="0" allow="web-share" allowfullscreen >
 </iframe>
 
 ### 2. Rounded corners and dark background
@@ -126,7 +126,7 @@ body {
 **Live Demo**
 
 <iframe src="https://quaily.com/hewig/widget.external?list_slug=hewig&layout=subscribe_form&theme=light" data-theme="light"
-    width="100%" height="128px" title="Quail Widget" frameborder="0" allow="web-share" allowfullscreen >
+    width="100%" height="128px" title="Quaily Widget" frameborder="0" allow="web-share" allowfullscreen >
 </iframe>
 
 ### 3. Use custom font

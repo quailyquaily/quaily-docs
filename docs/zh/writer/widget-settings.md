@@ -4,7 +4,7 @@ outline: deep
 
 # Widget 设置
 
-Widget 提供了一种在您的网站上嵌入 Quail 的订阅表单的方法。本文档将指导您完成设置 Widget 的过程。
+Widget 提供了一种在您的网站上嵌入 Quaily 的订阅表单的方法。本文档将指导您完成设置 Widget 的过程。
 
 访问列表的「列表设置 - 通用 - Widget 设置」来设置 Widget 的布局、样式和其他设置。
 
@@ -17,13 +17,13 @@ Widget 提供了一种在您的网站上嵌入 Quail 的订阅表单的方法。
 **基本信息**: 显示列表的基本信息，如列表名称、描述。
 
 <iframe src="https://quaily.com/blog/widget.external?theme=light&list_slug=blog&layout=info&lang=en" data-theme="light"
-    width="100%" height="128px" title="Quail Widget" frameborder="0" allow="web-share" allowfullscreen >
+    width="100%" height="128px" title="Quaily Widget" frameborder="0" allow="web-share" allowfullscreen >
 </iframe>
 
 **订阅表单**: 显示订阅表单，让访客订阅列表。
 
 <iframe src="https://quaily.com/blog/widget?theme=light&list_slug=blog&layout=subscribe_form&lang=en" data-theme="light"
-    width="100%" height="400px" title="Quail Widget" frameborder="0" allow="web-share" allowfullscreen >
+    width="100%" height="400px" title="Quaily Widget" frameborder="0" allow="web-share" allowfullscreen >
 </iframe>
 
 ## 定制 Widget 样式
@@ -70,7 +70,7 @@ Widget 提供了一种在您的网站上嵌入 Quail 的订阅表单的方法。
 **示例**
 
 <iframe src="https://quaily.com/blog/widget.external?theme=light&list_slug=blog&layout=subscribe_form&lang=en" data-theme="light"
-    width="100%" height="128px" title="Quail Widget" frameborder="0" allow="web-share" allowfullscreen >
+    width="100%" height="128px" title="Quaily Widget" frameborder="0" allow="web-share" allowfullscreen >
 </iframe>
 
 ### 2. 圆角和深色背景
@@ -126,7 +126,7 @@ body {
 **示例**
 
 <iframe src="https://quaily.com/hewig/widget.external?list_slug=hewig&layout=subscribe_form&theme=light" data-theme="light"
-    width="100%" height="128px" title="Quail Widget" frameborder="0" allow="web-share" allowfullscreen >
+    width="100%" height="128px" title="Quaily Widget" frameborder="0" allow="web-share" allowfullscreen >
 </iframe>
 
 ### 3. 自定义字体

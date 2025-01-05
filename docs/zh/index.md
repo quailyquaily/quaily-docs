@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Quail 文档"
+  name: "Quaily 文档"
   tagline: quaily.com 的官方文档
   actions:
     - theme: brand

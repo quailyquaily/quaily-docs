@@ -6,7 +6,7 @@ outline: deep
 
 ## Built-in Analytics
 
-Quail provides simple built-in analytics out of the box. You don't need to configure anything to use it.
+Quaily provides simple built-in analytics out of the box. You don't need to configure anything to use it.
 
 For each post, the analytics metrics include:
 
@@ -18,7 +18,7 @@ By default, these three metrics will be displayed in the article list with the l
 
 ## 3rd Party Analytics
 
-Quail supports 3rd party analytics services: [Umami.is](https://umami.is/) and [Google Analytics](https://analytics.google.com/).
+Quaily supports 3rd party analytics services: [Umami.is](https://umami.is/) and [Google Analytics](https://analytics.google.com/).
 
 ### Umami.is
 

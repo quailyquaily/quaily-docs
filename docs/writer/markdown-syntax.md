@@ -6,13 +6,13 @@ outline: deep
 
 ## Basic Syntax
 
-Quail uses GitHub Flavored Markdown Spec as the basic syntax for writing posts. Please refer to the [GFM spec](https://github.github.com/gfm/) for more details.
+Quaily uses GitHub Flavored Markdown Spec as the basic syntax for writing posts. Please refer to the [GFM spec](https://github.github.com/gfm/) for more details.
 
 The [syntax guide](https://www.markdownguide.org/basic-syntax/) of Markdown Guide is also a good reference.
 
 ## Extended Syntax
 
-Some syntaxes are not supported by GFM, but are supported by Quail, they are listed below. You can also check out the [live demo](https://quaily.com/blog/p/extended-markdown-syntax)
+Some syntaxes are not supported by GFM, but are supported by Quaily, they are listed below. You can also check out the [live demo](https://quaily.com/blog/p/extended-markdown-syntax)
 
 > Most of following syntax are currently rendered in the web browser only, and cannot be displayed in Email.
 

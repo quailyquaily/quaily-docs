@@ -16,7 +16,7 @@ In the list's [Payment Settings](https://quaily.com/dashboard/lists/@current/set
 
 ### Set Price
 
-Quail supports annual, quarterly, and bi-weekly payment cycles, with the unit in USD. Authors can set their prices separately or turn off one of the cycles.
+Quaily supports annual, quarterly, and bi-weekly payment cycles, with the unit in USD. Authors can set their prices separately or turn off one of the cycles.
 
 ## Self-Hosted Payment
 
@@ -26,7 +26,7 @@ In this case, the author needs to set up their Stripe account information. For m
 
 Click the settings icon button to enter the self-hosted payment settings page.
 
-### Step 1: Subscribe to Quail's External Payment Service
+### Step 1: Subscribe to Quaily's External Payment Service
 
 Click the subscribe button to go to the Stripe website and follow the instructions to complete the subscription.
 
@@ -34,13 +34,13 @@ Click the subscribe button to go to the Stripe website and follow the instructio
 
 ### Step 2: Provide Company Information
 
-Provide company information in Quail, including company name, company address, company number, etc.
+Provide company information in Quaily, including company name, company address, company number, etc.
 
 ![](/images/screenshots/payment-settings-03.webp)
 
 ### Step 3: Configure Stripe
 
-Set up your Stripe information in Quail, including Stripe's API Key and Webhook Signature Key, and set up Webhooks in Stripe.
+Set up your Stripe information in Quaily, including Stripe's API Key and Webhook Signature Key, and set up Webhooks in Stripe.
 
 ![](/images/screenshots/payment-settings-04.webp)
 
@@ -56,7 +56,7 @@ Give this Key a name, then select the permissions related to Checkout, choose "W
 
 ![](/images/screenshots/create-stripe-api-key-02.webp)
 
-Then, copy this Key to Quail's Stripe API Key.
+Then, copy this Key to Quaily's Stripe API Key.
 
 ![](/images/screenshots/create-stripe-api-key-03.webp)
 
@@ -66,7 +66,7 @@ Open the [Stripe Webhook page](https://dashboard.stripe.com/webhooks) and click 
 
 ![](/images/screenshots/create-stripe-webhook-01.webp)
 
-Fill the `Endpoint URL` with The Webhook URL provided by Quail, select the latest API version, and choose to listen for the required Checkout events, then click "Add endpoint".
+Fill the `Endpoint URL` with The Webhook URL provided by Quaily, select the latest API version, and choose to listen for the required Checkout events, then click "Add endpoint".
 
 ![](/images/screenshots/create-stripe-webhook-02.webp)
 
@@ -74,13 +74,13 @@ In the Webhook page, find the Webhook you just created, and click "Signing secre
 
 ![](/images/screenshots/create-stripe-webhook-03.webp)
 
-Copy the `Signing secret` to Quail's Stripe Webhook Signature Key.
+Copy the `Signing secret` to Quaily's Stripe Webhook Signature Key.
 
 ![](/images/screenshots/create-stripe-webhook-04.webp)
 
 ## Cryptocurrency Payment
 
-Quail support 3 types of blockchain for cryptocurrency payment: Ethereum, Base and Binance Smart Chain.
+Quaily support 3 types of blockchain for cryptocurrency payment: Ethereum, Base and Binance Smart Chain.
 
 Please read the following posts to set up your cryptocurrency wallet:
 

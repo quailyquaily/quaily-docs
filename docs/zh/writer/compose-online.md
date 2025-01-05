@@ -4,7 +4,7 @@ outline: deep
 
 # 在线写文章
 
-> 本文档介绍如何使用 Quail 在线编辑器写文章。如果您使用 Obsidian 等 Markdown 编辑器，可以参考「[Obsidian 插件](./obsidian-plugin.md)」。
+> 本文档介绍如何使用 Quaily 在线编辑器写文章。如果您使用 Obsidian 等 Markdown 编辑器，可以参考「[Obsidian 插件](./obsidian-plugin.md)」。
 
 ## 文章标题与别名
 
@@ -12,10 +12,10 @@ outline: deep
 
 例如：
 
-- 文章标题：`Quail 介绍：五分钟了解 Quail`
+- 文章标题：`Quaily 介绍：五分钟了解 Quaily`
 - 文章别名：`quail-introduction-five-minutes-to-understand-quail`
 
-**[Quail](https://quaily.com "Quail Official Website")** 提供了自动生成文章别名的功能，您可以在文章别名输入框右侧，中点击 `AI 猜测` 魔法棒按钮，Quail 会自动根据文章标题生成文章别名。
+**[Quaily](https://quaily.com "Quaily Official Website")** 提供了自动生成文章别名的功能，您可以在文章别名输入框右侧，中点击 `AI 猜测` 魔法棒按钮，Quaily 会自动根据文章标题生成文章别名。
 
 ## 文章封面、摘要、标签
 
@@ -26,19 +26,19 @@ outline: deep
 1. 点击封面图片右侧的「Unsplash」按钮
 2. 在弹出框中输入关键词，搜索图片
 3. 选择想要的图片，点击「选择」按钮
-4. 图片会自动插入到文章中，并且 Quail 会自动为您添加图片来源和作者信息
+4. 图片会自动插入到文章中，并且 Quaily 会自动为您添加图片来源和作者信息
 
 文章摘要是文章的简介，会显示在文章列表，以及 Feed 和搜索引擎中。文章标签是文章的标签，会显示在文章详情页。
 
-Quail 提供了 AI 提取文章摘要和标签的功能，您可以在右上角下拉菜单点击「AI 猜测元数据」，Quail 会自动根据文章内容提取文章摘要和标签。
+Quaily 提供了 AI 提取文章摘要和标签的功能，您可以在右上角下拉菜单点击「AI 猜测元数据」，Quaily 会自动根据文章内容提取文章摘要和标签。
 
 ## 文章内容
 
 ### Markdown 文法
 
-Quail 使用 [Markdown 文法](https://www.markdownguide.org/basic-syntax/) 编写文章。Markdown 是一种轻量级的标记语言，可以让作者专注于内容，而不是排版。
+Quaily 使用 [Markdown 文法](https://www.markdownguide.org/basic-syntax/) 编写文章。Markdown 是一种轻量级的标记语言，可以让作者专注于内容，而不是排版。
 
-如果您对 Markdown 文法不熟悉，Quail 在在线文章编辑器内置了 Markdown 文法的快速参考，您可以在编辑器右上角点击 `？` 按钮查看。
+如果您对 Markdown 文法不熟悉，Quaily 在在线文章编辑器内置了 Markdown 文法的快速参考，您可以在编辑器右上角点击 `？` 按钮查看。
 
 ### 插入图片
 
@@ -46,10 +46,10 @@ Quail 使用 [Markdown 文法](https://www.markdownguide.org/basic-syntax/) 编�
 
 ### 插入视频、订阅表单、X 推文、文章等互动内容
 
-Quail 允许在文章中插入多种互动内容类型来增强阅读体验：
+Quaily 允许在文章中插入多种互动内容类型来增强阅读体验：
 
-- 列表：嵌入来自 Quail 的列表，邀请读者订阅您的新闻通讯。
-- 文章：将 Quail 的文章集成到文章中，提供引用来表达额外的见解。
+- 列表：嵌入来自 Quaily 的列表，邀请读者订阅您的新闻通讯。
+- 文章：将 Quaily 的文章集成到文章中，提供引用来表达额外的见解。
 - 视频：直接将 YouTube 和 Bilibili 视频嵌入到内容中，创造更具吸引力和互动性的体验。
 - X 推文：把来自 X (之前的 Twitter) 的推文嵌入到内容中。
 - TradingView：包含来自 TradingView 的金融数据和图表，让您的读者随时了解实时的金融信息。
@@ -66,7 +66,7 @@ Quail 允许在文章中插入多种互动内容类型来增强阅读体验：
 
 ### 插入会员内容（付费标签）
 
-Quail 在文章中插入付费墙。插入付费墙以后，付费墙之前的内容是免费的，付费墙之后的内容只有高级会员可读。
+Quaily 在文章中插入付费墙。插入付费墙以后，付费墙之前的内容是免费的，付费墙之后的内容只有高级会员可读。
 
 具体的做法是：
 
@@ -74,4 +74,4 @@ Quail 在文章中插入付费墙。插入付费墙以后，付费墙之前的�
 2. 点击编辑器工具栏中的「插入付费墙」按钮（一个 Spock 手势）
 3. 编辑器中出现付费墙标签 `<!--paywall-->`
 
-发布文章后，Quail 会在这篇文章启用付费墙。
+发布文章后，Quaily 会在这篇文章启用付费墙。

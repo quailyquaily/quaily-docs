@@ -4,14 +4,14 @@ outline: deep
 
 # Writer Manual
 
-This manual is designed to help you get started with writing in [Quail](https://quaily.com).
+This manual is designed to help you get started with writing in [Quaily](https://quaily.com).
 
 ## Writing and Publishing
 
-- [Compose Online](./compose-online): How to write in the browser using Quail.
+- [Compose Online](./compose-online): How to write in the browser using Quaily.
 - [Deliver Posts](./delivery): How to push articles to your readers.
-- [Markdown Syntax](./markdown-syntax): Reference Quail-supported Markdown syntax.
-- [AI Features](./ai): Learn about Quail's AI features.
+- [Markdown Syntax](./markdown-syntax): Reference Quaily-supported Markdown syntax.
+- [AI Features](./ai): Learn about Quaily's AI features.
 
 ## Reader Engagement
 
@@ -21,7 +21,7 @@ This manual is designed to help you get started with writing in [Quail](https://
 
 ## Monetization
 
-- [Prepare to Earn Revenue](./monetization): Preparations for earning revenue on Quail.
+- [Prepare to Earn Revenue](./monetization): Preparations for earning revenue on Quaily.
 - [Premium Subscriptions](./premium): How to set up premium subscriptions for readers to pay to read.
 - [Ads](./ads): How to set up ads to earn revenue through ads.
 
@@ -33,16 +33,16 @@ This manual is designed to help you get started with writing in [Quail](https://
   - [Widget](./widget-settings): How to set up a widget and embed it into your website.
 - [Channel Settings](./channel-settings): How to set up push channels, including Email, Telegram, Discord, Line, Twitter, RSS, etc.
 - [Monetization Settings](./monetization-settings): Including setting up premium subscriptions, ads, etc.
-  - [Payout Settings](./payout-settings): Preparations for earning revenue on Quail.
+  - [Payout Settings](./payout-settings): Preparations for earning revenue on Quaily.
   - [Payment Settings](./payment-settings): How to set up payment for premium subscriptions.
   - [Ads Settings](./ads-settings): How to set up and earn revenue through ads.
 
 ## Tools
 
-- [Obsidian Plugin](./obsidian-plugin): How to use the Obsidian plugin to publish your Obsidian notes to Quail.
-- [Quail CLI](./quail-cli): How to use the Quail CLI to interact with Quail through the command line.
+- [Obsidian Plugin](./obsidian-plugin): How to use the Obsidian plugin to publish your Obsidian notes to Quaily.
+- [Quaily CLI](./quail-cli): How to use the Quaily CLI to interact with Quaily through the command line.
 
 ## Other Topics
 
-- [Data Migration](./migration): Migrate your articles from other platforms to Quail, or migrate your articles from Quail to other platforms.
+- [Data Migration](./migration): Migrate your articles from other platforms to Quaily, or migrate your articles from Quaily to other platforms.
 - [Troubleshooting](./troubleshooting): Troubleshoot common issues.

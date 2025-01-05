@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Quail Documentation"
+  name: "Quaily Documentation"
   tagline: The official user documentation for quaily.com
   actions:
     - theme: brand

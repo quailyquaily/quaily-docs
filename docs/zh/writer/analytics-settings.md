@@ -6,7 +6,7 @@ outline: deep
 
 ## 内置分析
 
-Quail 提供了开箱即用的简单内置分析功能，无需配置即可使用。
+Quaily 提供了开箱即用的简单内置分析功能，无需配置即可使用。
 
 每篇文章的分析指标包括：
 
@@ -18,7 +18,7 @@ Quail 提供了开箱即用的简单内置分析功能，无需配置即可使�
 
 ## 第三方分析
 
-Quail 支持第三方分析服务：[Umami.is](https://umami.is/) 和 [Google Analytics](https://analytics.google.com/)。
+Quaily 支持第三方分析服务：[Umami.is](https://umami.is/) 和 [Google Analytics](https://analytics.google.com/)。
 
 请在「[列表设置 - 一般设置](https://quaily.com/dashboard/lists/@current/settings/general)」中开启第三方分析。
 

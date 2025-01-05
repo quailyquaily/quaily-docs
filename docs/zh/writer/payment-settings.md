@@ -16,7 +16,7 @@ outline: deep
 
 ### 设置价格
 
-Quail 支持按年、按季度两周付费周期，单位为美元。作者可以分别设置他们的价格，也可以关闭其中一个周期。
+Quaily 支持按年、按季度两周付费周期，单位为美元。作者可以分别设置他们的价格，也可以关闭其中一个周期。
 
 ## 作者自行托管的付款
 
@@ -24,7 +24,7 @@ Quail 支持按年、按季度两周付费周期，单位为美元。作者可�
 
 点击设置图标按钮，进入到自行托管付款的设置页面。
 
-### 第一步：订阅 Quail 的外部付款服务
+### 第一步：订阅 Quaily 的外部付款服务
 
 点击订阅按钮，会跳转到 Stripe 的网站，按照提示完成订阅。
 
@@ -32,13 +32,13 @@ Quail 支持按年、按季度两周付费周期，单位为美元。作者可�
 
 ### 第二步：补充公司信息
 
-在 Quail 中补充公司信息，包括公司名称、公司地址、公司编号等。
+在 Quaily 中补充公司信息，包括公司名称、公司地址、公司编号等。
 
 ![](/images/screenshots/payment-settings-03.webp)
 
 ### 第三步：配置 Stripe
 
-在 Quail 中设置你的 Stripe 信息，包括 Stripe 的 API Key 和 Webhook 签名密钥，并且在 Stripe 中设置 Webhook。
+在 Quaily 中设置你的 Stripe 信息，包括 Stripe 的 API Key 和 Webhook 签名密钥，并且在 Stripe 中设置 Webhook。
 
 ![](/images/screenshots/payment-settings-04.webp)
 
@@ -54,7 +54,7 @@ API Key 和 Webhook 签名密钥可以在 Stripe 的开发者设置中找到，�
 
 ![](/images/screenshots/create-stripe-api-key-02.webp)
 
-然后，将这个 Key 复制到 Quail 的 Stripe API Key 中。
+然后，将这个 Key 复制到 Quaily 的 Stripe API Key 中。
 
 ![](/images/screenshots/create-stripe-api-key-03.webp)
 
@@ -64,7 +64,7 @@ API Key 和 Webhook 签名密钥可以在 Stripe 的开发者设置中找到，�
 
 ![](/images/screenshots/create-stripe-webhook-01.webp)
 
-在 Endpoint URL 中填入 Quail 提供的 Webhook URL，选择最新的 API 版本，并且选择监听所需的 Checkout 事件，然后点击「Add endpoint」。
+在 Endpoint URL 中填入 Quaily 提供的 Webhook URL，选择最新的 API 版本，并且选择监听所需的 Checkout 事件，然后点击「Add endpoint」。
 
 ![](/images/screenshots/create-stripe-webhook-02.webp)
 
@@ -72,13 +72,13 @@ API Key 和 Webhook 签名密钥可以在 Stripe 的开发者设置中找到，�
 
 ![](/images/screenshots/create-stripe-webhook-03.webp)
 
-然后将这个签名密钥复制到 Quail 的 Webhook 签名密钥中。
+然后将这个签名密钥复制到 Quaily 的 Webhook 签名密钥中。
 
 ![](/images/screenshots/create-stripe-webhook-04.webp)
 
 ## 使用加密货币付款
 
-Quail 支持以太坊、Base 和币安智能链三种区块链的加密货币支付。
+Quaily 支持以太坊、Base 和币安智能链三种区块链的加密货币支付。
 
 请阅读以下文章设置您的加密货币钱包：
 

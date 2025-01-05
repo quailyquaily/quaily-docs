@@ -4,9 +4,9 @@ outline: deep
 
 # Channel Settings
 
-Quail supports to deliver posts to different channels. This document will guide you through the process of setting up channels.
+Quaily supports to deliver posts to different channels. This document will guide you through the process of setting up channels.
 
-At present, Quail supports the following channels: Email, Telegram, Discord, LINE and X. We will add more channels in the future.
+At present, Quaily supports the following channels: Email, Telegram, Discord, LINE and X. We will add more channels in the future.
 
 ## Email Settings
 
@@ -20,13 +20,13 @@ When this option is turned on, every time an article is delivered, an email will
 
 When a subscriber subscribes to a list, they receive a welcome email.
 
-Here you can edit the content of the welcome email. If the content is empty, **[Quail](https://quaily.com "Quail Official Website")** will use the default text.
+Here you can edit the content of the welcome email. If the content is empty, **[Quaily](https://quaily.com "Quaily Official Website")** will use the default text.
 
 ### Signature Text
 
 At the end of each email, a signature text is attached.
 
-Here you can edit the content of the signature text. If the content is empty, Quail will not attach the signature text to the message.
+Here you can edit the content of the signature text. If the content is empty, Quaily will not attach the signature text to the message.
 
 ### Email Provider denylist
 
@@ -38,7 +38,7 @@ Please split multiple domains with commas, for example: set `qq.com, 163.com, so
 
 ## Discord Settings
 
-Quail Supports sending posts to Discord. Please read [this weekly post](https://quaily.com/blog/p/how-to-integrate-discord-with-your-newsletter-by-quail) to learn how to set up Discord.
+Quaily Supports sending posts to Discord. Please read [this weekly post](https://quaily.com/blog/p/how-to-integrate-discord-with-your-newsletter-by-quail) to learn how to set up Discord.
 
 ## Telegram Settings
 
@@ -52,18 +52,18 @@ The 1st step is to create a telegram channel. You can follow the the instruction
 
 After you create the channel, please make it public so that everyone can join it. The public channel will have a link like this: `https://t.me/your_channel_name`. The channel id is `@your_channel_name`.
 
-### Add Quail's bot to the channel
+### Add Quaily's bot to the channel
 
-Search `@QuailSenderBot` in telegram, then add it to the channel as administrator. Make sure the bot has the permission to send messages to the channel.
+Search `@QuailySenderBot` in telegram, then add it to the channel as administrator. Make sure the bot has the permission to send messages to the channel.
 
 Setting up channels has two benefits:
 
 1. When pdelivering articles, you can choose to send them to these channels.
-2. If you have set up Telegram, Discord, Line, or X, Quail will display buttons to readers on the Quail webpage. Readers can click the button to join the channel and receive article updates.
+2. If you have set up Telegram, Discord, Line, or X, Quaily will display buttons to readers on the Quaily webpage. Readers can click the button to join the channel and receive article updates.
 
-### Connect Quail to telegram
+### Connect Quaily to telegram
 
-The remaining steps are very simple, just visit [Quail's writer dashboard](https://quaily.com/dashboard), select the list you want to connect, and then click the `List Settings` at the sidebar.
+The remaining steps are very simple, just visit [Quaily's writer dashboard](https://quaily.com/dashboard), select the list you want to connect, and then click the `List Settings` at the sidebar.
 
 You will see a "Channel Settings" section, just enable Telegram channel and fill in the channel id, then click the `Save` button.
 
@@ -81,7 +81,7 @@ After these steps, if your telegram has been updated and commenting on the Teleg
 
 ### Additional Topic 2: Use your own bot
 
-Quail also supports using your own bot to send messages to the channel.
+Quaily also supports using your own bot to send messages to the channel.
 
 **Create a telegram bot**
 
@@ -110,9 +110,9 @@ Then you can add the bot to the channel, and fill in the token and channel id in
 
 ## LINE Settings
 
-Quail supports sending posts to LINE Channel. Before you start, please make sure you have already created a LINE Channel at [LINE Developer Dashboard](https://developers.line.biz/console). Begin from stratch, you need to create a **Provider**, then create a **Messaging API Channel** under the channel.
+Quaily supports sending posts to LINE Channel. Before you start, please make sure you have already created a LINE Channel at [LINE Developer Dashboard](https://developers.line.biz/console). Begin from stratch, you need to create a **Provider**, then create a **Messaging API Channel** under the channel.
 
-1. Visit [Quail's dashboard](https://quaily.com/dashboard), select the list you want to connect, and then click the `List Settings` at the sidebar.
+1. Visit [Quaily's dashboard](https://quaily.com/dashboard), select the list you want to connect, and then click the `List Settings` at the sidebar.
 2. You will see a "Channel Settings" section, just enable LINE channel
 3. For the first time, you need to create a key pair for the channel, click the `Create` button. Then you will see the public key. Copy the public key for next step.
 4. Visit [LINE Developer Dashboard](https://developers.line.biz/console), select the channel you want to connect, find **Assertion Signing Key** under **Basic Settings**, click **Register a public key** button, paste the public key you just copied, then click **Register** button.
@@ -124,4 +124,4 @@ That's all. Now you can save the settings. The new deliveried posts will be sent
 
 ## X Settings
 
-Connecting Quail to X (formerly Twitter) is quite simple. In the "[List Settings - General Settings](https://quaily.com/dashboard/lists/@current/settings/general)," just follow the prompts to authorize Quail to access your X account.
+Connecting Quaily to X (formerly Twitter) is quite simple. In the "[List Settings - General Settings](https://quaily.com/dashboard/lists/@current/settings/general)," just follow the prompts to authorize Quaily to access your X account.

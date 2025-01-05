@@ -4,7 +4,7 @@ outline: deep
 
 # Post Delivery
 
-After writing an article on Quail, you can deliver it to your readers. Quail provides multiple delivery channels, including Email, Telegram, Discord, Line, Twitter, and RSS.
+After writing an article on Quaily, you can deliver it to your readers. Quaily provides multiple delivery channels, including Email, Telegram, Discord, Line, Twitter, and RSS.
 
 ![](https://static.quaily.com/media/1gku5k35.webp)
 
