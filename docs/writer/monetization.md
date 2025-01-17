@@ -23,38 +23,6 @@ For example, if a reader purchases an article priced at 1000 JPY, Quaily will co
 
 The JCT may affect readers' purchasing decisions, so authors are advised to consider the JCT when setting prices.
 
-### Withholding Tax
-
-Withholding tax, is a tax that is deducted at the source of income before it is paid to the recipient.
-
-In Japan, this tax applies to various forms of income, including earnings from premium newsletters. The primary purpose of this tax is to ensure that the government receives tax revenue directly when individuals and businesses receive their earnings.
-
-The withholding tax rate varies based on the residency status of the recipient. Japanese residents face a tax rate of 10.21%, while non-Japanese residents are subject to a rate of 20.42%.
-
-> Reference
->
-> 1. https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2502.htm
-> 2. https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2884.htm
-
-For example, if an author is a Japanese resident, and their income after deducting all expenses for the month is 10,000 JPY, Quaily will deduct 1,021 JPY in withholding tax at the time of payout. If the author is a non-Japanese resident, Quaily will deduct 2,042 JPY in withholding tax at the time of payout.
-
-The Withholding Tax is levied on various types of income generated in Japan, regardless of whether the author is a Japanese tax resident. Quaily will deduct the withholding tax at the time of payout.
-
-:::warning Note
-In the self-hosted payment mode, Quaily is not responsible for the sale of content goods, collection, invoices, refunds, tax refunds, etc.
-
-Therefore, all taxes incurred must be declared and paid by the author in accordance with the tax laws of the country.
-:::
-
-**Tax Conventions for Non-Japanese Residents**
-
-Tax conventions are agreements between countries designed to avoid double taxation and prevent tax evasion on cross-border income.
-
-Many countries have signed tax treaties with Japan that allow for reduced tax rates on various types of income. You may consult local tax authorities or a tax professional for more details, or navigate these links
-
-- English: https://www.mof.go.jp/english/policy/tax_policy/tax_conventions/tax_convetion_list_en.html
-- Japanese: https://www.mof.go.jp/tax_policy/summary/international/tax_convention/tax_convetion_list_jp.html
-
 ## Fees
 
 ### Fees Incurred at Purchase
@@ -98,10 +66,8 @@ Here is an example of how Quaily calculates and pays out earnings (Assuming the 
 
 - An author earns 10,000 JPY in January, which includes an order of 2,000 JPY and an order of 8,000 JPY.
 - These 2 orders' JCT is 200 JPY and 800 JPY, respectively. Therefore, Quaily actually receives 11,000 JPY.
-- Stripe charges a 3.6% fee and accompanying consumption tax, which will be about `11,000×3.6%×1.1 = 396` JPY.
+- Stripe charges a 3.6% fee and accompanying consumption tax, which will be about `11,000×3.6%×1.1 = 436` JPY.
 - Quaily will charge a 10% service fee (with 10% JCT), which will be about `10,000×10%×110% = 1,100` JPY.
 - The author's revenue is `11000-1100-436-1000=8464` JPY.
-- The withholding tax is 10.21% of the author's revenue, which is `8464×0.1021=864` JPY.
-- The author's revenue after withholding tax is `8464-864=7600` JPY.
 
-Quaily will transfer the 7600 JPY to the author's account next month. According to selected payout method, it may charge additional fees.
+Quaily will transfer the 8464 JPY to the author's account next month. According to selected payout method, it may charge additional fees.

@@ -12,14 +12,13 @@ A premium subscription is a model in which subscribers pay to access an author's
 
 ### Quaily-Hosted Payment
 
-In the Quaily-hosted payment model, Quaily is responsible for the sale of content goods, collection, invoices, refunds, tax refunds, etc. Authors do not need to worry about tax issues. Quaily will handle the corresponding consumption tax at the time of payment and the corresponding withholding tax when paying the author.
+In the Quaily-hosted payment model, Quaily is responsible for the sale of content goods, collection, invoices, refunds, tax refunds, etc. Authors do not need to worry about tax issues. Quaily will handle the corresponding consumption tax at the time of payment .
 
 In the Quaily-hosted payment model, Quaily will deduct the following fees from the author's revenue:
 
 1. Platform fee: Quaily will deduct a 10% platform fee from the author's revenue.
 2. Payment settlement fee: For legal currency payments, Quaily uses Stripe to process transactions. Please refer to [Stripe's official website](https://stripe.com/en-jp/pricing) for specific rates.
 3. Consumption tax: According to Japanese tax law, Quaily needs to collect consumption tax from all order buyers, with a tax rate of 10%.
-4. Withholding tax: Withholding tax is a tax deducted from income before it is paid to the recipient. The withholding tax rate varies depending on the recipient's residency status: 10.21% for Japanese residents and 20.42% for non-Japanese residents.
 
 To use the Quaily-hosted payment model, you need to:
 
