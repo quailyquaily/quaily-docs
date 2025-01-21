@@ -10,15 +10,45 @@ This document describes how to migrate your articles from other platforms to Qua
 
 Currently, Quaily supports migrating articles or subscribers from the following platforms:
 
-- Medium
-- Substack
-- Zhubai.love
-- WordPress
-- Bearblog
-- Ghost
-- WeChat Official Account
+| Platform                | Posts | Subscribers |
+| ----------------------- | ----- | ----------- |
+| Medium                  | ✅    | ✅          |
+| Substack                | ✅    | ✅          |
+| Zhubai.love             | ✅    | ✅          |
+| WordPress               | ✅    | ✅          |
+| Bearblog                | ✅    | -           |
+| Ghost                   | ✅    | -           |
+| WeChat Official Account | ✅    | -           |
 
-If you want to migrate data from the above platforms to Quaily, please contact us by email.
+### Migration Process
+
+**Medium**
+
+Please contact us by email and provide the URL of your Medium account.
+
+**Substack**
+
+Please export all data from Substack and send it to us by email.
+
+**Zhubai.love**
+
+Zhubai.love doesn't provide export functionality. Please contact us by email and provide the URL of your Zhubai.love account.
+
+**WordPress**
+
+Please export all data from WordPress and send it to us by email.
+
+**Bearblog**
+
+Please contact us by email and provide the URL of your Bearblog account.
+
+**Ghost**
+
+Please export all data from Ghost and send it to us by email.
+
+**WeChat Official Account**
+
+WeChat Official Account doesn't provide export functionality. Please contact us by email.
 
 ## Export Data from Quaily
 
