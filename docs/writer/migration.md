@@ -32,7 +32,7 @@ Please export all data from Substack and send it to us by email.
 
 **Zhubai.love**
 
-Zhubai.love doesn't provide export functionality. Please contact us by email and provide the URL of your Zhubai.love account.
+Please read "[🚚 Migration Guide: From Zhubai to Quaily](https://quaily.com/blog/p/guide-migrate-from-zhubai-to-quaily)" for migration.
 
 **WordPress**
 

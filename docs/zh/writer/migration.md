@@ -32,7 +32,7 @@ outline: deep
 
 **竹白**
 
-竹白不提供导出功能，请通过邮件联系我们，并提供你的竹白账户的 URL。
+请阅读《[🚚 指南：从竹白（zhubai.love）迁移到 Quaily](https://quaily.com/quail-zh/p/guide-migrate-from-zhubai-to-quaily)》，来进行迁移。
 
 **WordPress**
 
