@@ -2,11 +2,13 @@
 outline: deep
 ---
 
-# Quaily CLI
+# Quail CLI
 
 `quail-cli` is a command-line interface for interacting with [Quaily](https://quaily.com), designed to simplify and automate operations such as user authentication, managing posts, and fetching user details.
 
 Quaily CLI interacts with the Quaily API at `https://api.quaily.com`.
+
+About this CLI's usage, please refer to "[🖥️ Introducing Quail CLI: Streamline Your Newsletter Workflow](https://quaily.com/blog/p/introducing-quail-cli-streamline-your-newsletter-workflow)".
 
 ## Installation
 

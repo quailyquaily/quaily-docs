@@ -4,73 +4,75 @@ outline: deep
 
 # Quaily CLI
 
-`quail-cli` is a command-line interface for interacting with [Quaily](https://quaily.com), designed to simplify and automate operations such as user authentication, managing posts, and fetching user details.
+`quail-cli` 是一个用于与 [Quaily](https://quaily.com) 进行交互的命令行界面（CLI）工具，旨在简化和自动化用户认证、管理帖子以及获取用户详情等操作。
 
-Quaily CLI interacts with the Quaily API at `https://api.quaily.com`.
+`quail-cli` 会与位于 `https://api.quaily.com` 的 Quaily API 进行交互。
 
-## Installation
+关于这个 CLI 的使用方法，请参考[《🖥️ 介绍 Quail CLI：简化你的工作流》](https://quaily.com/quail-zh/p/introducing-quail-cli-simplifying-your-workflow)。
 
-To install `quail-cli`, you can use the following command:
+## 安装
+
+使用以下命令即可安装 `quail-cli`：
 
 ```bash
 $ go install github.com/quail-ink/quail-cli@latest
 ```
 
-## Usage
+## 使用方法
 
-After installation, you can start using `quail-cli` by calling the following command:
+安装完成后，你可以通过下面的命令开始使用 `quail-cli`：
 
 ```bash
 $ quail-cli [command]
 ```
 
-### Available Commands
+### 可用命令
 
-- **help**: Get help about any command.
-- **login**: Authenticate with Quaily using OAuth.
-- **me**: Retrieve current user information.
-- **post**: Create, update, delete, or retrieve posts.
+- **help**: 查看任意命令的帮助信息。
+- **login**: 使用 OAuth 方式登录 Quaily。
+- **me**: 获取当前用户的信息。
+- **post**: 创建、更新、删除或获取帖子。
 
-### Global Flags
+### 全局参数
 
-- `--api-base string`: Quaily API base URL (default: `https://api.quaily.com`).
-- `--auth-base string`: Quaily Auth base URL (default: `https://quaily.com`).
-- `--config string`: Path to the configuration file (default: `$HOME/.config/quail-cli/config.yaml`).
-- `--format string`: Specify output format, either `human` (human-readable) or `json` (default: `human`).
-- `-h, --help`: Display help information for the `quail-cli`.
+- `--api-base string`: Quaily API 的基础 URL（默认为 `https://api.quaily.com`）。
+- `--auth-base string`: Quaily Auth 的基础 URL（默认为 `https://quaily.com`）。
+- `--config string`: 配置文件路径（默认为 `$HOME/.config/quail-cli/config.yaml`）。
+- `--format string`: 指定输出格式，可选 `human`（可读格式）或 `json`（默认为 `human`）。
+- `-h, --help`: 显示 `quail-cli` 的帮助信息。
 
-## Usage
+## 使用示例
 
-### Authenticate with Quaily
+### 在 Quaily 中进行认证
 
 ```bash
 $ quail-cli login
 ```
 
-This will initiate OAuth login to authenticate with Quaily. Please follow the instructions to complete the authentication process.
+该命令会启动 OAuth 流程来完成 Quaily 的身份验证。请按照以下步骤进行：
 
-1. visit the URL provided in the terminal.
-2. Authorize the application.
+1. 访问终端中提示的 URL。
+2. 授权该应用程序访问你的账户。
 
-### Retrieve Current User Information
+### 获取当前用户信息
 
 ```bash
 $ quail-cli me
 ```
 
-Get the details of the currently authenticated user.
+此命令会获取当前已认证用户的相关信息。
 
-### Post Operations
+### 帖子操作
 
-#### Upsert a Post
+#### 创建或更新帖子 (Upsert)
 
 ```bash
 $ quail-cli post upsert your_markdown_file.md -l your_list_slug
 ```
 
-quail-cli will read the frontmatter from the markdown file to create or update a post. If the post does not exist, it will be created. If it exists, it will be updated.
+`quail-cli` 会从给定的 Markdown 文件中读取 Frontmatter 信息来创建或更新帖子。若帖子不存在则自动创建，若已存在则更新。
 
-Here is an example of a markdown file:
+下面是一个 Markdown 文件示例：
 
 ```markdown
 ---
@@ -82,23 +84,23 @@ tags: tag1, tag2, tag3
 cover_image_url: "your-image-url.jpg"
 ---
 
-> Any sufficiently advanced technology is indistinguishable from magic.
+> 任何足够先进的技术都与魔术无异。
 >
-> -- Arthur C. Clarke
+> —— 阿瑟·克拉克 (Arthur C. Clarke)
 
-This is the body of the post.
+这是一篇帖子正文的内容。
 
     int main() {
         printf("Hello, World!");
         return 0;
     }
 
-## Section Title
+## 章节标题
 
-This is the last section of the post.
+这是文章的最后一个部分。
 ```
 
-#### Publish/Unpublish/Deliver/Delete a Post
+#### 发布/取消发布/投递/删除帖子
 
 ```bash
 $ quail-cli post publish -l your_list_slug -p your_post_slug
@@ -116,27 +118,27 @@ $ quail-cli post deliver -l your_list_slug -p your_post_slug
 $ quail-cli post delete -l your_list_slug -p your_post_slug
 ```
 
-## Configuration
+## 配置
 
-By default, `quail-cli` reads from `$HOME/.config/quail-cli/config.yaml`. You can specify a different configuration file by using the `--config` flag.
+默认情况下，`quail-cli` 会从 `$HOME/.config/quail-cli/config.yaml` 读取配置文件。你也可以通过 `--config` 参数指定其他配置文件路径。
 
 ```bash
 $ quail-cli --config /path/to/config.yaml
 ```
 
-### Configuration File Example
+### 配置文件示例
 
 ```yaml
-# DO NOT modify `app` section, quail-cli will manage it.
+# 不要修改 `app` 部分，quail-cli 会自动管理它。
 app:
   access_token: ""
   expiry: ""
   refresh_token: ""
   token_type: ""
 post:
-  # frontmatter_mapping is used to map the frontmatter keys
-  # for this example:
-  # you can use`featureImage` in the frontmatter and it will be mapped to `cover_image_url`
+  # frontmatter_mapping 用于映射 frontmatter 中的键
+  # 在下面的示例中：
+  # 你可以在 frontmatter 中使用 `featureImage`，并将其映射到 `cover_image_url`
   frontmatter_mapping:
     cover_image_url: featureImage
 ```
