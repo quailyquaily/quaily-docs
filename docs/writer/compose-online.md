@@ -48,7 +48,7 @@ Similar to the article cover, authors can choose to upload their own images or u
 
 The new embedding feature offers a variety of content types to enhance your posts:
 
-- List: Easily embed curated lists from Quaily to provide relevant information to your readers, or ask your readers to subscribe your newsletter
+- Channel: Easily embed curated channels from Quaily to provide relevant information to your readers, or ask your readers to subscribe your newsletter
 - Post: Integrate Quaily's posts to articles offer additional insights.
 - Video: Embed youtube videos directly into your content to create a more engaging and interactive experience.
 - X's Post: Embed X's Post (formerly Tweet) into articles.
@@ -60,7 +60,7 @@ Using the embedding feature is simple and straightforward. Follow these steps:
 
 1. Write the article and move the cursor to the position where you want to insert the embedded object.
    ![](https://static.quaily.com/media/16nue5mm.webp)
-2. Choose the content type and select the object you want to insert: list, post, video, X's post, or TradingView chart, and fill in the corresponding link.
+2. Choose the content type and select the object you want to insert: channel, post, video, X's post, or TradingView chart, and fill in the corresponding link.
    ![](https://static.quaily.com/media/q38ueom6.webp)
 3. Click the "Insert" button to embed the object into the article.
 
@@ -75,3 +75,21 @@ Here's how you can do it:
 3. The paywall tag `<!--paywall-->` will appear in the editor.
 
 After publishing the article, Quaily will enable the paywall for that article.
+
+## Publish Articles
+
+After writing the article, you can publish it by clicking the "Publish" button in the top right corner of the editor. 
+
+Quaily will automatically save the article and publish it. 
+
+Sometime due to the cache, the article may not be immediately visible on the website. Generally, it will be visible within 1 minutes.
+
+## Unpublish Articles
+
+If you want to unpublish the article, you can click the "Unpublish" button in the top right corner of the editor. The article will be unpublished and will not be visible on the website.
+
+## Cross Publish
+
+Quaily supports cross-publishing articles to different channels, in different languages. 
+
+To learn more about this feature, please refer to the "[🌐 Introducing Cross Publish: Streamlining Multilingual Content Creation](https://quaily.com/blog/p/cross-publish-multi-language-articles-different-channels)".
