@@ -8,6 +8,8 @@ outline: deep
 
 Combined with Obsidian's powerful Markdown editing capabilities, Quaily's Obsidian plugin can help you better manage your posts.
 
+About this plugin's usage, please refer to "[📝 Write with Favorite Editor and Publish to Quaily](https://quaily.com/blog/p/write-with-favorite-editor-and-publish-to-quaily)".
+
 ## Installing the Plugin
 
 Quaily's Obsidian plugin can be found in the Obsidian community plugin list. You can install it directly from there.

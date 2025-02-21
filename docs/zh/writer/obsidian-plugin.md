@@ -8,6 +8,8 @@ outline: deep
 
 配合 Obsidian 提供的强大的 Markdown 编辑功能，Quaily 的 Obsidian 插件可以帮助您更好地管理您的文章。
 
+关于这个插件的使用方法，请参考[《📝 用喜欢的编辑器写作，然后发布到 Quaily》](https://quaily.com/quail-zh/p/write-with-favorite-editor-and-publish-to-quaily)。
+
 ## 安装插件
 
 Quaily 的 Obsidian 插件可以在 Obsidian 社区插件列表中找到。 您可以直接从那里安装它。
