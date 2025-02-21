@@ -90,7 +90,7 @@ export default defineConfig({
   },
 
   themeConfig: {
-    logo: { light: '/logo-with-text.svg', dark: 'logo-with-text-dark.svg', alt: 'Quaily' },
+    logo: { light: 'https://quaily.com/portal-images/app-logo-w-text.svg', dark: 'https://quaily.com/portal-images/app-logo-w-text.svg', alt: 'Quaily' },
 
     siteTitle: false,
     // https://vitepress.dev/reference/default-theme-config
