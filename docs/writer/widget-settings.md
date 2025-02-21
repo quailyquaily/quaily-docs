@@ -73,63 +73,7 @@ Here are some sample CSS code snippets for customizing the widget. Feel free to 
     width="100%" height="128px" title="Quaily Widget" frameborder="0" allow="web-share" allowfullscreen >
 </iframe>
 
-### 2. Rounded corners and dark background
-
-**Code**
-
-```css
-body {
-  background-color: rgb(15, 23, 42);
-}
-.widget-form,
-.widget-form-wrapper {
-  background-color: rgb(15, 23, 42) !important;
-}
-.widget-action-wrapper .q-text-field,
-.widget-action-wrapper .q-text-field-with-button {
-  background-color: rgb(30, 41, 59);
-  color: white;
-  border: none !important;
-  border-radius: 50em !important;
-}
-.widget-action-wrapper .q-text-field:focus {
-  border: none !important;
-  outline: none !important;
-}
-.widget-action-wrapper .q-text-field-with-button {
-  padding: 0 8px;
-  border-radius: 50em !important;
-}
-.widget-action-wrapper .q-text-button-wrapper .q-button {
-  margin: 4px;
-  border-radius: 50em;
-  background-color: #29d5ef !important;
-}
-.widget-action-wrapper .q-text-button-wrapper .q-button:hover {
-  background-color: #24cce6 !important;
-}
-.widget-action-wrapper .q-text-button-wrapper .q-button[disabled] {
-  background-color: #25a6b9 !important;
-}
-
-/* hide non-used elements */
-.block-drop-shadow::after,
-.widget-stat-form-row,
-.widget-other-methods-form-row,
-.widget-list-subtitle-form-row,
-.widget-list-title-form-row,
-.widget-list-avatar-form-row {
-  display: none;
-}
-```
-
-**Live Demo**
-
-<iframe src="https://quaily.com/hewig/widget.external?list_slug=hewig&layout=subscribe_form&theme=light" data-theme="light"
-    width="100%" height="128px" title="Quaily Widget" frameborder="0" allow="web-share" allowfullscreen >
-</iframe>
-
-### 3. Use custom font
+### 2. Use custom font
 
 **Code**
 
