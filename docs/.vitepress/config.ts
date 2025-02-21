@@ -99,7 +99,7 @@ export default defineConfig({
     sidebar: genI18nSidebar(),
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/lyricat/docs.quaily.com' }
+      { icon: 'github', link: 'https://github.com/quailyquaily/quaily-docs' }
     ],
 
     footer: {
