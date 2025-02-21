@@ -6,8 +6,6 @@ outline: deep
 
 Quaily provides a variety of AI features to help authors. These features are available in the web version, and some of them are also available in the Obsidian plugin.
 
-At present, all AI features are provided by OpenAI's LLM models. You must agree to [OpenAI's terms of service](https://openai.com/policies/terms-of-use/) before using these features.
-
 ## Generate Post Link Slug
 
 Slug is the unique identifier of a post. For example, the slug of the post "[🚚 How to integrate Discord with your Newsletter by Quaily](https://quaily.com/blog/p/how-to-integrate-discord-with-your-newsletter-by-quail)" is `how-to-integrate-discord-with-your-newsletter-by-quail`, which is a semantic interpretation of the title.

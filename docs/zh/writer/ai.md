@@ -6,8 +6,6 @@ outline: deep
 
 Quaily 提供了多种 AI 功能，以帮助作者写作。这些功能在网页版本中可用，其中一些功能也在 Obsidian 插件中可用。
 
-目前，所有的 AI 功能都是由 OpenAI 的 LLM 模型提供的。在使用这些功能之前，您必须同意 [OpenAI 的服务条款](https://openai.com/policies/terms-of-use/)。
-
 ## 生成文章链接 Slug
 
 Slug 是文章的唯一标识符。例如，文章《[🚚 如何用 Quaily 把 Discord 集成到自己的 Newsletter](https://quaily.com/quail-zh/p/how-to-integrate-discord-with-your-newsletter-by-quail)》 的 slug 是 `how-to-integrate-discord-with-your-newsletter-by-quail`，是对标题的语义化解释。
