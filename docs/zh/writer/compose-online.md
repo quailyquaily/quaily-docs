@@ -40,6 +40,10 @@ Quaily 使用 Markdown 文法编写文章。Markdown 是一种轻量级的标记
 
 如果您对 Markdown 文法不熟悉，Quaily 在在线文章编辑器内置了 Markdown 文法的快速参考，您可以在编辑器右上角点击 `？` 按钮查看，也可以参考 Quaily 的 Markdown 基础教程：「[📚 ⏰ 💡 最简单的 Markdown 语法，5分钟掌握](https://quaily.com/quail-zh/p/simplest-markdown-syntax-learn-in-5-minutes)」
 
+### Quaily 支持的 Markdown 扩展
+
+Quaily 除了支持一些 Markdown 的扩展，例如：代码块、表格、数学公式等，还支持一些 Quaily 特有的扩展，请查看 「[Quaily 的 Markdown 语法扩展](https://quaily.com/quail-zh/p/extended-markdown-syntax)」。
+
 ### 插入图片
 
 和文章封面类似，作者可以选择自己上传图片，或者使用 Unsplash 提供的免费图片。他们的按钮编辑器工具栏，功能与文章封面的相同，这里不再赘述。

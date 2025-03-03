@@ -40,6 +40,11 @@ Quaily uses Markdown syntax to write articles. Markdown is a lightweight markup 
 
 If you are not familiar with Markdown syntax, Quaily provides a quick reference for Markdown syntax within the online article editor. You can click the "?" button in the top right corner of the editor to view it. You can also refer to Quaily's basic Markdown tutorial: "[📚 ⏰ 💡 Master the Simplest Markdown Syntax in 5 Minutes](https://quaily.com/blog/p/simplest-markdown-syntax-learn-in-5-minutes)".
 
+### Quaily's Extended Markdown Syntax
+
+In addition to supporting some Markdown extensions such as code blocks, tables, and mathematical formulas, Quaily also supports some Quaily-specific extensions. Please check out "[Extended Markdown Syntax in Quaily](https://quaily.com/blog/p/extended-markdown-syntax)".
+
+
 ### Inserting Images
 
 Similar to the article cover, authors can choose to upload their own images or use the free images provided by Unsplash. The toolbar buttons have the same functionality as the article cover, so we won't go into detail here.
