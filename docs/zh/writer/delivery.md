@@ -10,7 +10,7 @@ outline: deep
 
 ## 推送频道设置
 
-请查看文档 [频道设置](./channel-settings)。
+请查看文档 [推送设置](./channel-settings)。
 
 ## 推送文章
 

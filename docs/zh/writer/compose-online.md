@@ -4,7 +4,7 @@ outline: deep
 
 # 在线写文章
 
-> 本文档介绍如何使用 Quaily 在线编辑器写文章。如果您使用 Obsidian 等 Markdown 编辑器，可以参考「[Obsidian 插件](./obsidian-plugin.md)」。
+> 本文档介绍如何使用 Quaily 在线编辑器写文章。如果您使用 Obsidian 等 Markdown 编辑器，可以参考文章「[📝 用喜欢的编辑器写作，然后发布到 Quaily](https://quaily.com/quail-zh/p/write-with-favorite-editor-and-publish-to-quaily)」。
 
 ## 文章标题与别名
 
@@ -15,7 +15,7 @@ outline: deep
 - 文章标题：`Quaily 介绍：五分钟了解 Quaily`
 - 文章别名：`quail-introduction-five-minutes-to-understand-quail`
 
-**[Quaily](https://quaily.com "Quaily Official Website")** 提供了自动生成文章别名的功能，您可以在文章别名输入框右侧，中点击 `AI 猜测` 魔法棒按钮，Quaily 会自动根据文章标题生成文章别名。
+**[Quaily](https://quaily.com "Quaily Official Website")** 提供了自动生成文章别名的功能，您可以在文章别名输入框右侧点击魔法棒按钮，Quaily 会自动根据文章标题生成文章别名。
 
 ## 文章封面、摘要、标签
 
@@ -30,15 +30,15 @@ outline: deep
 
 文章摘要是文章的简介，会显示在文章列表，以及 Feed 和搜索引擎中。文章标签是文章的标签，会显示在文章详情页。
 
-Quaily 提供了 AI 提取文章摘要和标签的功能，您可以在右上角下拉菜单点击「AI 猜测元数据」，Quaily 会自动根据文章内容提取文章摘要和标签。
+Quaily 提供了 AI 提取文章摘要和标签的功能，您可以点击魔法棒按钮，Quaily 会自动根据文章内容提取文章摘要和标签。
 
 ## 文章内容
 
 ### Markdown 文法
 
-Quaily 使用 [Markdown 文法](https://www.markdownguide.org/basic-syntax/) 编写文章。Markdown 是一种轻量级的标记语言，可以让作者专注于内容，而不是排版。
+Quaily 使用 Markdown 文法编写文章。Markdown 是一种轻量级的标记语言，可以让作者专注于内容，而不是排版。
 
-如果您对 Markdown 文法不熟悉，Quaily 在在线文章编辑器内置了 Markdown 文法的快速参考，您可以在编辑器右上角点击 `？` 按钮查看。
+如果您对 Markdown 文法不熟悉，Quaily 在在线文章编辑器内置了 Markdown 文法的快速参考，您可以在编辑器右上角点击 `？` 按钮查看，也可以参考 Quaily 的 Markdown 基础教程：「[📚 ⏰ 💡 最简单的 Markdown 语法，5分钟掌握](https://quaily.com/quail-zh/p/simplest-markdown-syntax-learn-in-5-minutes)」
 
 ### 插入图片
 

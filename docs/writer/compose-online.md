@@ -4,7 +4,7 @@ outline: deep
 
 # Writing Articles Online
 
-> This document explains how to use Quaily's online editor to write articles. If you use Markdown editors like Obsidian, you can refer to the "[Obsidian Plugin](./obsidian-plugin.md)".
+> This document explains how to use Quaily's online editor to write articles. If you use Markdown editors like Obsidian, you can refer to the "[📝 Write with Favorite Editor and Publish to Quaily](https://quaily.com/blog/p/write-with-favorite-editor-and-publish-to-quaily)".
 
 ## Article Title and Slug
 
@@ -15,7 +15,7 @@ For example:
 - Article title: `Introduction to Quaily: Understanding Quaily in Five Minutes`
 - Article slug: `quail-introduction-five-minutes-to-understand-quail`
 
-**[Quaily](https://quaily.com "Quaily Official Website")** provides a feature to automatically generate article slug. You can click the "AI Guess" magic wand button on the right side of the article slug input box, and Quaily will automatically generate an article slug based on the article title.
+**[Quaily](https://quaily.com "Quaily Official Website")** provides a feature to automatically generate article slug. You can click the magicward button on the right side of the article slug input box, and Quaily will automatically generate an article slug based on the article title.
 
 ## Article Cover, Summary, and Tags
 
@@ -30,15 +30,15 @@ Authors can upload their own article covers or use the free images provided by U
 
 The article summary is a brief introduction of the article, which will be displayed in the article list and in feeds and search engines. The article tags are labels associated with the article, which will be displayed on the article detail page.
 
-Quaily provides an AI feature to extract article summaries and tags. You can click the "AI Guess Metadata" option in the dropdown menu at the top right corner, and Quaily will automatically extract article summaries and tags based on the article content.
+Quaily provides an AI feature to extract article summaries and tags. You can click the magicward button, and Quaily will automatically extract article summaries and tags based on the article content.
 
 ## Article Content
 
 ### Markdown Syntax
 
-Quaily uses [Markdown syntax](https://www.markdownguide.org/basic-syntax/) to write articles. Markdown is a lightweight markup language that allows authors to focus on content rather than formatting.
+Quaily uses Markdown syntax to write articles. Markdown is a lightweight markup language that allows authors to focus on content rather than formatting.
 
-If you are not familiar with Markdown syntax, Quaily provides a quick reference for Markdown syntax within the online article editor. You can click the "?" button in the top right corner of the editor to view it.
+If you are not familiar with Markdown syntax, Quaily provides a quick reference for Markdown syntax within the online article editor. You can click the "?" button in the top right corner of the editor to view it. You can also refer to Quaily's basic Markdown tutorial: "[📚 ⏰ 💡 Master the Simplest Markdown Syntax in 5 Minutes](https://quaily.com/blog/p/simplest-markdown-syntax-learn-in-5-minutes)".
 
 ### Inserting Images
 
@@ -78,9 +78,9 @@ After publishing the article, Quaily will enable the paywall for that article.
 
 ## Publish Articles
 
-After writing the article, you can publish it by clicking the "Publish" button in the top right corner of the editor. 
+After writing the article, you can publish it by clicking the "Publish" button in the top right corner of the editor.
 
-Quaily will automatically save the article and publish it. 
+Quaily will automatically save the article and publish it.
 
 Sometime due to the cache, the article may not be immediately visible on the website. Generally, it will be visible within 1 minutes.
 
@@ -90,6 +90,6 @@ If you want to unpublish the article, you can click the "Unpublish" button in th
 
 ## Cross Publish
 
-Quaily supports cross-publishing articles to different channels, in different languages. 
+Quaily supports cross-publishing articles to different channels, in different languages.
 
 To learn more about this feature, please refer to the "[🌐 Introducing Cross Publish: Streamlining Multilingual Content Creation](https://quaily.com/blog/p/cross-publish-multi-language-articles-different-channels)".

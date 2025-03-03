@@ -10,7 +10,7 @@ After writing an article on Quaily, you can deliver it to your readers. Quaily p
 
 ## Delivery Channel Settings
 
-Please refer to the document [Channel Settings](./channel-settings).
+Please refer to the document [Sending Settings](./channel-settings).
 
 ## Deliver an Article
 
