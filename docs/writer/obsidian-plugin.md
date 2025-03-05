@@ -4,7 +4,7 @@ outline: deep
 
 # Obsidian Plugin
 
-**[Quaily](https://quaily.com "Quaily Official Website")** provides an [Obsidian](https://obsidian.md/) plugin that allows you to use Quaily's publishing, unpublishing, and post delivering features within Obsidian.
+**[Quaily](https://quaily.com "Quaily Official Website")** provides an [Obsidian](https://obsidian.md/) plugin that allows you to use Quaily's publishing, unpublishing, and sending newsletters or blog posts within Obsidian. 
 
 Combined with Obsidian's powerful Markdown editing capabilities, Quaily's Obsidian plugin can help you better manage your posts.
 
@@ -20,7 +20,7 @@ Quaily's Obsidian plugin can be found in the Obsidian community plugin list. You
 
 You may need to restart Obsidian again for the plugin to take effect.
 
-Please refer to the [plugin homepage](https://github.com/quail-ink/obsidian-quail) for more installation instructions.
+Please refer to the [plugin homepage](https://github.com/quailyquaily/obsidian-quail) for manual installation instructions.
 
 ## Configuring the Plugin
 
@@ -38,12 +38,17 @@ You can write posts in Obsidian as usual. Once you have finished writing an post
 
 Before publishing, you need to generate summaries for your posts according to Quaily's requirements.
 
-## Generating Summaries and Metadata
+Here are some useful commands provided by the plugin, you can use them in Obsidian's command palette.
+
+![](https://static.quail.ink/media/jo4uy0en.webp)
+
+
+### Generating Summaries and Metadata
 
 Quaily provides the functionality to generate post summaries using AI. You can use Quaily's Obsidian plugin to invoke this feature. Here's how:
 
 1. Press the shortcut key `Ctrl + P` to open Obsidian's command palette (or `Cmd + P` for macOS users).
-2. Type "Quaily" and select the "Quaily: Generate Metadata" command, then press Enter.
+2. Type "Quaily" and select the "Quaily: Generate Meta by AI" command, then press Enter.
 3. Wait a moment, and Quaily will automatically generate the summary, tags, and other metadata for your post. It will insert them at the beginning of the post in [frontmatter](https://jekyllrb.com/docs/front-matter/) format.
 
 You will see something similar to the following at the beginning of your post:
@@ -54,7 +59,7 @@ slug: "post-slug"
 datetime: 2021-08-01T00:00:00+08:00
 summary: "post summary"
 tags: "tag1, tag2"
-cover: "URL of post cover image"
+cover_image_url: "URL of post cover image"
 ---
 ```
 
@@ -62,12 +67,9 @@ In the above frontmatter:
 
 - `slug` is the slug of the post, which Quaily uses to generate the post's URL. This slug should be unique within the entire list and generally consists of English words representing the post's title. You can manually modify this slug if you don't want to use the generated one.
 - `datetime` is the publication date of the post.
-- `summary` is the summary of the post, which you can
-
-also manually modify.
-
-- `tags` are the post's tags, which you can also manually modify.
-- `cover` is the URL of the post's cover image, which you can manually modify. However, when modifying it, please note that:
+- `summary` is the summary of the post.
+- `tags` are the post's tags.
+- `cover_image_url` is the URL of the post's cover image, which you can manually modify. However, when modifying it, please note that:
   1. The cover image must be publicly accessible, or
   2. The cover image must be an image from your Obsidian and use an absolute path. Please refer to the "Inserting Images" section below.
 
@@ -77,36 +79,50 @@ You can also choose to manually enter the summary instead of using the AI-genera
 If you don't want to use the AI-generated summary, you can select the "Quaily: Insert Metadata Template" command, and Obsidian will automatically insert a metadata template for you to manually enter the information.
 :::
 
-## Saving posts
+### Saving posts
 
-Once you have finished writing and generating summaries and metadata for your posts, you can use Quaily's Obsidian plugin to save them:
-
-1. Press the shortcut key `Ctrl + P` to open Obsidian's command palette (or `Cmd + P` for macOS users).
-2. Type "Quaily" and select the "Quaily: Save" command, then press Enter.
-3. Wait a moment, and Quaily will automatically save the post to Quaily.
+1. Use command "Quaily: Save", then press Enter.
+2. Wait a moment, and Quaily will automatically save the post to Quaily.
 
 If you log in to Quaily at this point, you will be able to see the post you just saved in the "[post List](https://quaily.com/dashboard)".
 
-## Publishing posts
+### Publishing posts
 
-Publishing an post changes its status from "Draft" to "Published," making it visible to others:
+1. Use command "Quaily: Publish", then press Enter.
+2. Wait a moment, and Quaily will automatically publish the post to Quaily and display the post's access URL. It's status will be changed to "Published" from "Draft", making it visible to others.
+3. Quaily will popup a dialog for the publish result, you can click on the displayed URL to view your post, or click on the "Copy" button to copy the URL to your clipboard.
 
-1. Press the shortcut key `Ctrl + P` to open Obsidian's command palette (or `Cmd + P` for macOS users).
-2. Type "Quaily" and select the "Quaily: Publish" command, then press Enter.
-3. Wait a moment, and Quaily will automatically publish the post to Quaily and display the post's access URL.
-4. You can click on the displayed URL to view your post.
+![](https://static.quail.ink/media/q38uky74.webp)
 
-## Unpublishing posts
+### Unpublishing posts
 
-Unpublishing an post changes its status from "Published" to "Draft," making it no longer visible to others.
+1. Use command "Quaily: Unpublish", then press Enter.
+2. Wait a moment, and Quaily will automatically unpublish the post. It's status will be changed to "Draft", making it no longer visible to others.
 
-The process is similar to publishing an post, but in the second step, select the "Quaily: Unpublish" command.
+### Sending posts
 
-## Delivering posts
+1. Use command "Quaily: Send", then press Enter.
+2. Wait a moment, and Quaily will automatically send the post to your subscribers via email.
+   - If you have connected your Quaily account with Telegram, Discord, or LINE, Quaily will also send the post to your connected channels.
 
-Delivering an post sends it via email to your subscribers. If you have set up a Telegram bot for your list, the bot will also automatically push the post to your Telegram channel.
+### Previewing posts
 
-The process is similar to publishing an post, but in the second step, select the "Quaily: Deliver" command.
+You can preview your post before publishing it.
+
+1. Use command "Quaily: Preview", then press Enter.
+2. Wait a moment, and Quaily popup a preview window, in which you can see the a QRCode and a preview button. 
+   - By scanning the QRCode with your phone, you can preview the post on your phone.
+   - By clicking the preview button, you can preview the post in your browser.
+
+![](https://static.quail.ink/media/16nuk707.webp)
+
+
+### Set default channel
+
+Quaily's Obsidian plugin allows you to set a default channel for your posts, just in case you are using Obsidian to manage multiple Quaily channels.
+
+1. Use command "Quaily: Set Default Channel", then press Enter.
+2. Choose a channel from the list.
 
 ## Inserting Images
 
@@ -155,14 +171,8 @@ If you want to insert the image "image-1.png" into "test," you need to use the f
 ![image-1](/essay/images/image-1.png)
 ```
 
-Instead of Obsidian syntax:
-
-```markdown
-![[image-1]]
-```
-
 Note that "/essay/images/image-1.png" is an absolute path (starting from the top-level folder), not a relative path. If you use a relative path, Quaily's Obsidian plugin will not be able to locate the image file.
 
 ---
 
-That's the usage of Quaily's Obsidian plugin. If you have any questions, please feel free to raise them in the [GitHub Issue](https://github.com/quail-ink/obsidian-quail/issues).
+That's the usage of Quaily's Obsidian plugin. If you have any questions, please feel free to raise them in the [bug tracker](https://github.com/orgs/quailyquaily/projects/2/views/2).
