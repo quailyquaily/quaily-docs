@@ -36,7 +36,10 @@ outline: deep
 
 **WordPress**
 
-请从 WordPress 导出所有数据，并通过邮件发送给我们。
+请按照《[WordPress 导出指南](https://wordpress.com/zh-cn/support/export/)》，导出所有数据到 XML 文件，并通过邮件发送给我们。
+
+> [!NOTE]
+> 请确保你的文章是公开的。受保护的文章不会被导出。
 
 **Bearblog**
 

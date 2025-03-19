@@ -36,7 +36,10 @@ Please read "[🚚 Migration Guide: From Zhubai to Quaily](https://quaily.com/bl
 
 **WordPress**
 
-Please export all data from WordPress and send it to us by email.
+Please export follow "[Export Your Website’s Content](https://wordpress.com/support/export/)", export the XML file from WordPress and send it to us by email.
+
+> [!NOTE]
+> Please make sure your posts are public. Protected posts will not be exported.
 
 **Bearblog**
 
