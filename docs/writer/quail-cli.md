@@ -15,7 +15,7 @@ About this CLI's usage, please refer to "[🖥️ Introducing Quail CLI: Streaml
 To install `quail-cli`, you can use the following command:
 
 ```bash
-$ go install github.com/quail-ink/quail-cli@latest
+$ go install github.com/quailyquaily/quail-cli@latest
 ```
 
 ## Usage

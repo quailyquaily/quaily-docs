@@ -15,7 +15,7 @@ outline: deep
 使用以下命令即可安装 `quail-cli`：
 
 ```bash
-$ go install github.com/quail-ink/quail-cli@latest
+$ go install github.com/quailyquaily/quail-cli@latest
 ```
 
 ## 使用方法
