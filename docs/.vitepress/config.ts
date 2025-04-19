@@ -8,7 +8,8 @@ const genNav = () => {
     const prefix = lang === 'en' ? '' : '/' + lang;
     ret = [
       { text: t(lang, 'home'), link: '/' },
-      { text: t(lang, "writer_manual"), link: `${prefix}/writer/index` }
+      { text: t(lang, "writer_manual"), link: `${prefix}/writer/index` },
+      { text: t(lang, "developer_docs"), link: `${prefix}/developer/index` }
     ]
   }
   return ret;
@@ -64,6 +65,22 @@ const genI18nSidebar = () => {
           { text: t(lang, 'troubleshooting'), link: `${prefix}/writer/troubleshooting` },
         ]
       },
+    ]
+    ret[`developer/`] = [
+      {
+        items: [
+          { text: t(lang, 'dev_overview'), link: `developer/overview` },
+          { text: t(lang, 'authorization'), link: `developer/authorization` },
+        ]
+      },
+      {
+        text: t(lang, 'api'),
+        items: [
+          { text: t(lang, 'api_response_object'), link: `developer/api/response-object` },
+          { text: t(lang, 'api_channel'), link: `developer/api/channel` },
+          { text: t(lang, 'api_post'), link: `developer/api/post` },
+        ]
+      }
     ]
   }
   return ret;

@@ -6,7 +6,13 @@ outline: deep
 
 ## Preparation
 
+### Set Up Payout
+
 Before setting up payment, please refer to [Payout Settings](./payout-settings.md) to complete the necessary steps.
+
+### Provide Merchant Information
+
+Provide merchant information in Quaily, including company name, company address, company number, etc.
 
 ## Payment
 
@@ -32,13 +38,7 @@ Click the subscribe button to go to the Stripe website and follow the instructio
 
 ![](/images/screenshots/payment-settings-02.webp)
 
-### Step 2: Provide Company Information
-
-Provide company information in Quaily, including company name, company address, company number, etc.
-
-![](/images/screenshots/payment-settings-03.webp)
-
-### Step 3: Configure Stripe
+### Step 2: Configure Stripe
 
 Set up your Stripe information in Quaily, including Stripe's API Key and Webhook Signature Key, and set up Webhooks in Stripe.
 

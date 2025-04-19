@@ -3,6 +3,7 @@ export const messages = {
     "home": "🏠 Home",
     "tutorial": "📚 Tutorial",
     "writer_manual": "✍️ Writer",
+    "developer_docs": "👨‍💻 Developer",
 
     "compose_and_deliver": "Compose and Send",
     "compose_online": "📝 Compose Online",
@@ -33,12 +34,21 @@ export const messages = {
 
     "tools": "🛠️ Tools",
     "obsidian_plugin": "🔌 Obsidian Plugin",
-    "quail_cli": "⌨️ Quaily CLI"
+    "quail_cli": "⌨️ Quaily CLI",
+
+    // developer docs
+    "dev_overview": "Overview",
+    "authorization": "Authorization",
+    "api": "API Reference",
+    "api_response_object": "Response Object",
+    "api_channel": "Channel",
+    "api_post": "Post",
   },
   "zh": {
     "home": "🏠 首页",
     "tutorial": "📚 教程",
     "writer_manual": "✍️ 作者手册",
+    "developer_docs": "👨‍💻 开发者文档",
 
     "compose_and_deliver": "撰写与推送",
     "compose_online": "📝 在线撰写",

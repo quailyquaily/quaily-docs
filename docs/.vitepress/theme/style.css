@@ -36,6 +36,8 @@
 /**
  * Component: Home
  * -------------------------------------------------------------------------- */
+body { font-size: 14px; }
+.outline-link { font-size: 13px !important; }
 
 :root {
   --vp-home-hero-name-color: transparent;

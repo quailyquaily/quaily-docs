@@ -8,11 +8,11 @@ hero:
   tagline: Build a membership community that connects with your followers and funds your best creative work.
   actions:
     - theme: brand
-      text: Read Docs
+      text: Writer Guide
       link: /writer/index
     - theme: alt
-      text: Official Website
-      link: https://quaily.com
+      text: Developer Docs
+      link: /developer/index
   # image:
   #     src: /vitepress-logo-large.webp
   #     alt: VitePress
