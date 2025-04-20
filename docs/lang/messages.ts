@@ -43,6 +43,8 @@ export const messages = {
     "api_response_object": "Response Object",
     "api_channel": "Channel",
     "api_post": "Post",
+    "api_attachment": "Attachment",
+    "api_composer": "Composer",
   },
   "zh": {
     "home": "🏠 首页",
