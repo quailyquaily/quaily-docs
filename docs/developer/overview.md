@@ -4,8 +4,6 @@ outline: deep
 
 # Overview
 
-## API
-
-### API Base
+## API Base
 
 Quaily's API base URL is `https://api.quail.ink`.
