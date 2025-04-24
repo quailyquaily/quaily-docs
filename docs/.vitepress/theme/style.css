@@ -55,7 +55,7 @@ body { font-size: 14px; }
   --vp-home-hero-image-filter: blur(40px);
 }
 
-table {
+.vp-doc table {
   width: 100%;
   display: table;
 }
