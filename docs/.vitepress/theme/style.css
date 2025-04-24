@@ -55,6 +55,11 @@ body { font-size: 14px; }
   --vp-home-hero-image-filter: blur(40px);
 }
 
+table {
+  width: 100%;
+  display: table;
+}
+
 @media (min-width: 640px) {
   :root {
     --vp-home-hero-image-filter: blur(56px);
