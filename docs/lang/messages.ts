@@ -41,6 +41,7 @@ export const messages = {
     "authorization": "Authorization",
     "api": "API Reference",
     "api_response_object": "Response Object",
+    "api_user": "User",
     "api_channel": "Channel",
     "api_post": "Post",
     "api_attachment": "Attachment",

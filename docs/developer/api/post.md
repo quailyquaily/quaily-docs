@@ -147,3 +147,31 @@ Same as [Publish Post](#publish-post).
 ### Response
 
 Same as [Publish Post](#publish-post).
+
+## Get Post Content
+
+```prolog
+GET API_BASE/lists/:channel_slug/posts/:post_slug/content
+```
+
+### Authorization Required
+
+| OAuth | APIKey |
+| ----- | ------ |
+| Yes   | Yes    |
+
+### Parameters
+
+Same as [Get Post](#get-post).
+
+### Response
+
+```json
+{
+  "data": {
+    "free_content": "...",
+    "paid_content": "..."
+  },
+  "ts": 1723923923
+}
+```

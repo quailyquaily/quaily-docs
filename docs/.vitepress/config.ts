@@ -77,6 +77,7 @@ const genI18nSidebar = () => {
         text: t(lang, 'api'),
         items: [
           { text: t(lang, 'api_response_object'), link: `developer/api/response-object` },
+          { text: t(lang, 'api_user'), link: `developer/api/user` },
           { text: t(lang, 'api_channel'), link: `developer/api/channel` },
           { text: t(lang, 'api_post'), link: `developer/api/post` },
           { text: t(lang, 'api_attachment'), link: `developer/api/attachment` },
