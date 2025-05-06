@@ -80,6 +80,7 @@ const genI18nSidebar = () => {
           { text: t(lang, 'api_user'), link: `developer/api/user` },
           { text: t(lang, 'api_channel'), link: `developer/api/channel` },
           { text: t(lang, 'api_post'), link: `developer/api/post` },
+          { text: t(lang, 'api_subscription'), link: `developer/api/subscription` },
           { text: t(lang, 'api_attachment'), link: `developer/api/attachment` },
           { text: t(lang, 'api_composer'), link: `developer/api/composer` },
         ]

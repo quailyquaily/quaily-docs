@@ -44,6 +44,7 @@ export const messages = {
     "api_user": "User",
     "api_channel": "Channel",
     "api_post": "Post",
+    "api_subscription": "Subscription",
     "api_attachment": "Attachment",
     "api_composer": "Composer",
   },
