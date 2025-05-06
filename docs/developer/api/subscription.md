@@ -3,7 +3,7 @@
 ## Transfer Members
 
 ```prolog
-POST /subscriptions/{listID}/members/{userID}/transfer?dst_list_id={dstListID}
+POST /subscriptions/:list_id/members/:user_id/transfer?dst_list_id=:dst_list_id
 ```
 
 ### Authorization Required
@@ -16,9 +16,9 @@ POST /subscriptions/{listID}/members/{userID}/transfer?dst_list_id={dstListID}
 
 | Parameter   | Type   | Description                    |
 | ----------- | ------ | ------------------------------ |
-| `listID`    | uint64 | The ID of the list             |
-| `userID`    | uint64 | The ID of the user             |
-| `dstListID` | uint64 | The ID of the destination list |
+| `list_id`   | uint64 | The ID of the list             |
+| `user_id`   | uint64 | The ID of the user             |
+| `dst_list_id` | uint64 | The ID of the destination list |
 
 ### Response
 
@@ -32,7 +32,7 @@ POST /subscriptions/{listID}/members/{userID}/transfer?dst_list_id={dstListID}
 ## Delete Member
 
 ```prolog
-DELETE /subscriptions/{listID}/members/{userID}
+DELETE /subscriptions/:list_id/members/:user_id
 ```
 
 ### Authorization Required
@@ -45,8 +45,8 @@ DELETE /subscriptions/{listID}/members/{userID}
 
 | Parameter | Type   | Description        |
 | --------- | ------ | ------------------ |
-| `listID`  | uint64 | The ID of the list |
-| `userID`  | uint64 | The ID of the user |
+| `list_id` | uint64 | The ID of the list |
+| `user_id` | uint64 | The ID of the user |
 
 ### Response
 
