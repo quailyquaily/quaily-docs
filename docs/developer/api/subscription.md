@@ -92,3 +92,49 @@ DELETE /subscriptions/:list_id/members/:user_id
   "ts": 1723923923
 }
 ```
+
+### Add Member
+
+```prolog
+POST /auxilia/subscriptions/:list_id/members/add
+```
+
+### Authorization Required
+
+_This API is only available to the Quaily+ plan users_
+
+| OAuth | APIKey |
+| ----- | ------ |
+| No    | Yes    |
+
+### Parameters
+
+| Parameter | Type   | Description        |
+| --------- | ------ | ------------------ |
+| `list_id` | uint64 | The ID of the list |
+
+### Request Body
+
+```json
+{
+  "members": [
+    {
+      "email": "test@example.com",
+      "name": "Test User"
+    },
+    {
+      "email": "test2@example.com",
+      "name": "Test User 2"
+    }
+  ]
+}
+```
+
+### Response
+
+```json
+{
+  "data": 1,
+  "ts": 1723923923
+}
+```
