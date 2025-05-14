@@ -34,19 +34,7 @@ export const messages = {
 
     "tools": "🛠️ Tools",
     "obsidian_plugin": "🔌 Obsidian Plugin",
-    "quail_cli": "⌨️ Quaily CLI",
-
-    // developer docs
-    "dev_overview": "Overview",
-    "authorization": "Authorization",
-    "api": "API Reference",
-    "api_response_object": "Response Object",
-    "api_user": "User",
-    "api_channel": "Channel",
-    "api_post": "Post",
-    "api_subscription": "Subscription",
-    "api_attachment": "Attachment",
-    "api_composer": "Composer",
+    "quail_cli": "⌨️ Quaily CLI"
   },
   "zh": {
     "home": "🏠 首页",

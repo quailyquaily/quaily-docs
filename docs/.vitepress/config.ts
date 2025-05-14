@@ -66,23 +66,23 @@ const genI18nSidebar = () => {
         ]
       },
     ]
-    ret[`developer/`] = [
+    ret[`/developer/`] = [
       {
         items: [
-          { text: t(lang, 'dev_overview'), link: `developer/overview` },
-          { text: t(lang, 'authorization'), link: `developer/authorization` },
+          { text: 'Overview', link: `/developer/index` },
+          { text: 'Authorization', link: `/developer/authorization` },
         ]
       },
       {
-        text: t(lang, 'api'),
+        text: 'API Reference',
         items: [
-          { text: t(lang, 'api_response_object'), link: `developer/api/response-object` },
-          { text: t(lang, 'api_user'), link: `developer/api/user` },
-          { text: t(lang, 'api_channel'), link: `developer/api/channel` },
-          { text: t(lang, 'api_post'), link: `developer/api/post` },
-          { text: t(lang, 'api_subscription'), link: `developer/api/subscription` },
-          { text: t(lang, 'api_attachment'), link: `developer/api/attachment` },
-          { text: t(lang, 'api_composer'), link: `developer/api/composer` },
+          { text: 'Response Object', link: `/developer/api/response-object` },
+          { text: 'User', link: `/developer/api/user` },
+          { text: 'Channel', link: `/developer/api/channel` },
+          { text: 'Post', link: `/developer/api/post` },
+          { text: 'Subscription', link: `/developer/api/subscription` },
+          { text: 'Attachment', link: `/developer/api/attachment` },
+          { text: 'Composer', link: `/developer/api/composer` },
         ]
       }
     ]
