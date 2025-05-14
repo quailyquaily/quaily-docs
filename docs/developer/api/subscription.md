@@ -93,7 +93,7 @@ DELETE /subscriptions/:list_id/members/:user_id
 }
 ```
 
-### Add Member
+## Add Member
 
 ```prolog
 POST /auxilia/subscriptions/:list_id/members/add
