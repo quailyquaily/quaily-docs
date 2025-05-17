@@ -10,7 +10,7 @@ for example, here is a subscribe form widget of [Quaily Blog](https://quaily.com
 
 <iframe src="https://quaily.com/blog/widget.external?theme=light&amp;list_slug=blog&amp;layout=subscribe_form&amp;lang=en&amp;logged=ignore" data-theme="light" width="100%" height="128px" title="Quail Widget" frameborder="0" allow="web-share" allowfullscreen=""></iframe>
 
-## Auto size 
+## Auto resize 
 
 The widget includes anti-bot protection, so the iframe content will grow in height in some cases.
 
