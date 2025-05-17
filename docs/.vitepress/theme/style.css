@@ -8,7 +8,10 @@
  * -------------------------------------------------------------------------- */
 
  :root {
+  --vp-c-bg: #FAFAF8;
+  --vp-sidebar-bg-color: #FAFAF8;
   --vp-c-brand: #CB0000;
+  --vp-c-brand-1: #CB0000;
   --vp-c-brand-light: #da1818;
   --vp-c-brand-lighter: #e73f3f;
   --vp-c-brand-lightest: #f66e6e;
@@ -58,6 +61,10 @@ body { font-size: 14px; }
 .vp-doc table {
   width: 100%;
   display: table;
+}
+
+.VPSidebar {
+  border-right: 0.5px solid #E5E5E5;
 }
 
 @media (min-width: 640px) {

@@ -84,6 +84,12 @@ const genI18nSidebar = () => {
           { text: 'Attachment', link: `/developer/api/attachment` },
           { text: 'Composer', link: `/developer/api/composer` },
         ]
+      },
+      {
+        text: 'Misc',
+        items: [
+          { text: 'Widget', link: `/developer/widget` },
+        ]
       }
     ]
   }
