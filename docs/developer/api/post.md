@@ -175,3 +175,28 @@ Same as [Get Post](#get-post).
   "ts": 1723923923
 }
 ```
+
+## Delete Post
+
+```prolog
+DELETE API_BASE/lists/:channel_slug/posts/:post_slug
+```
+
+### Authorization Required
+
+| OAuth | APIKey |
+| ----- | ------ |
+| Yes   | Yes    |
+
+### Parameters
+
+Same as [Get Post](#get-post).
+
+### Response
+
+```json
+{
+  "data": PostObject,
+  "ts": 1723923923
+}
+```
