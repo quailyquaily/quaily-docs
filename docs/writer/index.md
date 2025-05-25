@@ -10,7 +10,7 @@ This manual is designed to help you get started with writing in [Quaily](https:/
 
 - [Compose Online](./compose-online): How to write in the browser using Quaily.
 - [Deliver Posts](./delivery): How to push articles to your readers.
-- [Markdown Syntax](./markdown-syntax): Reference Quaily-supported Markdown syntax.
+- [Markdown Syntax](./markdown-syntax): Reference Quaily-supported Markdown syntax, including powerful extensions for rich content.
 - [AI Features](./ai): Learn about Quaily's AI features.
 
 ## Reader Engagement
@@ -34,7 +34,7 @@ This manual is designed to help you get started with writing in [Quaily](https:/
 - [Channel Settings](./channel-settings): How to set up push channels, including Email, Telegram, Discord, Line, Twitter, RSS, etc.
 - [Monetization Settings](./monetization-settings): Including setting up premium subscriptions, ads, etc.
   - [Payout Settings](./payout-settings): Preparations for earning revenue on Quaily.
-  - [Payment Settings](./payment-settings): How to set up payment for premium subscriptions.
+  - [Payment Settings](./payment-settings): How to set up payment methods for premium subscriptions, including crypto options.
   - [Ads Settings](./ads-settings): How to set up and earn revenue through ads.
 
 ## Tools

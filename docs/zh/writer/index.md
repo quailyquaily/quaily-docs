@@ -10,7 +10,7 @@ outline: deep
 
 - [在线撰写](./compose-online): 如何在浏览器中使用 Quaily 进行写作。
 - [推送文章](./delivery)：如何将文章推送给你的读者。
-- [Markdown 语法](./markdown-syntax)： 查阅 Quaily 支持的 Markdown 语法。
+- [Markdown 语法](./markdown-syntax)： 查阅 Quaily 支持的 Markdown 语法，包含强大的扩展功能以支持丰富内容。
 - [AI 功能](./ai)：了解 Quaily 的 AI 功能。
 
 ## 读者互动
@@ -34,7 +34,7 @@ outline: deep
 - [频道设置](./channel-settings)：如何设置推送渠道，包括 Email、Telegram、Discord、Line、Twitter、RSS 等。
 - [收益化设置](./monetization-settings)：包括设置收费订阅、广告等。
   - [准备收款](./payout-settings)：在 Quaily 上赚取收益的准备工作。
-  - [付款设置](./payment-settings)：如何设置付费订阅的支付方式。
+  - [付款设置](./payment-settings)：如何设置付费订阅的支付方式，包括加密货币选项。
   - [广告设置](./ads-settings)：如何设置并通过广告赚取收益。
 
 ## 工具
