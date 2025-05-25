@@ -40,3 +40,5 @@ features:
     title: Advanced Creator Tools
     details: Utilize markdown extensions, invite collaborators, offer Atom feeds, and understand your audience with analytics.
 ---
+
+# Quaily Documentation
