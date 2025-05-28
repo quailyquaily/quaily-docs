@@ -29,6 +29,34 @@ POST /subscriptions/:list_id/members/:user_id/transfer?dst_list_id=:dst_list_id
 }
 ```
 
+## Delete Member
+
+```prolog
+DELETE /subscriptions/:list_id/members/:user_id
+```
+
+### Authorization Required
+
+| OAuth | APIKey |
+| ----- | ------ |
+| No    | Yes    |
+
+### Parameters
+
+| Parameter | Type   | Description        |
+| --------- | ------ | ------------------ |
+| `list_id` | uint64 | The ID of the list |
+| `user_id` | uint64 | The ID of the user |
+
+### Response
+
+```json
+{
+  "data": 1,
+  "ts": 1723923923
+}
+```
+
 ## Update Email Sending Settings
 
 ```prolog
@@ -55,34 +83,6 @@ PUT /subscriptions/:list_id/members/:user_id/email
   "enabled": true // true or false
 }
 ```
-
-### Response
-
-```json
-{
-  "data": 1,
-  "ts": 1723923923
-}
-```
-
-## Delete Member
-
-```prolog
-DELETE /subscriptions/:list_id/members/:user_id
-```
-
-### Authorization Required
-
-| OAuth | APIKey |
-| ----- | ------ |
-| No    | Yes    |
-
-### Parameters
-
-| Parameter | Type   | Description        |
-| --------- | ------ | ------------------ |
-| `list_id` | uint64 | The ID of the list |
-| `user_id` | uint64 | The ID of the user |
 
 ### Response
 
@@ -123,15 +123,15 @@ This API will list all the subscriptions owned by the same channel owner of give
 }
 ```
 
-## Add Member
+## \*Add Member
 
 ```prolog
 POST /auxilia/subscriptions/:list_id/members/add
 ```
 
-### Authorization Required
-
 _This API is only available to the Quaily+ plan users_
+
+### Authorization Required
 
 | OAuth | APIKey |
 | ----- | ------ |
