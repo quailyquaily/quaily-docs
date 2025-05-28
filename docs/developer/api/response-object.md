@@ -120,3 +120,20 @@
   "list": null,
 }
 ```
+
+## Subscription Object
+
+```json
+{
+  "id": 1,
+  "user_id": 1,
+  "list_id": 1,
+  "type": "silver",
+  "paid_expiry": "2027-10-18T10:17:57.781+09:00",
+  "email_enabled": true,
+  "created_at": "2025-05-06T09:58:42.808272+09:00",
+  "updated_at": "2025-05-19T00:53:05.871174+09:00",
+  "user": null,
+  "list": CHANNEL_OBJECT
+}
+```

@@ -93,6 +93,36 @@ DELETE /subscriptions/:list_id/members/:user_id
 }
 ```
 
+## List Member Subscriptions
+
+```prolog
+GET /subscriptions/:list_id/members/:user_id/subs
+```
+
+This API will list all the subscriptions owned by the same channel owner of given member id
+
+### Authorization Required
+
+| OAuth | APIKey |
+| ----- | ------ |
+| No    | Yes    |
+
+### Parameters
+
+| Parameter | Type   | Description        |
+| --------- | ------ | ------------------ |
+| `list_id` | uint64 | The ID of the list |
+| `user_id` | uint64 | The ID of the user |
+
+### Response
+
+```json
+{
+  "data": [ SUBSCRIPTION_OBJECT ... ],
+  "ts": 1723923923
+}
+```
+
 ## Add Member
 
 ```prolog
