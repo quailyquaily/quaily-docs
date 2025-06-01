@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Quaily 的 Markdown 语法。
 ---
 
 # Markdown 文法

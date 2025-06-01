@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: 收款设置。设置收款方式。
 ---
 
 # 收款设置

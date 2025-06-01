@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: 由 AI 驱动的 Quaily 功能
 ---
 
 # AI 功能

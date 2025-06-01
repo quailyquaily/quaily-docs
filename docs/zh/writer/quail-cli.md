@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Quaily CLI 是一个用于与 Quaily 进行交互的命令行界面（CLI）工具，旨在简化和自动化用户认证、管理帖子以及获取用户详情等操作。
 ---
 
 # Quaily CLI

@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: 准备收款。在 Quaily 上赚取收益之前，需要完成以下准备工作。
 ---
 
 # 准备收款

@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: 域名设置。设置自定义域名。
 ---
 
 # 域名设置

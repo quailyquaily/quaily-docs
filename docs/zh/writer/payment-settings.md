@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: 付款设置。设置付款方式。
 ---
 
 # 付款设置

@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: 收费订阅。设置收费订阅和广告。
 ---
 
 # 收费订阅

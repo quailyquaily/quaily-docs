@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: 在 Obsidian 中使用 Quaily 的插件。
 ---
 
 # Obsidian 插件

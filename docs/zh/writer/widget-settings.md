@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Widget 设置。设置 Widget 的布局、样式和其他设置。
 ---
 
 # Widget 设置
