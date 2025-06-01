@@ -1,4 +1,5 @@
 ---
+description: The online editor of Quaily
 outline: deep
 ---
 

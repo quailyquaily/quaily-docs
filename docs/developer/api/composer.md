@@ -1,3 +1,7 @@
+---
+description: The API for generating metadata by Quaily AI
+---
+
 # Composer API
 
 ## Generate Metadata

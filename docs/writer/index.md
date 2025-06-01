@@ -1,4 +1,5 @@
 ---
+description: The writer manual for Quaily
 outline: deep
 ---
 

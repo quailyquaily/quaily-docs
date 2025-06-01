@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: The widget settings for Quaily
 ---
 
 # Widget Settings

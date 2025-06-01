@@ -1,3 +1,7 @@
+---
+description: The response object for the API
+---
+
 # Response Object
 
 ## User Object

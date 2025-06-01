@@ -1,4 +1,5 @@
 ---
+description: Prepare to earn revenue on Quaily
 outline: deep
 ---
 

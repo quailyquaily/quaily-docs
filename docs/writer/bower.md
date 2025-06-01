@@ -1,4 +1,5 @@
 ---
+description: The Bower feature of Quaily
 outline: deep
 ---
 

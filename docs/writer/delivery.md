@@ -1,18 +1,19 @@
 ---
+description: The sending feature of Quaily
 outline: deep
 ---
 
-# Post Delivery
+# Post Sending
 
 After writing an article on Quaily, you can deliver it to your readers. Quaily provides multiple delivery channels, including Email, Telegram, Discord, Line, Twitter, and RSS.
 
 ![](https://static.quaily.com/media/1gku5k35.webp)
 
-## Delivery Channel Settings
+## Sending Settings
 
 Please refer to the document [Sending Settings](./channel-settings).
 
-## Deliver an Article
+## Send an Article
 
 On the article editing page, click the "Deliver" button in the menu to display the delivery dialog. Click the "Deliver" button to deliver the article to your readers.
 

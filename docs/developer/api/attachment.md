@@ -1,3 +1,7 @@
+---
+description: The API for uploading attachments to Quaily
+---
+
 # Attachment API
 
 ## Upload Attachment

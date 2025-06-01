@@ -2,6 +2,9 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+title: Quaily Documentation
+description: Quaily is a modern, AI powered newsletter service. This documentation is for both Quaily users and Quaily developers.
+
 hero:
   name: Quaily
   text: A modern, AI powered newsletter service
@@ -41,4 +44,3 @@ features:
     details: Utilize markdown extensions, invite collaborators, offer Atom feeds, and understand your audience with analytics.
 ---
 
-# Quaily Documentation

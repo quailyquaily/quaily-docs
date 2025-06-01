@@ -1,4 +1,5 @@
 ---
+description: The analytics settings for a Quaily channel
 outline: deep
 ---
 

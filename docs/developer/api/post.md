@@ -1,3 +1,7 @@
+---
+description: The API for managing posts of a Quaily channel
+---
+
 # Post API
 
 ## Get Post List

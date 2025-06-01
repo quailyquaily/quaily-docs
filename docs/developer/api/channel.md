@@ -1,3 +1,7 @@
+---
+description: The API for managing channels of a Quaily account
+---
+
 # Channel API
 
 ## Get Channel Information

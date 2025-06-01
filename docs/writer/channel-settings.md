@@ -1,4 +1,5 @@
 ---
+description: The sending settings for a Quaily channel
 outline: deep
 ---
 

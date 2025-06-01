@@ -2,6 +2,9 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+title: Quaily 文档
+description: Quaily 是一个现代的、由人工智能驱动的通讯服务。这个文档适用于 Quaily 用户和 Quaily 开发者。
+
 hero:
   name: "Quaily 文档"
   text: "一个现代的、由人工智能驱动的通讯服务"
@@ -37,5 +40,3 @@ features:
     title: 高级创作者工具
     details: 利用 Markdown 扩展，邀请合作者，提供 Atom feed，并通过分析了解你的受众。
 ---
-
-# Quaily 文档

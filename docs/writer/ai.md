@@ -1,4 +1,5 @@
 ---
+description: The AI features for Quaily
 outline: deep
 ---
 

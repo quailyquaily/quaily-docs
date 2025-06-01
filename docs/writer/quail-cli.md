@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: The Quaily CLI for interacting with Quaily
 ---
 
 # Quail CLI

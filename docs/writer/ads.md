@@ -1,4 +1,5 @@
 ---
+description: The ads settings for a Quaily channel
 outline: deep
 ---
 

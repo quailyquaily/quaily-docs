@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: The payment settings for a Quaily channel
 ---
 
 # Payment Settings

@@ -1,3 +1,7 @@
+---
+description: The API for managing subscriptions of a Quaily channel
+---
+
 # Subscription API
 
 ## Transfer Members

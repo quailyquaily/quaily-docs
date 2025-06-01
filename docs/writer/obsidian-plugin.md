@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: The Obsidian plugin for Quaily
 ---
 
 # Obsidian Plugin

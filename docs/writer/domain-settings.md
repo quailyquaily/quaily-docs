@@ -1,4 +1,5 @@
 ---
+description: The domain settings for a Quaily channel. Set your custom domain to your channel.
 outline: deep
 ---
 

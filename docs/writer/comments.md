@@ -1,4 +1,5 @@
 ---
+description: The comments feature of Quaily
 outline: deep
 ---
 

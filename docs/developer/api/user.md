@@ -1,3 +1,7 @@
+---
+description: The API for managing users
+---
+
 # User API
 
 ## Get Me

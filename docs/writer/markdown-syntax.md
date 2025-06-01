@@ -1,4 +1,5 @@
 ---
+description: The markdown syntax for Quaily
 outline: deep
 ---
 

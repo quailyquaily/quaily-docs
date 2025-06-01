@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: The premium subscription feature of Quaily
 ---
 
 # Premium Subscription
