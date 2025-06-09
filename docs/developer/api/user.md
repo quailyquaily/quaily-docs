@@ -52,10 +52,16 @@ GET API_BASE/users/:user_id
 GET API_BASE/users/query
 ```
 
+### Authorization Required
+
+| OAuth | APIKey |
+| ----- | ------ |
+| Yes   | Yes    |
+
 ### Query Parameters
 
-| Parameter | Type | Description        |
-| --------- | ---- | ------------------ |
+| Parameter | Type   | Description           |
+| --------- | ------ | --------------------- |
 | `email`   | string | The email of the user |
 
 ### Response
