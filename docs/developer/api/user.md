@@ -45,3 +45,24 @@ GET API_BASE/users/:user_id
   "ts": 1723923923
 }
 ```
+
+## Query Users
+
+```prolog
+GET API_BASE/users/query
+```
+
+### Query Parameters
+
+| Parameter | Type | Description        |
+| --------- | ---- | ------------------ |
+| `email`   | string | The email of the user |
+
+### Response
+
+```json
+{
+  "data": [UserObject],
+  "ts": 1723923923
+}
+```
