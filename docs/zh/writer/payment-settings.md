@@ -51,9 +51,15 @@ API Key 和 Webhook 签名密钥可以在 Stripe 的开发者设置中找到，�
 
 ![](/images/screenshots/create-stripe-api-key-01.webp)
 
-给予这个 Key 一个名称，然后选择 Checkout 相关的权限，选择「Write」，然后点击「Create Key」。
+给予这个 Key 一个名称，找到选择 Checkout 相关的权限，选择「Write」：
 
-![](/images/screenshots/create-stripe-api-key-02.webp)
+
+![](/images/screenshots/create-stripe-api-key-02_1.webp)
+
+
+找到 Webhooks 相关的权限，选择「Read」，然后点击「Create Key」。
+
+![](/images/screenshots/create-stripe-api-key-02_2.webp)
 
 然后，将这个 Key 复制到 Quaily 的 Stripe API Key 中。
 
@@ -65,7 +71,14 @@ API Key 和 Webhook 签名密钥可以在 Stripe 的开发者设置中找到，�
 
 ![](/images/screenshots/create-stripe-webhook-01.webp)
 
-在 Endpoint URL 中填入 Quaily 提供的 Webhook URL，选择最新的 API 版本，并且选择监听所需的 Checkout 事件，然后点击「Add endpoint」。
+在 Endpoint URL 中填入 Quaily 提供的 Webhook URL，选择最新的 API 版本，并且选择监听所需的 Checkout 事件：
+
+- `payment_intent.succeeded`
+- `checkout.session.completed`
+- `checkout.session.async_payment_failed`
+- `checkout.session.async_payment_succeeded`
+
+然后点击「Add endpoint」。
 
 ![](/images/screenshots/create-stripe-webhook-02.webp)
 

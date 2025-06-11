@@ -53,9 +53,13 @@ Open the [Stripe API Key page](https://dashboard.stripe.com/apikeys) and create 
 
 ![](/images/screenshots/create-stripe-api-key-01.webp)
 
-Give this Key a name, then select the permissions related to Checkout, choose "Write", and click "Create Key".
+Give this Key a name, then find the permissions related to Checkout Session, choose "Write":
 
-![](/images/screenshots/create-stripe-api-key-02.webp)
+![](/images/screenshots/create-stripe-api-key-02_1.webp)
+
+Find the permissions related to Webhooks, choose "Read", and click "Create Key":
+
+![](/images/screenshots/create-stripe-api-key-02_2.webp)
 
 Then, copy this Key to Quaily's Stripe API Key.
 
@@ -67,7 +71,14 @@ Open the [Stripe Webhook page](https://dashboard.stripe.com/webhooks) and click 
 
 ![](/images/screenshots/create-stripe-webhook-01.webp)
 
-Fill the `Endpoint URL` with The Webhook URL provided by Quaily, select the latest API version, and choose to listen for the required Checkout events, then click "Add endpoint".
+Fill the `Endpoint URL` with The Webhook URL provided by Quaily, select the latest API version, and choose to listen for the required Checkout events:
+
+- `payment_intent.succeeded`
+- `checkout.session.completed`
+- `checkout.session.async_payment_failed`
+- `checkout.session.async_payment_succeeded`
+
+Click "Add endpoint":
 
 ![](/images/screenshots/create-stripe-webhook-02.webp)
 
