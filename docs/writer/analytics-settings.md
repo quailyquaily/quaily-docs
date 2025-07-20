@@ -27,10 +27,20 @@ Umami is an open source, privacy-focused alternative to Google Analytics.
 
 You can sign up for an account on [Umami.is](https://umami.is/), and then enter Umami's `Website ID` in the `Umami ID` text box.
 
-**Self-hosted Umami**
+#### Self-hosted Umami
 
 If you are using a self-hosted version of Umami, you can enter the address of your self-hosted Umami instance in the `Umami Base` text box.
 
 ### Google Analytics
 
 Google Analytics is a popular analytics service. Similar to Umami, you need to sign up for an account on [Google Analytics](https://analytics.google.com/), and then enter the `Measurement ID` in the `Google Analytics ID` text box.
+
+#### Events
+
+If Google Analytics is enabled, Quaily will send the following events to Google Analytics:
+
+- `sign_up`: when a user signs up for email subscription.
+- `begin_checkout`: when a user begins the checkout process.
+- `purchase`: when a user completes the purchase.
+
+They are recommended to be used in the [Google Analytics 4](https://support.google.com/analytics/answer/9267735?hl=en "Google Analytics 4 Events").
