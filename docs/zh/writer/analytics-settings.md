@@ -36,3 +36,13 @@ Umami 是一个开源的，注重隐私的 Google Analytics 替代品。
 ### Google Analytics
 
 Google Analytics 是一项流行的分析服务。与 Umami 类似，您需要在 [Google Analytics](https://analytics.google.com/) 上注册帐户，然后在 `Google Analytics ID` 文本框中输入 `Measurement ID`。
+
+#### 事件
+
+如果启用了 Google Analytics，Quaily 将向 Google Analytics 发送以下事件：
+
+- `sign_up`: 当用户注册电子邮件订阅时。
+- `begin_checkout`: 当用户开始结账流程时。
+- `purchase`: 当用户完成购买时。
+
+它们建议在 [Google Analytics 4](https://support.google.com/analytics/answer/9267735?hl=en "Google Analytics 4 Events") 中使用。
