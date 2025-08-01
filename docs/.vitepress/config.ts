@@ -2,7 +2,6 @@ import { defineConfig } from 'vitepress'
 import { t } from "../lang/messages"
 
 const genNav = () => {
-  // @TODO: support multi-language
   let ret:any = [];
   for (const lang of ['en']) {
     const prefix = lang === 'en' ? '' : '/' + lang;
