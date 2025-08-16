@@ -100,8 +100,33 @@ Please read the following posts to set up your cryptocurrency wallet:
 - [Base Chain Setup](https://quaily.com/blog/p/how-to-enable-base-blockchain-payment-with-your-newsletter-by-quail)
 - [Binance Smart Chain Setup](https://quaily.com/blog/p/how-to-empower-your-newsletter-with-bsc-blockchain-payments)
 
-## Referral Program
+### Referral Program
 
 To better promote your premium subscription, you can set up a referral program to reward your subscribers for inviting their friends to subscribe.
 
 Please read [this weekly post](https://quaily.com/blog/p/quail-weekly-40) to set up your referral program.
+
+## Guide: Add a Custom Payment Token
+
+Creators can request a custom token so readers can pay (and you can settle) in that token on a specific chain.
+
+### What’s supported
+
+Ethereum (ETH), BSC, Base, Solana only.
+
+### Requirements
+
+- **On-chain liquidity:** The token must have sufficient, verifiable liquidity on a mainstream DEX on the same chain so readers can easily acquire it and pricing is reliable.
+- **Information to provide:**
+  - **Contract address**
+  - **Name**
+  - **Symbol**
+  - **Logo** (**128×128 px**, square canvas with a circular mark inside; transparent background recommended)
+
+### Fee
+
+USD \$1,999 one-time per token (tax not included).
+
+### How to request
+
+Fill out [this Google Form](https://forms.gle/yGpn3NriJV9C6s4B9). We’ll review the contract, verify liquidity, and follow up to complete onboarding.

@@ -100,8 +100,33 @@ Quaily 支持以太坊、Base 和币安智能链三种区块链的加密货币�
 - [Base 链设置](https://quaily.com/quail-zh/p/how-to-enable-base-blockchain-payment-for-newsletter)
 - [币安智能链设置](https://quaily.com/quail-zh/p/how-to-enable-bsc-blockchain-payment-for-your-newsletter)
 
-## 推荐反佣计划
+### 推荐反佣计划
 
 为了更好地推广您的付费订阅，您可以设置一个推荐反佣计划，以奖励您的订阅者邀请他们的朋友订阅。
 
 请阅读 [这篇周报](https://quaily.com/quail-zh/p/quail-weekly-40) 来设置您的推荐反佣计划。
+
+## 添加自定义支付代币指南
+
+创作者可以申请自定义代币，以便读者可以在特定链上使用该代币支付（也可以使用该代币结算）。
+
+### 支持哪些代币
+
+仅限以太坊 (ETH)、BSC、Base、Solana。
+
+### 要求
+
+- **链上流动性**：代币必须在同一链上的主流 DEX 上拥有充足的、可验证的流动性，以便确认可靠价格。
+- **需提供的信息**
+  - **合约地址**
+  - **名称**
+  - **符号**
+  - **Logo**（**128×128 像素**，方形画布，内部带有圆形标记；建议使用透明背景）
+
+### 费用
+
+每个代币一次性支付 1,999 美元（不含税）。
+
+### 提交流程
+
+[填写这份表单](https://forms.gle/yGpn3NriJV9C6s4B9)。我们会进行合规与技术校验（包括合约有效性、流动性可验证性、展示素材规范等），通过后将与你确认细节与收费事宜。
