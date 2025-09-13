@@ -38,6 +38,21 @@ Quaily 支持将文章推送到不同的渠道。本文档将指导完成设置�
 
 请以半角逗号分隔多个邮件提供商，例如：设置 `qq.com, 163.com, soho.com`，将会拒绝来自 `@qq.com`、`@163.com` 和 `@soho.com` 邮件地址订阅。
 
-## Discord / Telegram / Line
+## 推送到其他社交/社群媒体
 
-Quaily 支持连接 Discord、Telegram 和 Line。请阅读 [《📣 不仅仅是邮件——用 Discord、Telegram、LINE 连接你的社区》](https://quaily.com/quail-zh/p/beyond-email-connect-your-community-with-discord-telegram-line "不仅仅是邮件——用 Discord、Telegram、LINE 连接你的社区") 来了解如何设置 Discord、Telegram 和 Line 与 Quaily 的连接。
+Quaily 支持推送的社交/社群媒体：
+
+| 名称 | 说明 |
+| ------- | ----------- |
+| Discord | Quaily 支持把文章推送到 Discord 服务器中的指定频道 |
+| Telegram | Quaily 支持把文章推送到 Telegram 频道 |
+| LINE | Quaily 支持把文章推送到 Line Biz 频道 |
+| Slack | Quaily 支持把文章推送到 Slack 工作区中的指定频道 |
+| X | Quaily 支持以指定 X（前 Twitter）账号的名义发送文章到 X |
+| Bluesky | Quaily 支持以指定 Bluesky 账号的名义发送文章到 Bluesky |
+
+配置方式：
+
+- [📣 不仅仅是邮件——用 Discord、Telegram、LINE 连接你的社区](https://quaily.com/quail-zh/p/beyond-email-connect-your-community-with-discord-telegram-line "不仅仅是邮件——用 Discord、Telegram、LINE 连接你的社区")
+- [📣 不仅仅是邮件 —— 把 Newsletter 也发送到 Slack](https://quaily.com/quail-zh/p/not-just-email-send-newsletter-to-slack)
+- [📣 不仅仅是邮件 —— 把 Newsletter 也发送到 X 和 Bluesky](https://quaily.com/quail-zh/p/not-just-email-send-newsletter-to-x-and-bluesky)

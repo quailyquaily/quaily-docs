@@ -37,6 +37,21 @@ Some authors don't want their content to be subscribed by addresses provided by 
 
 Please split multiple domains with commas, for example: set `qq.com, 163.com, soho.com`, it will reject emails from `@qq.com`, `@163.com` and `@soho. com` email address to subscribe.
 
-## Discord / Telegram / LINE
+## Send Posts to Other Social/Community
 
-Quaily support to connect to Discord, Telegram, LINE. Please read [📣 Connecting Quaily with Discord, Telegram, and LINE](https://quaily.com/blog/p/beyond-email-connect-your-community-with-discord-telegram-line) to learn how to set up Discord, Telegram and LINE with Quaily.
+Quaily supports sending to the following social/community media:
+
+| Name     | Description                                |
+| -------  | -------------------------------------------------------- |
+| Discord  | Quaily supports sending posts to a specified channel in a Discord server |
+| Telegram | Quaily supports sending posts to a Telegram channel      |
+| LINE     | Quaily supports sending posts to a Line Biz channel      |
+| Slack    | Quaily supports sending posts to a specified channel in a Slack workspace |
+| X        | Quaily supports sending posts to X (formerly Twitter) on behalf of a specified X account |
+| Bluesky  | Quaily supports sending posts to Bluesky on behalf of a specified Bluesky account |
+
+How to configure:
+
+- [📣 More than just email — send Newsletter to Slack too](https://quaily.com/blog/p/not-just-email-send-newsletter-to-slack)
+- [📣 More than just email — send Newsletters to X and Bluesky too!](https://quaily.com/blog/p/not-just-email-send-newsletter-to-x-and-bluesky)
+- [📣 More than just email — Send Newsletter to Discord, Telegram, and LINE too!](https://quaily.com/blog/p/beyond-email-connect-your-community-with-discord-telegram-line)
