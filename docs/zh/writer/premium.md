@@ -59,6 +59,12 @@ Quaily 支持基于区块链的支付方式。
 
 完成绑定加密货币钱包后，需要在[付款设置](./payment-settings.md) 中，设置商品的加密货币价格。
 
+请阅读以下文章设置您的加密货币钱包：
+
+- [以太坊设置](https://quaily.com/quail-zh/p/how-to-enable-eth-blockchain-payment-for-newsletter)
+- [Base 链设置](https://quaily.com/quail-zh/p/how-to-enable-base-blockchain-payment-for-newsletter)
+- [币安智能链设置](https://quaily.com/quail-zh/p/how-to-enable-bsc-blockchain-payment-for-your-newsletter)
+
 :::tip
 商品的法定货币价格与加密货币价格可以同时设置，也可以只设置其中一种。互相独立。
 :::

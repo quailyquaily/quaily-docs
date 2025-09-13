@@ -59,6 +59,13 @@ Among them, Ethereum Mainnet, Binance Smart Chain Mainnet, and Base Mainnet supp
 
 After binding the cryptocurrency wallet, you need to set the cryptocurrency price of the product in [Payment Settings](./payment-settings.md).
 
+Please read the following posts to set up your cryptocurrency wallet:
+
+- [💰 How to Enable ETH Blockchain Payment with Your Newsletter by Quaily](https://quaily.com/blog/p/how-to-enable-eth-blockchain-payment-with-your-newsletter-by-quail)
+- [💰 How to Enable Base Blockchain Payment with Your Newsletter by Quaily](https://quaily.com/blog/p/how-to-enable-base-blockchain-payment-with-your-newsletter-by-quail)
+- [💰 How to empower Your Newsletter with BSC Blockchain Payments](https://quaily.com/blog/p/how-to-empower-your-newsletter-with-bsc-blockchain-payments)
+- [🪙 Quaily now supports Solana: Subscribe with SOL, USDT or USDC](https://quaily.com/blog/p/quaily-supports-solana-subscribe-content)
+
 :::tip
 Writer can set both fiat currency prices and cryptocurrency prices for the subscription, or only one of them. They are independent of each other.
 :::
