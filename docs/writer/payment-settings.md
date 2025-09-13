@@ -5,6 +5,8 @@ description: The payment settings for a Quaily channel
 
 # Payment Settings
 
+> **Payment** refers to the method by which readers pay subscription fees to authors.
+
 ## Preparation
 
 ### Set Up Payout
@@ -15,7 +17,7 @@ Before setting up payment, please refer to [Payout Settings](./payout-settings.m
 
 Provide merchant information in Quaily, including company name, company address, company number, etc.
 
-## Payment
+## Stripe Payment
 
 In the list's [Payment Settings](https://quaily.com/dashboard/lists/@current/settings/payment), authors can enable payment to receive payments from subscribers.
 
@@ -25,7 +27,7 @@ In the list's [Payment Settings](https://quaily.com/dashboard/lists/@current/set
 
 Quaily supports annual, quarterly, and bi-weekly payment cycles, with the unit in USD. Authors can set their prices separately or turn off one of the cycles.
 
-## Self-Hosted Payment
+## Self-Hosted Stripe Payment
 
 If the author has their Stripe account, they can choose to host payments themselves.
 
@@ -96,9 +98,10 @@ Quaily support 3 types of blockchain for cryptocurrency payment: Ethereum, Base 
 
 Please read the following posts to set up your cryptocurrency wallet:
 
-- [Ethereum Setup](https://quaily.com/blog/p/how-to-enable-eth-blockchain-payment-with-your-newsletter-by-quail)
-- [Base Chain Setup](https://quaily.com/blog/p/how-to-enable-base-blockchain-payment-with-your-newsletter-by-quail)
-- [Binance Smart Chain Setup](https://quaily.com/blog/p/how-to-empower-your-newsletter-with-bsc-blockchain-payments)
+- [💰 How to Enable ETH Blockchain Payment with Your Newsletter by Quaily](https://quaily.com/blog/p/how-to-enable-eth-blockchain-payment-with-your-newsletter-by-quail)
+- [💰 How to Enable Base Blockchain Payment with Your Newsletter by Quaily](https://quaily.com/blog/p/how-to-enable-base-blockchain-payment-with-your-newsletter-by-quail)
+- [💰 How to empower Your Newsletter with BSC Blockchain Payments](https://quaily.com/blog/p/how-to-empower-your-newsletter-with-bsc-blockchain-payments)
+- [🪙 Quaily now supports Solana: Subscribe with SOL, USDT or USDC](https://quaily.com/blog/p/quaily-supports-solana-subscribe-content)
 
 ### Referral Program
 

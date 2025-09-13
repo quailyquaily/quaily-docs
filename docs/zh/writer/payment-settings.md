@@ -5,6 +5,8 @@ description: 付款设置。设置付款方式。
 
 # 付款设置
 
+> **付款**指的是读者向作者支付订阅费用的方式。
+
 ## 准备工作
 
 ### 设置提现
@@ -15,7 +17,7 @@ description: 付款设置。设置付款方式。
 
 在 Quaily 中补充公司信息，包括公司名称、公司地址、公司编号等。
 
-## 付款
+## Stripe 付款
 
 在列表的 [付款设置](https://quaily.com/dashboard/lists/@current/settings/payment) 中，作者可以启用付款以接收来自订阅者的付款。
 
@@ -25,7 +27,7 @@ description: 付款设置。设置付款方式。
 
 Quaily 支持按年、按季度两周付费周期，单位为美元。作者可以分别设置他们的价格，也可以关闭其中一个周期。
 
-## 作者自行托管的付款
+## 作者自行托管的 Stripe 付款
 
 如果作者拥有自己的 Stripe 帐号，可以选择自行托管付款。在这种情况下，作者需要设置他们的 Stripe 帐号信息。关于本模式的介绍，请参考 [收费订阅 - 作者自行托管的支付](./premium.md)。
 
@@ -90,7 +92,7 @@ API Key 和 Webhook 签名密钥可以在 Stripe 的开发者设置中找到，�
 
 ![](/images/screenshots/create-stripe-webhook-04.webp)
 
-## 使用加密货币付款
+## 加密货币付款
 
 Quaily 支持以太坊、Base 和币安智能链三种区块链的加密货币支付。
 

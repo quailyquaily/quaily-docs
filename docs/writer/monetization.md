@@ -51,7 +51,7 @@ When Quaily transfers funds to authors, the following fees may be incurred:
 
 For Quaily-hosted payment mode subscription and ad revenue, Quaily will settle the previous month's earnings on the 5th of each month.
 
-### Payout Threshold
+### Threshold
 
 The minimum amount required for Quaily to transfer funds to the author is 5000 JPY(For regular payment methods) or 100 USD (For cryptocurrency). If your earnings do not reach the minimum amount, Quaily will continue to accumulate them until the next settlement period until the minimum amount is reached.
 
@@ -61,7 +61,14 @@ Quaily will settle the author's earnings on the 5th of each month. If the 5th fa
 
 For example, if the author's earnings reach the minimum amount on January 10th, the author will receive the payment on February 5th.
 
-### Example
+### Cryptocurrency Payout
+
+Due to the inherent nature of blockchain:
+
+1. When users pay with cryptocurrency, the funds will be credited after confirmation on the blockchain.
+2. Quaily does not exchange the paid cryptocurrency; authors will receive the paid cryptocurrency directly.
+
+## Example
 
 Here is an example of how Quaily calculates and pays out earnings (Assuming the author is a Japanese resident and Stripe does not charge additional fees):
 

@@ -4,6 +4,8 @@ outline: deep
 
 # Payout Settings
 
+> **Payout** refers to the method by which Quaily pays authors their earnings.
+
 Before earning revenue on [Quaily](https://quaily.com), you need to provide tax information and set up a payout method in [Payout](https://quaily.com/dashboard/profile/payout).
 
 ## Provide Tax Information
@@ -28,14 +30,16 @@ Payout method refers to the method Quaily uses to pay authors their earnings. In
 1. Stripe Connect Transfer: Only available to Japanese residents, requires setting up a Stripe Connect account in Quaily and passing Stripe Connect's real-name authentication.
 2. PayPal: Supports PayPal accounts worldwide, PayPal charges a certain fee and currency conversion fee.
 3. Wise: Supports Wise accounts worldwide, Wise charges a certain fee and currency conversion fee.
-4. Cryptocurrency: Supports cryptocurrency payments on three blockchains: Ethereum, Base, and Binance Smart Chain, the blockchain will charge a certain fee.
+4. Cryptocurrency: Supports cryptocurrency payments on three blockchains: Ethereum, Base, Binance Smart Chain, and Solana. the blockchain will charge a certain fee for transactions.
 
 When setting up the payout method, please ensure that your account information is accurate to avoid payout failures.
 
 Quaily will transfer funds based on your primary payout method. If the primary payout method fails, Quaily will attempt to transfer funds using the secondary payout method.
 
-:::warning
-Please note that Quaily will only transfer funds by blockchain to the author when the author's earnings in cryptocurrency
+::: tip
+Especially due to the inherent nature of blockchain:
+1. When users pay with cryptocurrency, the funds will be credited after confirmation on the blockchain.
+2. Quaily does not exchange the paid cryptocurrency; authors will receive the paid cryptocurrency directly.
 :::
 
 ### Payout History
