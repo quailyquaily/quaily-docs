@@ -5,7 +5,7 @@ description: The Obsidian plugin for Quaily
 
 # Obsidian Plugin
 
-**[Quaily](https://quaily.com "Quaily Official Website")** provides an [Obsidian](https://obsidian.md/) plugin that allows you to use Quaily's publishing, unpublishing, and sending newsletters or blog posts within Obsidian. 
+**[Quaily](https://quaily.com "Quaily Official Website")** provides an [Obsidian](https://obsidian.md/) plugin that allows you to use Quaily's publishing, unpublishing, and sending newsletters or blog posts within Obsidian.
 
 Combined with Obsidian's powerful Markdown editing capabilities, Quaily's Obsidian plugin can help you better manage your posts.
 
@@ -111,7 +111,7 @@ If you log in to Quaily at this point, you will be able to see the post you just
 You can preview your post before publishing it.
 
 1. Use command "Quaily: Preview", then press Enter.
-2. Wait a moment, and Quaily popup a preview window, in which you can see the a QRCode and a preview button. 
+2. Wait a moment, and Quaily popup a preview window, in which you can see the a QRCode and a preview button.
    - By scanning the QRCode with your phone, you can preview the post on your phone.
    - By clicking the preview button, you can preview the post in your browser.
 
@@ -169,10 +169,10 @@ Here, "essay," "images," and "posts" are folders, "image-1.png" and "image-2.png
 If you want to insert the image "image-1.png" into "test," you need to use the following syntax:
 
 ```markdown
-![image-1](/essay/images/image-1.png)
+![image-1](essay/images/image-1.png)
 ```
 
-Note that "/essay/images/image-1.png" is an absolute path (starting from the top-level folder), not a relative path. If you use a relative path, Quaily's Obsidian plugin will not be able to locate the image file.
+Note that "essay/images/image-1.png" is an absolute path (starting from the top-level folder), not a relative path. If you use a relative path, Quaily's Obsidian plugin will not be able to locate the image file.
 
 ---
 

@@ -165,10 +165,10 @@ Quaily 的 Obsidian 插件允许你设置一个默认频道，这样，当你使
 如果希望在 test 中插入图片 image-1.png，需要使用以下经典语法：
 
 ```markdown
-![image-1](/essay/images/image-1.png)
+![image-1](essay/images/image-1.png)
 ```
 
-请注意，这里的 `/essay/images/image-1.png` 是绝对定位路径（即从最上层的文件夹开始），而不是相对定位路径。如果使用相对定位路径，Quaily 的 Obsidian 插件将无法找到图片文件。
+请注意，这里的 `essay/images/image-1.png` 是绝对定位路径（即从最上层的文件夹开始），而不是相对定位路径。如果使用相对定位路径，Quaily 的 Obsidian 插件将无法找到图片文件。
 
 ---
 
