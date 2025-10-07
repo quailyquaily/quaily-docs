@@ -53,7 +53,9 @@ For Quaily-hosted payment mode subscription and ad revenue, Quaily will settle t
 
 ### Threshold
 
-The minimum amount required for Quaily to transfer funds to the author is 5000 JPY(For regular payment methods) or 100 USD (For cryptocurrency). If your earnings do not reach the minimum amount, Quaily will continue to accumulate them until the next settlement period until the minimum amount is reached.
+The minimum amount required for Quaily to transfer funds to the author is 2000 JPY(For fiat payment methods). If your earnings do not reach the minimum amount, Quaily will continue to accumulate them until the next settlement period until the minimum amount is reached.
+
+If the author wishes to settle early, please send an email to support@quaily.com using your registered email address.
 
 ### Settlement Period
 
