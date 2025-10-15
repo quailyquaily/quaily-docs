@@ -32,3 +32,9 @@ description: 推送文章
 ## 推送历史
 
 在「[推送历史](https://quaily.com/dashboard/delivery)」中，你可以查看文章的推送历史。
+
+## 纯文本邮件
+
+Quaily 会以 HTML 和纯文本两种格式发送文章。如果邮件客户端不支持 HTML 格式，会自动切换为纯文本格式。
+
+对于纯文本内容，Quaily 会直接使用文章的 Markdown 内容，不会进行任何额外的格式化。
