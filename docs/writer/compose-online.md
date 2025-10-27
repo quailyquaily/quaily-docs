@@ -29,6 +29,12 @@ Authors can upload their own article covers or use the free images provided by U
 3. Select the desired image and click the "Select" button.
 4. The image will be automatically inserted into the article, and Quaily will automatically add the image source and author information for you.
 
+The cover image may be cropped differently on different scenarios. There are 3 aspects ratios for cover images:
+
+- landscape: ratio = 217:130
+- portrait: ratio = 7:12
+- square: ratio = 1:1
+
 The article summary is a brief introduction of the article, which will be displayed in the article list and in feeds and search engines. The article tags are labels associated with the article, which will be displayed on the article detail page.
 
 Quaily provides an AI feature to extract article summaries and tags. You can click the magicward button, and Quaily will automatically extract article summaries and tags based on the article content.
