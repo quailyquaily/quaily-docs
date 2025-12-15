@@ -41,7 +41,7 @@ Before publishing, you need to generate summaries for your posts according to Qu
 
 Here are some useful commands provided by the plugin, you can use them in Obsidian's command palette.
 
-![](https://static.quail.ink/media/jo4uy0en.webp)
+![](https://static.quaily.com/media/jo4uy0en.webp)
 
 
 ### Generating Summaries and Metadata
@@ -93,7 +93,7 @@ If you log in to Quaily at this point, you will be able to see the post you just
 2. Wait a moment, and Quaily will automatically publish the post to Quaily and display the post's access URL. It's status will be changed to "Published" from "Draft", making it visible to others.
 3. Quaily will popup a dialog for the publish result, you can click on the displayed URL to view your post, or click on the "Copy" button to copy the URL to your clipboard.
 
-![](https://static.quail.ink/media/q38uky74.webp)
+![](https://static.quaily.com/media/q38uky74.webp)
 
 ### Unpublishing posts
 
@@ -115,7 +115,7 @@ You can preview your post before publishing it.
    - By scanning the QRCode with your phone, you can preview the post on your phone.
    - By clicking the preview button, you can preview the post in your browser.
 
-![](https://static.quail.ink/media/16nuk707.webp)
+![](https://static.quaily.com/media/16nuk707.webp)
 
 
 ### Set default channel
