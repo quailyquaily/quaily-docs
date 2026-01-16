@@ -14,13 +14,13 @@ GET API_BASE/lists/:channel_slug
 
 | Parameter      | Type   | Description             |
 | -------------- | ------ | ----------------------- |
-| `channel_slug` | string | The slug of the channel |
+| `channel_slug` | string | The slug or numeric ID of the channel |
 
 ### Response
 
 ```json
 {
-  "data" ChannelObject,
+  "data": ChannelObject,
   "ts": 1723923923
 }
 ```

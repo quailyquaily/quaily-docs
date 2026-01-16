@@ -75,13 +75,47 @@ const genI18nSidebar = () => {
       {
         text: 'API Reference',
         items: [
-          { text: 'Response Object', link: `/developer/api/response-object` },
-          { text: 'User', link: `/developer/api/user` },
-          { text: 'Channel', link: `/developer/api/channel` },
-          { text: 'Post', link: `/developer/api/post` },
-          { text: 'Subscription', link: `/developer/api/subscription` },
-          { text: 'Attachment', link: `/developer/api/attachment` },
-          { text: 'Composer', link: `/developer/api/composer` },
+          {
+            text: 'Basics',
+            items: [
+              { text: 'Response Object', link: `/developer/api/response-object` },
+              { text: 'Auth', link: `/developer/api/auth` },
+              { text: 'OAuth', link: `/developer/api/oauth` },
+              { text: 'APIKey', link: `/developer/api/apikey` },
+            ],
+          },
+          {
+            text: 'Core Resources',
+            items: [
+              { text: 'User', link: `/developer/api/user` },
+              { text: 'Channel', link: `/developer/api/channel` },
+              { text: 'List', link: `/developer/api/list` },
+            ],
+          },
+          {
+            text: 'Content',
+            items: [
+              { text: 'Post', link: `/developer/api/post` },
+              { text: 'Attachment', link: `/developer/api/attachment` },
+              { text: 'Composer', link: `/developer/api/composer` },
+              { text: 'Pack', link: `/developer/api/pack` },
+            ],
+          },
+          {
+            text: 'Engagement',
+            items: [
+              { text: 'Subscription', link: `/developer/api/subscription` },
+              { text: 'Comment', link: `/developer/api/comment` },
+              { text: 'Tweet', link: `/developer/api/tweet` },
+            ],
+          },
+          {
+            text: 'Insights',
+            items: [
+              { text: 'Analytics', link: `/developer/api/analytics` },
+              { text: 'Explore', link: `/developer/api/explore` },
+            ],
+          },
         ]
       },
       {

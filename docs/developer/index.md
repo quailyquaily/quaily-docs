@@ -24,7 +24,7 @@ To start building with Quaily, you'll typically follow these steps:
 Quaily's API base URL is:
 
 ```
-https://api.quail.ink
+https://api.quaily.com
 ```
 
 ## Authentication
@@ -54,12 +54,21 @@ If you prefer to start with production-ready code, Quaily provides some opensour
 Detailed information about each API endpoint:
 
 - [Response Object](./api/response-object.md): The standard response structure for all API calls.
+- [Auth](./api/auth.md): Authentication and token exchange.
+- [APIKey](./api/apikey.md): Manage API keys.
 - [User](./api/user.md): Manage user-related operations.
 - [Channel](./api/channel.md): Interact with channels and their settings.
+- [List](./api/list.md): Manage channels (lists) and list settings.
 - [Post](./api/post.md): Create, retrieve, update, and delete posts.
 - [Subscription](./api/subscription.md): Manage channel subscriptions.
 - [Attachment](./api/attachment.md): Upload and manage file attachments for posts.
 - [Composer](./api/composer.md): Leverage AI functionalities to assist with content creation.
+- [Comment](./api/comment.md): Read and manage comments.
+- [Tweet](./api/tweet.md): Read and manage tweets and replies.
+- [Pack](./api/pack.md): Manage packs of posts.
+- [Analytics](./api/analytics.md): Tracking and analytics data.
+- [Explore](./api/explore.md): Trending content discovery.
+- [OAuth](./api/oauth.md): OAuth 2.0 endpoints and tokens.
 
 ## Community & Support
 
