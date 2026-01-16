@@ -22,6 +22,8 @@ POST /attachments?encrypted=:encrypted
 | ----------- | ------- | --------------------------------------------------------------------------------------------- |
 | `encrypted` | boolean | Optional. `true`/`false` or `1`/`0`. Defaults to `false` when omitted.                          |
 
+Invalid `encrypted` values return `400 Bad Request`.
+
 ### Form Data
 
 | Parameter | Type | Description                               |
