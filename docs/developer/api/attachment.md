@@ -10,17 +10,28 @@ description: The API for uploading attachments to Quaily
 POST /attachments?encrypted=:encrypted
 ```
 
+### Authorization Required
+
+| OAuth | APIKey |
+| ----- | ------ |
+| Yes   | Yes    |
+
 ### Parameters
 
-| Parameter   | Type    | Description                       |
-| ----------- | ------- | --------------------------------- |
-| `encrypted` | boolean | Whether to encrypt the attachment |
+| Parameter   | Type    | Description                                                                                   |
+| ----------- | ------- | --------------------------------------------------------------------------------------------- |
+| `encrypted` | boolean | Optional. `true`/`false` or `1`/`0`. Defaults to `false` when omitted.                          |
 
 ### Form Data
 
-| Parameter | Type | Description        |
-| --------- | ---- | ------------------ |
-| `file`    | file | The file to upload |
+| Parameter | Type | Description                               |
+| --------- | ---- | ----------------------------------------- |
+| `file`    | file | The file to upload (multipart/form-data). |
+
+### File Limits
+
+- Max size: 5 MB.
+- Allowed extensions: `.png`, `.jpg`, `.jpeg`, `.gif`, `.webp`, `.ico`.
 
 ### Response
 
