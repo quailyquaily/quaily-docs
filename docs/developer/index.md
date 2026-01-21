@@ -56,6 +56,7 @@ Detailed information about each API endpoint:
 - [Response Object](./api/response-object.md): The standard response structure for all API calls.
 - [Auth](./api/auth.md): Authentication and token exchange.
 - [APIKey](./api/apikey.md): Manage API keys.
+- [Credit](./api/credit.md): Manage user credits and ledgers.
 - [User](./api/user.md): Manage user-related operations.
 - [Channel](./api/channel.md): Interact with channels and their settings.
 - [List](./api/list.md): Manage channels (lists) and list settings.

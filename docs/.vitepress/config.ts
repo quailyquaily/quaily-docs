@@ -116,6 +116,12 @@ const genI18nSidebar = () => {
               { text: 'Explore', link: `/developer/api/explore` },
             ],
           },
+          {
+            text: 'Commerce',
+            items: [
+              { text: 'Credit', link: `/developer/api/credit` },
+            ],
+          },
         ]
       },
       {

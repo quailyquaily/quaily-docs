@@ -280,6 +280,40 @@ Most JSON endpoints use this wrapper. Some endpoints return raw JSON (for exampl
 }
 ```
 
+## User Credit Object
+
+```json
+{
+  "id": 1,
+  "user_id": 1,
+  "balance_credit": 1000,
+  "status": 0,
+  "created_at": "2025-04-19T00:00:00Z",
+  "updated_at": "2025-04-19T00:00:00Z"
+}
+```
+
+## Credit Ledger Object
+
+```json
+{
+  "id": 1,
+  "user_id": 1,
+  "order_id": 1,
+  "action": "consume",
+  "amount_credit": 10,
+  "balance_after": 990,
+  "rate_usd_to_credit": 100,
+  "currency": "USD",
+  "source_type": "scene",
+  "source_id": "post_ai",
+  "meta": {
+    "post_id": 1
+  },
+  "created_at": "2025-04-19T00:00:00Z"
+}
+```
+
 ## Comment Object
 
 ```json

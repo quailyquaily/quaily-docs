@@ -43,7 +43,7 @@ GET API_BASE/oauth/authorize?client_id=:client_id&redirect_uri=:redirect_uri&sco
 | ----------------------- | ------ | ------------------------------------------------ |
 | `client_id`             | string | OAuth client ID.                                 |
 | `redirect_uri`          | string | Redirect URI (must match app config).            |
-| `scope`                 | string | OAuth scope (e.g. `user.public`, `post.write`).   |
+| `scope`                 | string | OAuth scope (e.g. `user.public`, `post.write`, `credit.read`). |
 | `state`                 | string | OAuth state value.                               |
 | `code_challenge`        | string | PKCE challenge.                                  |
 | `code_challenge_method` | string | `S256` or `plain` (default: `S256`).             |
@@ -66,6 +66,15 @@ GET API_BASE/oauth/authorize?client_id=:client_id&redirect_uri=:redirect_uri&sco
   "ts": 1723923923
 }
 ```
+
+## Scopes
+
+| Scope         | Description                                      |
+| ------------- | ------------------------------------------------ |
+| `user.public` | Read basic profile information for the user.     |
+| `user.full`   | Read full profile information for the user.      |
+| `post.write`  | Read and manage posts and related content.       |
+| `credit.read` | Read credit balance and credit ledger entries.   |
 
 ## Token
 
