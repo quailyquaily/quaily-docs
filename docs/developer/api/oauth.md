@@ -75,6 +75,8 @@ GET API_BASE/oauth/authorize?client_id=:client_id&redirect_uri=:redirect_uri&sco
 | `user.full`   | Read full profile information for the user.      |
 | `post.write`  | Read and manage posts and related content.       |
 | `credit.read` | Read credit balance and credit ledger entries.   |
+| `credit.full` | Read credit balance and ledger, and consume credit. |
+| `apikey.read` | Read API keys and verify API key hashes.         |
 
 ## Token
 

@@ -14,7 +14,7 @@ POST API_BASE/apikeys
 
 | OAuth | APIKey |
 | ----- | ------ |
-| Yes   | Yes    |
+| No    | No     |
 
 ### Request Body
 
@@ -45,6 +45,8 @@ GET API_BASE/apikeys
 | ----- | ------ |
 | Yes   | Yes    |
 
+OAuth scope: `apikey.read`
+
 ### Response
 
 ```json
@@ -64,7 +66,7 @@ DELETE API_BASE/apikeys/:id
 
 | OAuth | APIKey |
 | ----- | ------ |
-| Yes   | Yes    |
+| No    | No     |
 
 ### Parameters
 
@@ -77,6 +79,39 @@ DELETE API_BASE/apikeys/:id
 ```json
 {
   "data": APIKeyObject,
+  "ts": 1723923923
+}
+```
+
+## Verify API Key Hash
+
+```prolog
+POST API_BASE/apikeys/verify
+```
+
+### Authorization Required
+
+| OAuth | APIKey |
+| ----- | ------ |
+| Yes   | Yes    |
+
+OAuth scope: `apikey.read`
+
+### Request Body
+
+```json
+{
+  "hash": "sha256_hex_of_apikey"
+}
+```
+
+### Response
+
+```json
+{
+  "data": {
+    "valid": true
+  },
   "ts": 1723923923
 }
 ```

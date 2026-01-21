@@ -16,7 +16,7 @@ GET /auxilia/credits/balance
 | ----- | ------ |
 | Yes   | Yes    |
 
-OAuth scope: `credit.read`
+OAuth scope: `credit.read` or `credit.full`
 
 ### Response
 
@@ -39,7 +39,7 @@ GET /auxilia/credits/ledger?offset=:offset&limit=:limit
 | ----- | ------ |
 | Yes   | Yes    |
 
-OAuth scope: `credit.read`
+OAuth scope: `credit.read` or `credit.full`
 
 ### Parameters
 
@@ -74,7 +74,7 @@ POST /auxilia/credits/topup
 
 | OAuth | APIKey |
 | ----- | ------ |
-| No    | Yes    |
+| No    | No     |
 
 ### Request Body
 
@@ -116,14 +116,16 @@ POST /auxilia/credits/consume
 
 | OAuth | APIKey |
 | ----- | ------ |
-| No    | Yes    |
+| Yes   | Yes    |
+
+OAuth scope: `credit.full`
 
 ### Request Body
 
 ```json
 {
   "amount_credit": 10,
-  "scene_id": "post_ai",
+  "source_id": "post_ai",
   "meta": {
     "post_id": 1
   }
@@ -133,7 +135,7 @@ POST /auxilia/credits/consume
 Notes:
 
 - `amount_credit` must be positive.
-- `scene_id` is required.
+- `source_id` is required.
 
 ### Response
 
