@@ -130,11 +130,14 @@ GET API_BASE/oauth/userinfo
 
 ### Response
 
-Returns raw JSON (no wrapper):
+Returns raw JSON (no wrapper), in which `sub` is the pairwise OAuth user ID
+for the app and `uuid` is the user's global UUID. Email fields are present
+only when available.
 
 ```json
 {
   "sub": "...",
+  "uuid": "...",
   "name": "User Name",
   "picture": "https://...",
   "email": "user@example.com",
