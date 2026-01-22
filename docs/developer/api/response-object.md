@@ -20,6 +20,7 @@ Most JSON endpoints use this wrapper. Some endpoints return raw JSON (for exampl
 ```json
 {
   "id": 1,
+  "uuid": "...",
   "name": "John Wick",
   "bio": "...",
   "bio_html": "...",
@@ -43,6 +44,9 @@ Most JSON endpoints use this wrapper. Some endpoints return raw JSON (for exampl
   "created_at": "2024-04-19T04:47:14Z"
 }
 ```
+
+Email is only returned when requested by a user-level scope (for example,
+`user.full`) or when the current user fetches `/users/me`.
 
 ## Channel Object
 
