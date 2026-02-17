@@ -54,6 +54,20 @@ Please export all data from Ghost and send it to us by email.
 
 WeChat Official Account doesn't provide export functionality. Please contact us by email.
 
+## Import a Post from Internet (Credits)
+
+Besides full-platform migration, you can import a single public post from a URL in the dashboard.
+
+1. Open your post list in dashboard.
+2. Click **Import Post**.
+3. Enter the post URL and confirm the content permission notice.
+4. Submit import, then open the imported draft for editing.
+
+Credits are charged for this feature:
+
+- Cost: 10 Credits per imported post
+- If your Credits are insufficient, top up first in [Profile - Credits](https://quaily.com/dashboard/profile/credits)
+
 ## Export Data from Quaily
 
 In "[List Settings - General Settings](https://quaily.com/dashboard/lists/@current/settings/general)", click the "Export Data" button, wait a moment, and Quaily will send the exported data to your registered email.

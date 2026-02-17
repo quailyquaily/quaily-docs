@@ -25,7 +25,7 @@ description: 付款设置。设置付款方式。
 
 ### 设置价格
 
-Quaily 支持按年、按季度两周付费周期，单位为美元。作者可以分别设置他们的价格，也可以关闭其中一个周期。
+Quaily 支持按年和按季度付费周期，单位为美元。作者可以分别设置价格，也可以关闭其中一个周期。
 
 ## 作者自行托管的 Stripe 付款
 
@@ -33,11 +33,16 @@ Quaily 支持按年、按季度两周付费周期，单位为美元。作者可�
 
 点击设置图标按钮，进入到自行托管付款的设置页面。
 
-### 第一步：订阅 Quaily 的外部付款服务
+作者自行托管支付通过 **Credits（点数）** 计费。启用前请确保账号有足够 Credits。
 
-点击订阅按钮，会跳转到 Stripe 的网站，按照提示完成订阅。
+### 第一步：充值 Credits（点数）
 
-![](/images/screenshots/payment-settings-02.webp)
+前往 [Profile - Credits](https://quaily.com/dashboard/profile/credits) 为账号充值点数。
+
+作者自行托管订单完成后，Quaily 会按订单金额从点数中扣除平台服务费。
+
+- 费率：订单金额（不含 VAT）的 10%
+- 点数不足时，无法开启作者自行托管支付，需要先充值
 
 ### 第二步：配置 Stripe
 
@@ -92,9 +97,13 @@ API Key 和 Webhook 签名密钥可以在 Stripe 的开发者设置中找到，�
 
 ![](/images/screenshots/create-stripe-webhook-04.webp)
 
+### 第三步：开启作者自行托管支付
+
+在点数与 Stripe 配置都准备好后，在列表付款设置中开启作者自行托管支付。
+
 ## 加密货币付款
 
-Quaily 支持以太坊、Base 和币安智能链三种区块链的加密货币支付。
+Quaily 支持以太坊、Base、币安智能链和 Solana 四种区块链的加密货币支付。
 
 请阅读以下文章设置您的加密货币钱包：
 

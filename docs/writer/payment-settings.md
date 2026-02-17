@@ -25,7 +25,7 @@ In the list's [Payment Settings](https://quaily.com/dashboard/lists/@current/set
 
 ### Set Price
 
-Quaily supports annual, quarterly, and bi-weekly payment cycles, with the unit in USD. Authors can set their prices separately or turn off one of the cycles.
+Quaily supports annual and quarterly payment cycles, with the unit in USD. Authors can set prices separately or turn off one cycle.
 
 ## Self-Hosted Stripe Payment
 
@@ -35,11 +35,16 @@ In this case, the author needs to set up their Stripe account information. For m
 
 Click the settings icon button to enter the self-hosted payment settings page.
 
-### Step 1: Subscribe to Quaily's External Payment Service
+Self-hosted payment is billed with **Credits**. To use it, keep enough Credits in your account.
 
-Click the subscribe button to go to the Stripe website and follow the instructions to complete the subscription.
+### Step 1: Top Up Credits
 
-![](/images/screenshots/payment-settings-02.webp)
+Go to [Profile - Credits](https://quaily.com/dashboard/profile/credits) and top up your Credits balance.
+
+When a self-hosted order is completed, Quaily deducts a service fee from your Credits based on the order amount.
+
+- Fee rate: 10% of order amount (excluding VAT)
+- If your Credits are insufficient, self-hosted payment cannot be enabled until you top up
 
 ### Step 2: Configure Stripe
 
@@ -92,9 +97,13 @@ Copy the `Signing secret` to Quaily's Stripe Webhook Signature Key.
 
 ![](/images/screenshots/create-stripe-webhook-04.webp)
 
+### Step 3: Enable Self-Hosted Payment
+
+After Credits and Stripe configuration are ready, enable self-hosted payment in the list payment settings.
+
 ## Cryptocurrency Payment
 
-Quaily support 3 types of blockchain for cryptocurrency payment: Ethereum, Base and Binance Smart Chain.
+Quaily supports 4 blockchain networks for cryptocurrency payment: Ethereum, Base, Binance Smart Chain, and Solana.
 
 Please read the following posts to set up your cryptocurrency wallet:
 

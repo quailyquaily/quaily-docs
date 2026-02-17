@@ -32,13 +32,26 @@ In the self-hosted payment model, authors need to set up their Stripe account in
 
 Quaily is not responsible for the sale of content goods, collection, invoices, refunds, tax refunds, etc. Authors need to handle tax matters according to the requirements of the company or individual's location.
 
-In the self-hosted payment model, Quaily will deduct a platform fee equivalent to 10% of the order amount (excluding tax) from the author's credit card the following month based on the order situation of the current month.
+In the self-hosted payment model, Quaily deducts a platform fee from the author's **Credits** when each order is completed.
+
+- Fee rate: 10% of order amount (excluding VAT)
+- Credits are prepaid and managed in [Profile - Credits](https://quaily.com/dashboard/profile/credits)
 
 To use the self-hosted payment model, you need to:
 
 1. Complete the relevant settings mentioned in [Preparing for Payment](./monetization.md).
 2. Set the price in [Payment Settings](./payment-settings).
 3. Enable self-hosted payment in [Payment Settings](./payment-settings).
+
+## Credits-based Feature Billing
+
+Some advanced writer features are billed with Credits (pay-as-you-go):
+
+- Extra Sending Quota: 100 Credits per quota
+- Add Subscribers Manually: 20 Credits per subscriber
+- Import posts from Internet: 10 Credits per post
+
+These features were previously grouped under Quaily Plus. They now use direct Credits deduction.
 
 ## Blockchain-based Payment
 

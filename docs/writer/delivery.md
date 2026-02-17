@@ -13,9 +13,9 @@ After writing an article on Quaily, you can send it to your readers. Quaily prov
 
 Please refer to the document [Sending Settings](./channel-settings).
 
-## Send an post
+## Send a Post
 
-On the article editing page, click the "Send" button in the menu to display the sending dialog. Click the "Send" button to sent the article to your readers.
+On the article editing page, click the "Send" button in the menu to display the sending dialog. Click "Send" to deliver the post to your readers.
 
 **Send by Channel**
 
@@ -28,6 +28,14 @@ For channels that are not yet supported, you can also click the configuration bu
 In the sending dialog, you can set scheduled sending. Click the "Scheduled Sending" button, then select the send time to set scheduled sending.
 
 When the time arrives, the article will be automatically delivered to your readers.
+
+## Extra Sending Quota (Credits)
+
+When your daily sending quota is used up, you can still send by spending Credits.
+
+- Cost: 100 Credits per extra sending quota
+- Credits are deducted when the extra send is submitted
+- If your Credits are insufficient, top up first in [Profile - Credits](https://quaily.com/dashboard/profile/credits)
 
 ## Sending History
 

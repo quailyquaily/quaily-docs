@@ -54,6 +54,20 @@ description: 数据迁移。将你的文章从其他平台迁移到 Quaily，或
 
 微信公众号不提供导出功能，请通过邮件联系我们。
 
+## 从互联网导入单篇文章（Credits）
+
+除了整站迁移，你也可以在 Dashboard 里通过链接导入单篇公开文章。
+
+1. 打开文章列表页面。
+2. 点击 **导入文章**。
+3. 输入文章 URL，并确认内容使用授权说明。
+4. 提交后等待导入，再打开草稿继续编辑。
+
+该功能按 Credits（点数）计费：
+
+- 费用：10 Credits / 篇
+- 点数不足时，请先前往 [Profile - Credits](https://quaily.com/dashboard/profile/credits) 充值
+
 ## 将数据从 Quaily 导出
 
 在「[设置 - 一般设置](https://quaily.com/dashboard/lists/@current/settings/general)」 中，点击「导出数据」按钮，稍等片刻，Quaily 会将导出的数据发送到注册邮箱。

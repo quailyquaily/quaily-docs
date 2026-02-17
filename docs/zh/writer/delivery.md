@@ -29,6 +29,14 @@ description: 推送文章
 
 当时间到达时，文章会自动推送给你的读者。
 
+## 额外发送配额（Credits）
+
+当每日推送配额用完后，仍可通过消耗点数继续推送。
+
+- 费用：100 Credits / 次额外推送
+- 提交额外推送时即时扣除点数
+- 点数不足时，请先前往 [Profile - Credits](https://quaily.com/dashboard/profile/credits) 充值
+
 ## 推送历史
 
 在「[推送历史](https://quaily.com/dashboard/delivery)」中，你可以查看文章的推送历史。

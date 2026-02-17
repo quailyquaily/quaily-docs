@@ -36,7 +36,22 @@ For paid content subscriptions, Quaily uses Stripe and blockchain as payment pro
 
 ### Quaily Fee
 
-Quaily charges a service fee for each transaction. The fee rate is 10% of the transaction amount.
+Quaily charges a service fee for each transaction.
+
+- Quaily-hosted payment: 10% of transaction amount
+- Self-hosted payment: 10% of order amount (excluding VAT), deducted from the author's Credits when each order is completed
+
+For self-hosted payment, please keep enough Credits in [Profile - Credits](https://quaily.com/dashboard/profile/credits).
+
+## Credits-based Feature Billing
+
+Quaily also uses Credits for some advanced creator features:
+
+- Extra Sending Quota: 100 Credits per quota
+- Add Subscribers Manually: 20 Credits per subscriber
+- Import posts from Internet: 10 Credits per post
+
+Credits are prepaid. VAT is charged during top-up; no extra VAT is added when spending Credits.
 
 ### Payout Fees
 
