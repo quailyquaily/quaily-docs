@@ -4,9 +4,22 @@ import llmstxtPlugin from 'vitepress-plugin-llmstxt'
 import { t } from "../lang/messages"
 
 const localizedWriterLangs = ['en', 'zh', 'ja'] as const
+const localizedDeveloperLangs = ['en', 'zh', 'ja'] as const
 
 const getLocalePrefix = (lang: string) => {
   return lang === 'en' ? '' : `/${lang}`
+}
+
+const getDeveloperLink = (lang: string) => {
+  if (lang === 'ja') {
+    return '/ja/developer/index'
+  }
+
+  if (lang === 'zh') {
+    return '/zh/developer/index'
+  }
+
+  return '/developer/index'
 }
 
 const genNav = (lang: string) => {
@@ -15,7 +28,216 @@ const genNav = (lang: string) => {
   return [
     { text: t(lang, 'home'), link: prefix ? `${prefix}/` : '/' },
     { text: t(lang, "writer_manual"), link: `${prefix}/writer/index` },
-    { text: t(lang, "developer_docs"), link: '/developer/index' }
+    { text: t(lang, "developer_docs"), link: getDeveloperLink(lang) }
+  ]
+}
+
+const genDeveloperSidebar = (lang: string) => {
+  const prefix = getLocalePrefix(lang)
+
+  if (lang === 'ja') {
+    return [
+      {
+        items: [
+          { text: '概要', link: `${prefix}/developer/index` },
+          { text: '認可', link: `${prefix}/developer/authorization` },
+        ]
+      },
+      {
+        text: 'API リファレンス',
+        items: [
+          {
+            text: '基本',
+            items: [
+              { text: 'レスポンスオブジェクト', link: `${prefix}/developer/api/response-object` },
+              { text: 'Auth', link: `${prefix}/developer/api/auth` },
+              { text: 'OAuth', link: `${prefix}/developer/api/oauth` },
+              { text: 'APIKey', link: `${prefix}/developer/api/apikey` },
+            ],
+          },
+          {
+            text: '主要リソース',
+            items: [
+              { text: 'User', link: `${prefix}/developer/api/user` },
+              { text: 'Channel', link: `${prefix}/developer/api/channel` },
+              { text: 'List', link: `${prefix}/developer/api/list` },
+            ],
+          },
+          {
+            text: 'コンテンツ',
+            items: [
+              { text: 'Post', link: `${prefix}/developer/api/post` },
+              { text: 'Attachment', link: `${prefix}/developer/api/attachment` },
+              { text: 'Composer', link: `${prefix}/developer/api/composer` },
+              { text: 'Pack', link: `${prefix}/developer/api/pack` },
+            ],
+          },
+          {
+            text: 'エンゲージメント',
+            items: [
+              { text: 'Subscription', link: `${prefix}/developer/api/subscription` },
+              { text: 'Comment', link: `${prefix}/developer/api/comment` },
+              { text: 'Tweet', link: `${prefix}/developer/api/tweet` },
+            ],
+          },
+          {
+            text: '分析',
+            items: [
+              { text: 'Analytics', link: `${prefix}/developer/api/analytics` },
+              { text: 'Explore', link: `${prefix}/developer/api/explore` },
+            ],
+          },
+          {
+            text: '課金',
+            items: [
+              { text: 'Credit', link: `${prefix}/developer/api/credit` },
+            ],
+          },
+        ]
+      },
+      {
+        text: 'その他',
+        items: [
+          { text: 'Widget', link: `${prefix}/developer/widget` },
+        ]
+      }
+    ]
+  }
+
+  if (lang === 'zh') {
+    return [
+      {
+        items: [
+          { text: '概览', link: `${prefix}/developer/index` },
+          { text: '授权', link: `${prefix}/developer/authorization` },
+        ]
+      },
+      {
+        text: 'API 参考',
+        items: [
+          {
+            text: '基础',
+            items: [
+              { text: '响应对象', link: `${prefix}/developer/api/response-object` },
+              { text: 'Auth', link: `${prefix}/developer/api/auth` },
+              { text: 'OAuth', link: `${prefix}/developer/api/oauth` },
+              { text: 'APIKey', link: `${prefix}/developer/api/apikey` },
+            ],
+          },
+          {
+            text: '核心资源',
+            items: [
+              { text: 'User', link: `${prefix}/developer/api/user` },
+              { text: 'Channel', link: `${prefix}/developer/api/channel` },
+              { text: 'List', link: `${prefix}/developer/api/list` },
+            ],
+          },
+          {
+            text: '内容',
+            items: [
+              { text: 'Post', link: `${prefix}/developer/api/post` },
+              { text: 'Attachment', link: `${prefix}/developer/api/attachment` },
+              { text: 'Composer', link: `${prefix}/developer/api/composer` },
+              { text: 'Pack', link: `${prefix}/developer/api/pack` },
+            ],
+          },
+          {
+            text: '互动',
+            items: [
+              { text: 'Subscription', link: `${prefix}/developer/api/subscription` },
+              { text: 'Comment', link: `${prefix}/developer/api/comment` },
+              { text: 'Tweet', link: `${prefix}/developer/api/tweet` },
+            ],
+          },
+          {
+            text: '分析',
+            items: [
+              { text: 'Analytics', link: `${prefix}/developer/api/analytics` },
+              { text: 'Explore', link: `${prefix}/developer/api/explore` },
+            ],
+          },
+          {
+            text: '计费',
+            items: [
+              { text: 'Credit', link: `${prefix}/developer/api/credit` },
+            ],
+          },
+        ]
+      },
+      {
+        text: '其他',
+        items: [
+          { text: 'Widget', link: `${prefix}/developer/widget` },
+        ]
+      }
+    ]
+  }
+
+  return [
+    {
+      items: [
+        { text: 'Overview', link: `${prefix}/developer/index` },
+        { text: 'Authorization', link: `${prefix}/developer/authorization` },
+      ]
+    },
+    {
+      text: 'API Reference',
+      items: [
+        {
+          text: 'Basics',
+          items: [
+            { text: 'Response Object', link: `${prefix}/developer/api/response-object` },
+            { text: 'Auth', link: `${prefix}/developer/api/auth` },
+            { text: 'OAuth', link: `${prefix}/developer/api/oauth` },
+            { text: 'APIKey', link: `${prefix}/developer/api/apikey` },
+          ],
+        },
+        {
+          text: 'Core Resources',
+          items: [
+            { text: 'User', link: `${prefix}/developer/api/user` },
+            { text: 'Channel', link: `${prefix}/developer/api/channel` },
+            { text: 'List', link: `${prefix}/developer/api/list` },
+          ],
+        },
+        {
+          text: 'Content',
+          items: [
+            { text: 'Post', link: `${prefix}/developer/api/post` },
+            { text: 'Attachment', link: `${prefix}/developer/api/attachment` },
+            { text: 'Composer', link: `${prefix}/developer/api/composer` },
+            { text: 'Pack', link: `${prefix}/developer/api/pack` },
+          ],
+        },
+        {
+          text: 'Engagement',
+          items: [
+            { text: 'Subscription', link: `${prefix}/developer/api/subscription` },
+            { text: 'Comment', link: `${prefix}/developer/api/comment` },
+            { text: 'Tweet', link: `${prefix}/developer/api/tweet` },
+          ],
+        },
+        {
+          text: 'Insights',
+          items: [
+            { text: 'Analytics', link: `${prefix}/developer/api/analytics` },
+            { text: 'Explore', link: `${prefix}/developer/api/explore` },
+          ],
+        },
+        {
+          text: 'Commerce',
+          items: [
+            { text: 'Credit', link: `${prefix}/developer/api/credit` },
+          ],
+        },
+      ]
+    },
+    {
+      text: 'Misc',
+      items: [
+        { text: 'Widget', link: `${prefix}/developer/widget` },
+      ]
+    }
   ]
 }
 
@@ -72,72 +294,10 @@ const genI18nSidebar = () => {
     ]
   }
 
-  ret[`/developer/`] = [
-    {
-      items: [
-        { text: 'Overview', link: `/developer/index` },
-        { text: 'Authorization', link: `/developer/authorization` },
-      ]
-    },
-    {
-      text: 'API Reference',
-      items: [
-        {
-          text: 'Basics',
-          items: [
-            { text: 'Response Object', link: `/developer/api/response-object` },
-            { text: 'Auth', link: `/developer/api/auth` },
-            { text: 'OAuth', link: `/developer/api/oauth` },
-            { text: 'APIKey', link: `/developer/api/apikey` },
-          ],
-        },
-        {
-          text: 'Core Resources',
-          items: [
-            { text: 'User', link: `/developer/api/user` },
-            { text: 'Channel', link: `/developer/api/channel` },
-            { text: 'List', link: `/developer/api/list` },
-          ],
-        },
-        {
-          text: 'Content',
-          items: [
-            { text: 'Post', link: `/developer/api/post` },
-            { text: 'Attachment', link: `/developer/api/attachment` },
-            { text: 'Composer', link: `/developer/api/composer` },
-            { text: 'Pack', link: `/developer/api/pack` },
-          ],
-        },
-        {
-          text: 'Engagement',
-          items: [
-            { text: 'Subscription', link: `/developer/api/subscription` },
-            { text: 'Comment', link: `/developer/api/comment` },
-            { text: 'Tweet', link: `/developer/api/tweet` },
-          ],
-        },
-        {
-          text: 'Insights',
-          items: [
-            { text: 'Analytics', link: `/developer/api/analytics` },
-            { text: 'Explore', link: `/developer/api/explore` },
-          ],
-        },
-        {
-          text: 'Commerce',
-          items: [
-            { text: 'Credit', link: `/developer/api/credit` },
-          ],
-        },
-      ]
-    },
-    {
-      text: 'Misc',
-      items: [
-        { text: 'Widget', link: `/developer/widget` },
-      ]
-    }
-  ]
+  for (const lang of localizedDeveloperLangs) {
+    const prefix = getLocalePrefix(lang)
+    ret[`${prefix}/developer/`] = genDeveloperSidebar(lang)
+  }
 
   return ret;
 }

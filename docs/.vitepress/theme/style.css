@@ -421,7 +421,7 @@ body {
 .vp-doc .vp-code-group {
   border: 0.5px solid rgba(16, 18, 30, 0.18);
   border-radius: var(--q-brand-radius-md);
-  box-shadow: var(--q-brand-shadow-soft);
+  box-shadow: none;
 }
 
 .vp-doc table {
@@ -431,7 +431,7 @@ body {
   border: 0.5px solid var(--q-brand-line);
   border-radius: var(--q-brand-radius-md);
   background: rgba(255, 255, 255, 0.68);
-  box-shadow: var(--q-brand-shadow-soft);
+  box-shadow: none;
 }
 
 .vp-doc tr {

@@ -11,7 +11,15 @@ const copyState = ref<'idle' | 'done' | 'error'>('idle')
 let resetTimer: ReturnType<typeof setTimeout> | null = null
 
 const currentLang = computed(() => {
-	return lang.value === 'zh' ? 'zh' : 'en'
+	if (lang.value.startsWith('zh')) {
+		return 'zh'
+	}
+
+	if (lang.value.startsWith('ja')) {
+		return 'ja'
+	}
+
+	return 'en'
 })
 
 const normalizePathname = (value: string) => {
