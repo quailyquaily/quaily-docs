@@ -87,6 +87,50 @@ export const messages = {
     "copied_markdown": "已复制",
     "copy_markdown_failed": "复制失败"
   },
+  "ja": {
+    "home": "🏠 ホーム",
+    "tutorial": "📚 チュートリアル",
+    "writer_manual": "✍️ ライターガイド",
+    "developer_docs": "👨‍💻 開発者向け",
+
+    "compose_and_deliver": "執筆と配信",
+    "compose_online": "📝 オンライン執筆",
+    "delivery": "📤 記事配信",
+    "markdown_syntax": "📝 Markdown 構文",
+    "ai": "🤖 AI 機能",
+
+    "monetization": "収益化",
+    "prepare_for_monetization": "💰 収益化の準備",
+    "premium": "💎 有料サブスクリプション",
+    "ads": "📢 広告",
+
+    "email_settings": "📧 メール設定",
+    "list_settings": "設定",
+    "general_settings": "⚙️ 一般設定",
+    "analytics_settings": "・ 📊 分析",
+    "domain_settings": "・ 🌐 独自ドメイン",
+    "widget_settings": "・ 🔧 ウィジェット",
+    "channel_settings": "📡 配信設定",
+    "monetization_settings": "💰 収益化設定",
+    "payout_settings": "・ 💸 出金設定",
+    "payment_settings": "・ 💳 決済設定",
+    "ads_settings": "・ 📢 広告設定",
+
+    "other_topics": "その他",
+    "migration": "🔄 データ移行",
+    "troubleshooting": "🛠️ トラブルシューティング",
+
+    "tools": "ツール",
+    "obsidian_plugin": "🔌 Obsidian プラグイン",
+    "quail_cli": "⌨️ Quaily CLI",
+
+    "markdown_source": "Markdown ソース",
+    "markdown_source_hint": "生の markdown をそのまま参照でき、コピー、自動化、AI agent に使えます。",
+    "view_markdown": "Markdown を表示",
+    "copy_markdown": "Markdown をコピー",
+    "copied_markdown": "コピーしました",
+    "copy_markdown_failed": "コピー失敗"
+  },
 }
 
 export const t = (lang, key: string) => {

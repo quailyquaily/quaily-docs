@@ -3,23 +3,26 @@ import { defineConfig } from 'vitepress'
 import llmstxtPlugin from 'vitepress-plugin-llmstxt'
 import { t } from "../lang/messages"
 
-const genNav = () => {
-  let ret:any = [];
-  for (const lang of ['en']) {
-    const prefix = lang === 'en' ? '' : '/' + lang;
-    ret = [
-      { text: t(lang, 'home'), link: '/' },
-      { text: t(lang, "writer_manual"), link: `${prefix}/writer/index` },
-      { text: t(lang, "developer_docs"), link: `${prefix}/developer/index` }
-    ]
-  }
-  return ret;
+const localizedWriterLangs = ['en', 'zh', 'ja'] as const
+
+const getLocalePrefix = (lang: string) => {
+  return lang === 'en' ? '' : `/${lang}`
+}
+
+const genNav = (lang: string) => {
+  const prefix = getLocalePrefix(lang)
+
+  return [
+    { text: t(lang, 'home'), link: prefix ? `${prefix}/` : '/' },
+    { text: t(lang, "writer_manual"), link: `${prefix}/writer/index` },
+    { text: t(lang, "developer_docs"), link: '/developer/index' }
+  ]
 }
 
 const genI18nSidebar = () => {
-  const ret = {};
-  for (const lang of ['en', 'zh']) {
-    const prefix = lang === 'en' ? '' : '/' + lang;
+  const ret: Record<string, any> = {};
+  for (const lang of localizedWriterLangs) {
+    const prefix = getLocalePrefix(lang);
     ret[`${prefix}/writer/`] = [
       {
         text: t(lang, 'compose_and_deliver'),
@@ -67,73 +70,75 @@ const genI18nSidebar = () => {
         ]
       },
     ]
-    ret[`/developer/`] = [
-      {
-        items: [
-          { text: 'Overview', link: `/developer/index` },
-          { text: 'Authorization', link: `/developer/authorization` },
-        ]
-      },
-      {
-        text: 'API Reference',
-        items: [
-          {
-            text: 'Basics',
-            items: [
-              { text: 'Response Object', link: `/developer/api/response-object` },
-              { text: 'Auth', link: `/developer/api/auth` },
-              { text: 'OAuth', link: `/developer/api/oauth` },
-              { text: 'APIKey', link: `/developer/api/apikey` },
-            ],
-          },
-          {
-            text: 'Core Resources',
-            items: [
-              { text: 'User', link: `/developer/api/user` },
-              { text: 'Channel', link: `/developer/api/channel` },
-              { text: 'List', link: `/developer/api/list` },
-            ],
-          },
-          {
-            text: 'Content',
-            items: [
-              { text: 'Post', link: `/developer/api/post` },
-              { text: 'Attachment', link: `/developer/api/attachment` },
-              { text: 'Composer', link: `/developer/api/composer` },
-              { text: 'Pack', link: `/developer/api/pack` },
-            ],
-          },
-          {
-            text: 'Engagement',
-            items: [
-              { text: 'Subscription', link: `/developer/api/subscription` },
-              { text: 'Comment', link: `/developer/api/comment` },
-              { text: 'Tweet', link: `/developer/api/tweet` },
-            ],
-          },
-          {
-            text: 'Insights',
-            items: [
-              { text: 'Analytics', link: `/developer/api/analytics` },
-              { text: 'Explore', link: `/developer/api/explore` },
-            ],
-          },
-          {
-            text: 'Commerce',
-            items: [
-              { text: 'Credit', link: `/developer/api/credit` },
-            ],
-          },
-        ]
-      },
-      {
-        text: 'Misc',
-        items: [
-          { text: 'Widget', link: `/developer/widget` },
-        ]
-      }
-    ]
   }
+
+  ret[`/developer/`] = [
+    {
+      items: [
+        { text: 'Overview', link: `/developer/index` },
+        { text: 'Authorization', link: `/developer/authorization` },
+      ]
+    },
+    {
+      text: 'API Reference',
+      items: [
+        {
+          text: 'Basics',
+          items: [
+            { text: 'Response Object', link: `/developer/api/response-object` },
+            { text: 'Auth', link: `/developer/api/auth` },
+            { text: 'OAuth', link: `/developer/api/oauth` },
+            { text: 'APIKey', link: `/developer/api/apikey` },
+          ],
+        },
+        {
+          text: 'Core Resources',
+          items: [
+            { text: 'User', link: `/developer/api/user` },
+            { text: 'Channel', link: `/developer/api/channel` },
+            { text: 'List', link: `/developer/api/list` },
+          ],
+        },
+        {
+          text: 'Content',
+          items: [
+            { text: 'Post', link: `/developer/api/post` },
+            { text: 'Attachment', link: `/developer/api/attachment` },
+            { text: 'Composer', link: `/developer/api/composer` },
+            { text: 'Pack', link: `/developer/api/pack` },
+          ],
+        },
+        {
+          text: 'Engagement',
+          items: [
+            { text: 'Subscription', link: `/developer/api/subscription` },
+            { text: 'Comment', link: `/developer/api/comment` },
+            { text: 'Tweet', link: `/developer/api/tweet` },
+          ],
+        },
+        {
+          text: 'Insights',
+          items: [
+            { text: 'Analytics', link: `/developer/api/analytics` },
+            { text: 'Explore', link: `/developer/api/explore` },
+          ],
+        },
+        {
+          text: 'Commerce',
+          items: [
+            { text: 'Credit', link: `/developer/api/credit` },
+          ],
+        },
+      ]
+    },
+    {
+      text: 'Misc',
+      items: [
+        { text: 'Widget', link: `/developer/widget` },
+      ]
+    }
+  ]
+
   return ret;
 }
 
@@ -141,7 +146,15 @@ const year = new Date().getFullYear();
 const workspaceRoot = path.resolve(__dirname, '../../..')
 
 const getDocsLocale = (relativePath: string) => {
-  return relativePath.startsWith('zh/') ? 'zh' : 'en'
+  if (relativePath.startsWith('zh/')) {
+    return 'zh'
+  }
+
+  if (relativePath.startsWith('ja/')) {
+    return 'ja'
+  }
+
+  return 'en'
 }
 
 const getMarkdownSourcePath = (relativePath: string) => {
@@ -168,13 +181,26 @@ const getMarkdownSourcePath = (relativePath: string) => {
 }
 
 const getFontHead = (relativePath: string) => {
-  if (getDocsLocale(relativePath) === 'zh') {
+  const locale = getDocsLocale(relativePath)
+
+  if (locale === 'zh') {
     return [
       ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
       ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
       ['link', {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@200..900&family=Noto+Serif+SC:wght@200..900&display=swap'
+      }]
+    ]
+  }
+
+  if (locale === 'ja') {
+    return [
+      ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+      ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+      ['link', {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&display=swap'
       }]
     ]
   }
@@ -227,11 +253,26 @@ export default defineConfig({
   locales: {
     root: {
       label: 'English',
-      lang: 'en'
+      lang: 'en',
+      themeConfig: {
+        nav: genNav('en')
+      }
     },
     zh: {
       label: '简体中文',
-      lang: 'zh',
+      lang: 'zh-CN',
+      link: '/zh/',
+      themeConfig: {
+        nav: genNav('zh')
+      }
+    },
+    ja: {
+      label: '日本語',
+      lang: 'ja-JP',
+      link: '/ja/',
+      themeConfig: {
+        nav: genNav('ja')
+      }
     }
   },
 
@@ -239,8 +280,6 @@ export default defineConfig({
     logo: { light: 'https://quaily.com/portal-images/app-logo-w-text.svg', dark: 'https://quaily.com/portal-images/app-logo-w-text.svg', alt: 'Quaily' },
 
     siteTitle: false,
-    // https://vitepress.dev/reference/default-theme-config
-    nav: genNav(),
 
     sidebar: genI18nSidebar(),
 
