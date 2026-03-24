@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: 官方网站
       link: https://quaily.com
+    - theme: alt
+      text: llms.txt
+      link: /llms.txt
 
 features:
   - icon: 🌐

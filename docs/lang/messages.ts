@@ -34,7 +34,14 @@ export const messages = {
 
     "tools": "🛠️ Tools",
     "obsidian_plugin": "🔌 Obsidian Plugin",
-    "quail_cli": "⌨️ Quaily CLI"
+    "quail_cli": "⌨️ Quaily CLI",
+
+    "markdown_source": "Markdown Source",
+    "markdown_source_hint": "Use the raw markdown for copy, automation, and AI agents.",
+    "view_markdown": "View Markdown",
+    "copy_markdown": "Copy Markdown",
+    "copied_markdown": "Copied",
+    "copy_markdown_failed": "Copy failed"
   },
   "zh": {
     "home": "🏠 首页",
@@ -71,7 +78,14 @@ export const messages = {
 
     "tools": "工具",
     "obsidian_plugin": "🔌 Obsidian 插件",
-    "quail_cli": "⌨️ Quaily 命令行工具"
+    "quail_cli": "⌨️ Quaily 命令行工具",
+
+    "markdown_source": "Markdown 原文",
+    "markdown_source_hint": "可直接读取原始 markdown，适合复制、自动化和 AI agent。",
+    "view_markdown": "查看 Markdown",
+    "copy_markdown": "复制 Markdown",
+    "copied_markdown": "已复制",
+    "copy_markdown_failed": "复制失败"
   },
 }
 

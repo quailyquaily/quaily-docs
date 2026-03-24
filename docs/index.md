@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: Developer Docs
       link: /developer/index
+    - theme: alt
+      text: llms.txt
+      link: /llms.txt
   # image:
   #     src: /vitepress-logo-large.webp
   #     alt: VitePress
@@ -43,4 +46,3 @@ features:
     title: Advanced Creator Tools
     details: Utilize markdown extensions, invite collaborators, offer Atom feeds, and understand your audience with analytics.
 ---
-

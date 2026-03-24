@@ -1,4 +1,6 @@
+import path from 'node:path'
 import { defineConfig } from 'vitepress'
+import llmstxtPlugin from 'vitepress-plugin-llmstxt'
 import { t } from "../lang/messages"
 
 const genNav = () => {
@@ -136,6 +138,56 @@ const genI18nSidebar = () => {
 }
 
 const year = new Date().getFullYear();
+const workspaceRoot = path.resolve(__dirname, '../../..')
+
+const getDocsLocale = (relativePath: string) => {
+  return relativePath.startsWith('zh/') ? 'zh' : 'en'
+}
+
+const getMarkdownSourcePath = (relativePath: string) => {
+  const normalized = relativePath.replace(/^\/+/, '').replace(/\/+$/, '')
+  if (!normalized) {
+    return '/index.md'
+  }
+
+  if (!normalized.endsWith('.md')) {
+    return `/${normalized}.md`
+  }
+
+  const withoutExtension = normalized.slice(0, -3)
+
+  if (withoutExtension === 'index') {
+    return '/index.md'
+  }
+
+  if (withoutExtension.endsWith('/index')) {
+    return `/${withoutExtension.slice(0, -6)}.md`
+  }
+
+  return `/${normalized}`
+}
+
+const getFontHead = (relativePath: string) => {
+  if (getDocsLocale(relativePath) === 'zh') {
+    return [
+      ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+      ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+      ['link', {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@200..900&family=Noto+Serif+SC:wght@200..900&display=swap'
+      }]
+    ]
+  }
+
+  return [
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['link', {
+      rel: 'stylesheet',
+      href: 'https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&family=Noto+Serif:wght@100..900&display=swap'
+    }]
+  ]
+}
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -143,6 +195,34 @@ export default defineConfig({
   title: "Quaily Documentation",
   description: "The official documentation for Quaily",
   appearance: false,
+  head: [
+    ['meta', { name: 'theme-color', content: '#FAFAF8' }],
+  ],
+  transformHead({ pageData }) {
+    const markdownSourcePath = getMarkdownSourcePath(pageData.relativePath)
+
+    return [
+      ...getFontHead(pageData.relativePath),
+      ['link', { rel: 'alternate', type: 'text/markdown', title: 'Markdown Source', href: markdownSourcePath }],
+      ['meta', { name: 'quaily:markdown-source', content: markdownSourcePath }],
+    ]
+  },
+
+  vite: {
+    plugins: [
+      llmstxtPlugin({
+        llmsFile: { indexTOC: 'only-llms' },
+        hostname: 'https://docs.quaily.com',
+        mdFiles: true,
+        watch: true
+      })
+    ],
+    server: {
+      fs: {
+        allow: [workspaceRoot]
+      }
+    }
+  },
 
   locales: {
     root: {

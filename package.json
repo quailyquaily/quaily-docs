@@ -1,7 +1,8 @@
 {
-  "type": "module", 
+  "type": "module",
   "devDependencies": {
     "vitepress": "^1.3.3",
+    "vitepress-plugin-llmstxt": "0.4.2",
     "vue": "^3.2.47"
   },
   "scripts": {
