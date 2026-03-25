@@ -1,0 +1,50 @@
+/* Keep docs theme tokens local so VitePress builds remain self-contained in CI. */
+:root {
+  --q-brand-bg: #fafaf8;
+  --q-brand-bg-soft: #f4f2ee;
+  --q-brand-bg-alt: #f7f5f1;
+  --q-brand-bg-elevated: rgba(255, 255, 255, 0.84);
+  --q-brand-bg-strong: #fffdf9;
+
+  --q-brand-ink: #10121e;
+  --q-brand-ink-2: rgba(16, 18, 30, 0.72);
+  --q-brand-ink-3: rgba(16, 18, 30, 0.52);
+
+  --q-brand-line: rgba(16, 18, 30, 0.12);
+  --q-brand-line-strong: rgba(16, 18, 30, 0.18);
+
+  --q-brand-accent: #cb0000;
+  --q-brand-accent-hover: #da1818;
+  --q-brand-accent-soft: rgba(203, 0, 0, 0.08);
+  --q-brand-accent-soft-strong: rgba(203, 0, 0, 0.14);
+
+  --q-brand-glass: linear-gradient(180deg, rgba(255, 255, 255, 0.82) 0%, rgba(244, 244, 244, 0.58) 100%);
+  --q-brand-shadow-soft: 0 0 10px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.03);
+  --q-brand-shadow-card: 0 10px 24px rgba(16, 18, 30, 0.05);
+
+  --q-brand-radius-sm: 4px;
+  --q-brand-radius-md: 8px;
+  --q-brand-radius-lg: 12px;
+
+  --q-brand-nav-height: 80px;
+
+  --q-brand-font-sans: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --q-brand-font-serif: "Noto Serif", "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+
+html:lang(zh),
+html:lang(zh-CN) {
+  --q-brand-font-sans: "Noto Sans SC", "Noto Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --q-brand-font-serif: "Noto Serif SC", "Noto Serif", "Songti SC", "STSong", serif;
+}
+
+html:lang(ja) {
+  --q-brand-font-sans: "Noto Sans JP", "Noto Sans", "Hiragino Sans", "Yu Gothic", sans-serif;
+  --q-brand-font-serif: "Noto Serif JP", "Noto Serif", "Yu Mincho", "Hiragino Mincho ProN", serif;
+}
+
+html:lang(zh-HK),
+html:lang(zh-TW) {
+  --q-brand-font-sans: "Noto Sans TC", "Noto Sans", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  --q-brand-font-serif: "Noto Serif TC", "Noto Serif", "PMingLiU", serif;
+}

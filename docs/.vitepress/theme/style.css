@@ -1,4 +1,4 @@
-@import "../../../../quaily-website/themes/quail/assets/css/brand-tokens.css";
+@import "./brand-tokens.css";
 
 :root {
   --vp-nav-height: var(--q-brand-nav-height);
